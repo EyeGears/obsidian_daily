@@ -26,10 +26,15 @@
             "id": "9cf8b3d6eb21c126",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Граф"
+              "type": "markdown",
+              "state": {
+                "file": "ThunderAgeGDD/Шаблон/Шаблон листа персонажа.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Шаблон листа персонажа"
             }
           },
           {
@@ -164,12 +169,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "ThunderAgeGDD/Шаблон/Шаблон листа персонажа.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Структура"
+              "title": "Структура Шаблон листа персонажа"
             }
           },
           {
@@ -178,8 +184,8 @@
             "state": {
               "type": "advanced-tables-toolbar",
               "state": {},
-              "icon": "spreadsheet",
-              "title": "Advanced Tables"
+              "icon": "lucide-ghost",
+              "title": "advanced-tables-toolbar"
             }
           },
           {
@@ -188,8 +194,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "icon": "lucide-ghost",
+              "title": "git-view"
             }
           },
           {
@@ -198,8 +204,8 @@
             "state": {
               "type": "copilot-chat-view",
               "state": {},
-              "icon": "message-square",
-              "title": "Copilot"
+              "icon": "lucide-ghost",
+              "title": "copilot-chat-view"
             }
           },
           {
@@ -208,8 +214,8 @@
             "state": {
               "type": "media-companion-sidecar-view",
               "state": {},
-              "icon": "image",
-              "title": "Sidecar"
+              "icon": "lucide-ghost",
+              "title": "media-companion-sidecar-view"
             }
           }
         ],
