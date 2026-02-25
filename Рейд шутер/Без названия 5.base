@@ -1,0 +1,6 @@
+views:
+  - type: table
+    name: Таблица
+    filters:
+      and:
+        - Оружие == "Штурмовые винтовки"

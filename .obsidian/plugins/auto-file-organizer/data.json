@@ -1,0 +1,11 @@
+{
+  "tagEnabled": false,
+  "extensionEnabled": true,
+  "priority": "tag",
+  "extensionMapping": {
+    "base": "Базы данных"
+  },
+  "tagMapping": {},
+  "extensionBlackList": {},
+  "tagBlackList": {}
+}

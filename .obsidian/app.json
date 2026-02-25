@@ -1,0 +1,22 @@
+{
+  "userIgnoreFilters": [
+    "Материалы/",
+    "Материалы (свалка)/",
+    "Шаблон/",
+    "copilot/",
+    "Доска референсов/",
+    "Геймдизайн/Боевая система/",
+    "Базы данных/",
+    "Шаблон общий/"
+  ],
+  "newFileLocation": "current",
+  "newFileFolderPath": "Материалы (свалка)",
+  "attachmentFolderPath": "Материалы (свалка)",
+  "alwaysUpdateLinks": true,
+  "propertiesInDocument": "visible",
+  "showLineNumber": false,
+  "foldIndent": true,
+  "foldHeading": true,
+  "readableLineLength": true,
+  "showUnsupportedFiles": true
+}

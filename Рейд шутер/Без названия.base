@@ -1,0 +1,10 @@
+views:
+  - type: cards
+    name: Таблица
+    filters:
+      and:
+        - file.tags.contains("геймдизайн")
+        - file.tags.contains("#боевка")
+    order:
+      - file.name
+      - file.tags

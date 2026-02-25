@@ -1,0 +1,9 @@
+views:
+  - type: cards
+    name: Таблица
+    filters:
+      and:
+        - file.tags.contains("#ref")
+    order:
+      - file.name
+      - file.tags

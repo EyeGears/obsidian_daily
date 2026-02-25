@@ -1,0 +1,10 @@
+views:
+  - type: table
+    name: Таблица
+    filters:
+      and:
+        - file.tags.contains("#NPC")
+        - Проект == "Рейд Шутер"
+    sort:
+      - property: file.name
+        direction: ASC

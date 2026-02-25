@@ -1,0 +1,58 @@
+{
+  "collapse-filter": true,
+  "search": "",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": true,
+  "collapse-color-groups": true,
+  "colorGroups": [
+    {
+      "query": "tag:#🔵code  ",
+      "color": {
+        "a": 1,
+        "rgb": 30935
+      }
+    },
+    {
+      "query": "tag:#🔴plot  ",
+      "color": {
+        "a": 1,
+        "rgb": 15208996
+      }
+    },
+    {
+      "query": "tag:#🟠gamedesign  ",
+      "color": {
+        "a": 1,
+        "rgb": 16212748
+      }
+    },
+    {
+      "query": "tag:#🟢art  ",
+      "color": {
+        "a": 1,
+        "rgb": 1492492
+      }
+    },
+    {
+      "query": "tag:#🟡MAIN_PAGE  ",
+      "color": {
+        "a": 1,
+        "rgb": 12234762
+      }
+    }
+  ],
+  "collapse-display": true,
+  "showArrow": false,
+  "textFadeMultiplier": -0.9,
+  "nodeSizeMultiplier": 1,
+  "lineSizeMultiplier": 2.76692708333333,
+  "collapse-forces": false,
+  "centerStrength": 0.247395833333333,
+  "repelStrength": 8.90625,
+  "linkStrength": 0.260416666666667,
+  "linkDistance": 156,
+  "scale": 0.16662893742200033,
+  "close": false
+}

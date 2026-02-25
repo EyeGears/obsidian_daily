@@ -1,0 +1,10 @@
+views:
+  - type: cards
+    name: Таблица
+    filters:
+      and:
+        - file.tags.contains("#NPC")
+        - Проект == "Рейд Шутер"
+    order:
+      - file.name
+      - file.tags

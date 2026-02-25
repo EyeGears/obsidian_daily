@@ -1,0 +1,12 @@
+filters:
+  and:
+    - file.tags.contains("#геймдизайн")
+views:
+  - type: table
+    name: Таблица
+    filters:
+      and:
+        - file.folder == "данганронпа/ФайлыГДДДанганронпа/Геймдизайн"
+    sort:
+      - property: file.name
+        direction: ASC

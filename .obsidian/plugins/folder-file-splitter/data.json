@@ -1,0 +1,78 @@
+{
+  "openPluginViewOnStartup": true,
+  "layoutMode": "Horizontal split",
+  "showViewModeDisplay": true,
+  "highlightActionBar": false,
+  "autoHideActionBar": false,
+  "showFolderHierarchyLines": false,
+  "showFilesCount": true,
+  "expandNodeOnClick": "selected_label",
+  "openDestinationFolderAfterMove": false,
+  "revealFileInExplorer": false,
+  "hideRootFolder": false,
+  "showFolderView": true,
+  "showFolderIcon": true,
+  "includeSubfolderFiles": false,
+  "showTagView": false,
+  "showTagIcon": true,
+  "includeSubTagFiles": false,
+  "deduplicateTagFiles": true,
+  "showFileDetail": true,
+  "stripMarkdownSyntaxInPreview": false,
+  "removeFirstHeadingInPreview": false,
+  "showFileCreationDate": true,
+  "fileCreationDateFormat": "YYYY/MM/DD",
+  "filePreviewLinesCount": 1,
+  "boldFileTitle": true,
+  "fileItemSpacing": "Comfortable",
+  "showFileItemDivider": true,
+  "autoOpenFolderNote": false,
+  "folderNoteLocation": "index.md",
+  "customFolderNotePath": "",
+  "folderNoteMissingBehavior": "ignore",
+  "FileManualSortOrder": {
+    "Геймплей/РПГ система": [
+      "Геймплей/РПГ система/Статы персонажа.md",
+      "Геймплей/РПГ система/Абилки.md"
+    ],
+    "Геймплей/Возможности игрока": [
+      "Геймплей/Возможности игрока/Магия.md",
+      "Геймплей/Возможности игрока/Оружия ближнего боя.md",
+      "Геймплей/Возможности игрока/Оружия дальнего боя.md",
+      "Геймплей/Возможности игрока/Untitled.md"
+    ],
+    "Геймплей/Боевая система": [
+      "Геймплей/Боевая система/ч. Боевая система. Общее.md",
+      "Геймплей/Боевая система/Combat Manager.md",
+      "Геймплей/Боевая система/Система хилла.md",
+      "Геймплей/Боевая система/Импуты игрока.md",
+      "Геймплей/Боевая система/Защита и парирование.md"
+    ],
+    "Геймплей": [
+      "Геймплей/Игрок.md"
+    ],
+    "Геймплей/Игрок": [
+      "Геймплей/Игрок/Управление.md",
+      "Геймплей/Игрок/Переменные игрока.md"
+    ],
+    "Техническая реализация": [
+      "Техническая реализация/Структура игры.md"
+    ],
+    "Черновик": [
+      "Черновик/Заметки.md",
+      "Черновик/Заметки2.md"
+    ],
+    "Геймплей/Левелдизайн": [
+      "Геймплей/Левелдизайн/Общее.md",
+      "Геймплей/Левелдизайн/Регион.md"
+    ],
+    "Геймплей/Мир игры": [
+      "Геймплей/Мир игры/Тенденции.md"
+    ],
+    "Геймплей/Враги": [
+      "Геймплей/Враги/Стандартные враги.md",
+      "Геймплей/Враги/Минибоссы.md",
+      "Геймплей/Враги/Боссы.md"
+    ]
+  }
+}

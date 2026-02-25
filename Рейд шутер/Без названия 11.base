@@ -1,0 +1,10 @@
+views:
+  - type: cards
+    name: Таблица
+    filters:
+      and:
+        - file.tags.contains("враги")
+        - Проект == "Рейд Шутер"
+    order:
+      - file.name
+      - file.tags

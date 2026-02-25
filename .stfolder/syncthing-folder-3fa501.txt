@@ -1,0 +1,5 @@
+# This directory is a Syncthing folder marker.
+# Do not delete.
+
+folderID: ws4p6-vvyuv
+created: 2025-10-27T17:17:05+03:00
