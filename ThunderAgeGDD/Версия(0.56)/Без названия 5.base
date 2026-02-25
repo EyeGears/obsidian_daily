@@ -1,0 +1,9 @@
+views:
+  - type: cards
+    name: Таблица
+    filters:
+      and:
+        - file.folder == "Версия(0.56)/Персонажи/Колонны"
+    order:
+      - file.name
+      - file.tags
