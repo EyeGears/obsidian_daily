@@ -1,9 +1,0 @@
-views:
-  - type: cards
-    name: Таблица
-    filters:
-      and:
-        - file.tags.contains("персонажи")
-        - file.tags.contains("досье")
-        - Проект == "Данганронпа"
-    cardSize: 160

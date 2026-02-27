@@ -1,9 +1,0 @@
-views:
-  - type: cards
-    name: Таблица
-    filters:
-      and:
-        - file.tags.contains("#psy")
-    order:
-      - file.name
-      - file.tags

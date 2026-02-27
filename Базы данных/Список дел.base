@@ -1,8 +1,0 @@
-views:
-  - type: cards
-    name: Таблица
-    filters:
-      and:
-        - file.name.startsWith("Дело")
-    cardSize: 310
-    imageAspectRatio: 0.7

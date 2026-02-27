@@ -1,9 +1,0 @@
-views:
-  - type: cards
-    name: Таблица
-    filters:
-      and:
-        - file.tags.contains("#timeline")
-    order:
-      - file.name
-      - file.tags
