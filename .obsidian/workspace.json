@@ -38,14 +38,184 @@
             "id": "644f0a59d01ddc22",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Граф"
+              "type": "markdown",
+              "state": {
+                "file": "театр/Doc/Главная страница. Театр.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Главная страница. Театр"
+            }
+          },
+          {
+            "id": "300d471dccee90cf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "театр/Doc/Геймдизайн. Главная.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Геймдизайн. Главная"
+            }
+          },
+          {
+            "id": "4370a2ac35722228",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "театр/Doc/Главная страница. Театр.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Главная страница. Театр"
+            }
+          },
+          {
+            "id": "270faf108e48ef05",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "театр/Doc/Система черт.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Система черт"
+            }
+          },
+          {
+            "id": "daca9d7ef82bdbfc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "театр/Doc/Список черт характера.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Список черт характера"
+            }
+          },
+          {
+            "id": "794e3574d3447d1f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "театр/Doc/Система отношений.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Система отношений"
+            }
+          },
+          {
+            "id": "1c1292cb1848117b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "театр/Doc/Закулисное событие.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Закулисное событие"
+            }
+          },
+          {
+            "id": "f0fdd5f42494f266",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "театр/Doc/Случайный ивент.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Случайный ивент"
+            }
+          },
+          {
+            "id": "ac33ae5b48155efe",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "театр/Doc/Труппа игрока.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Труппа игрока"
+            }
+          },
+          {
+            "id": "aed24024ec5dd914",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "театр/Doc/Система менеджмента театра.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Система менеджмента театра"
+            }
+          },
+          {
+            "id": "900580b371cc4888",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "театр/Doc/Характеристики актеров.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Характеристики актеров"
+            }
+          },
+          {
+            "id": "1666bb2540475059",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "театр/Doc/Характеристики актеров.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Характеристики актеров"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 13
       }
     ],
     "direction": "vertical"
@@ -161,12 +331,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "театр/Doc/Характеристики актеров.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Структура"
+              "title": "Структура Характеристики актеров"
             }
           },
           {
@@ -257,12 +428,29 @@
       "media-companion:Open gallery": false
     }
   },
-  "active": "644f0a59d01ddc22",
+  "active": "1666bb2540475059",
   "lastOpenFiles": [
+    "театр/Doc/Улучшения актеров.md",
+    "театр/Doc/Характеристики актеров.md",
+    "театр/Doc/Система отношений.md",
+    "театр/Doc/Система менеджмента театра.md",
+    "театр/Doc/Труппа игрока.md",
+    "театр/Doc/Случайный ивент.md",
+    "театр/Doc/Закулисное событие.md",
+    "театр/Doc/Список черт характера.md",
+    "театр/Doc/Система черт.md",
+    "театр/Doc/Главная страница. Театр.md",
+    "театр/Doc/Геймдизайн. Главная.md",
+    "театр/Doc/UI.md",
+    "театр/Tldraw 2026-02-28 4.14дня.md",
+    "театр/Doc/Арт. Главная.md",
+    "ThunderAgeGDD/Версия(0.56)/Арт. Главная.md",
+    "театр/Materials",
+    "театр/sample",
+    "театр/BD",
+    "театр/Doc",
     "ThunderAgeGDD/Версия(0.56)/Взаимодействие с локациями.md",
     "ThunderAgeGDD/Версия(0.56)/Геймдизайн.md",
-    "театр/Tldraw 2026-02-28 4.14дня.md",
-    "театр/Без названия.md",
     "театр",
     "Tldraw 2026-02-27 7.02вечера.md",
     "слешер без перекатов/Слешер. Главная.md",
@@ -277,24 +465,7 @@
     "ThunderAgeGDD/Версия(0.56)/Организация/Борд-мап.md",
     "ThunderAgeGDD/Версия(0.56)/Организация",
     "Рейд шутер/шестая.md",
-    "Рейд шутер/Пятая.md",
-    "Рейд шутер/Четвертая.md",
-    "Рейд шутер/Третья.md",
-    "Рейд шутер/Вторая.md",
-    "Рейд шутер/Первая.md",
-    "Рейд шутер/Череп-Снайпер.md",
-    "Рейд шутер/Коммандор.md",
-    "Рейд шутер/Гаскойн.md",
     "Рейд шутер/Без названия 14.base",
-    "Рейд шутер/Ханна Вольф.md",
-    "Рейд шутер/Гамма Ампер.md",
-    "Рейд шутер/Фалькон Оверрол.md",
-    "Рейд шутер/Лена.md",
-    "Рейд шутер/Штейн.md",
-    "Рейд шутер/Без названия 13.base",
-    "Рейд шутер/Без названия 12.base",
-    "Рейд шутер/Без названия 11.base",
-    "Рейд шутер/Без названия 10.base",
     "Материалы (свалка)/image-26.png",
     "Материалы (свалка)/image-25.png",
     "Материалы (свалка)/image-24.png",
