@@ -1,0 +1,28 @@
+{
+  "release": {
+    "channel": "stable"
+  },
+  "sharedFolders": [],
+  "endpoints": {},
+  "enableDocumentStatus": false,
+  "enableNewLinkFormat": false,
+  "enableDeltaLogging": false,
+  "enableHTTPSync": false,
+  "enableSyncMenu": true,
+  "enableDocumentHistory": false,
+  "enableEditorTweens": false,
+  "enableSyncModal": false,
+  "enableAttachmentSync": true,
+  "enableNetworkLogging": false,
+  "enableCanvasSync": false,
+  "enableVerifyUploads": false,
+  "enableAutomaticDiffResolution": false,
+  "enableDiscordLogin": false,
+  "enableOIDCLogin": false,
+  "enableGitHubLogin": false,
+  "enableSelfManageHosts": false,
+  "debugging": false,
+  "login": {
+    "provider": "google"
+  }
+}

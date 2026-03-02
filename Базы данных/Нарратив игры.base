@@ -1,0 +1,10 @@
+views:
+  - type: table
+    name: Таблица
+    filters:
+      and:
+        - file.folder == "данганронпа/ФайлыГДДДанганронпа/Нарратив"
+        - file.tags.contains("#сюжет")
+    sort:
+      - property: file.name
+        direction: DESC

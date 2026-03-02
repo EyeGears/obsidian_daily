@@ -1,0 +1,7 @@
+views:
+  - type: cards
+    name: Таблица
+    filters:
+      and:
+        - file.folder == "данганронпа/ФайлыГДДДанганронпа/Нарратив"
+        - file.tags.containsAny("#персонажи")

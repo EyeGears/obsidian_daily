@@ -1,0 +1,337 @@
+{
+  "main": {
+    "id": "57918350283faee5",
+    "type": "split",
+    "children": [
+      {
+        "id": "356a5ed7e7337952",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4cfa5df5d2b78839",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Граф"
+            }
+          },
+          {
+            "id": "624037b247a2a845",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Сеттинг/Экосистема.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Экосистема"
+            }
+          },
+          {
+            "id": "d67f033644ce0f17",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Шаблон/Геймдизайн шаблон.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Геймдизайн шаблон"
+            }
+          },
+          {
+            "id": "19245a08accd2bb0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Игровой процесс/Ролевая модель/Интеллект.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Интеллект"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "bdde805e7345e737",
+    "type": "split",
+    "children": [
+      {
+        "id": "b1360a835ff3b3dc",
+        "type": "tabs",
+        "dimension": 35.30591775325978,
+        "children": [
+          {
+            "id": "c4852bc21480a417",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Закладки"
+            }
+          }
+        ]
+      },
+      {
+        "id": "b2319fed88fd08ad",
+        "type": "tabs",
+        "dimension": 64.69408224674022,
+        "children": [
+          {
+            "id": "124808fc9829a69c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#MAIN_PAGE",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Поиск"
+            }
+          },
+          {
+            "id": "277500306da614e9",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "customOrder",
+                "autoReveal": true
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Файловый менеджер"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 526.5
+  },
+  "right": {
+    "id": "13b37c6472bb59ba",
+    "type": "split",
+    "children": [
+      {
+        "id": "4f758f565bf3ea69",
+        "type": "tabs",
+        "dimension": 45.92391304347826,
+        "children": [
+          {
+            "id": "94f15a84c96c894a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Нарратив/Общее описание сеттинга и сюжета.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Обратные ссылки для Общее описание сеттинга и сюжета"
+            }
+          },
+          {
+            "id": "1c61ebc98f6305fb",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Нарратив/Общее описание сеттинга и сюжета.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Исходящие ссылки из Общее описание сеттинга и сюжета"
+            }
+          },
+          {
+            "id": "e734a614a6b3ac9c",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Нарратив/Общее описание сеттинга и сюжета.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Структура Общее описание сеттинга и сюжета"
+            }
+          },
+          {
+            "id": "c6340e9a77d7ff68",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {},
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
+            }
+          },
+          {
+            "id": "d32c6d29f1fa77af",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          },
+          {
+            "id": "092d6859c8e803a2",
+            "type": "leaf",
+            "state": {
+              "type": "copilot-chat-view",
+              "state": {},
+              "icon": "message-square",
+              "title": "Copilot"
+            }
+          },
+          {
+            "id": "710ad1e2a9af9557",
+            "type": "leaf",
+            "state": {
+              "type": "media-companion-sidecar-view",
+              "state": {},
+              "icon": "image",
+              "title": "Sidecar"
+            }
+          }
+        ],
+        "currentTab": 6
+      },
+      {
+        "id": "1874d86d89a8a64c",
+        "type": "tabs",
+        "dimension": 54.07608695652174,
+        "children": [
+          {
+            "id": "77aaa190e2906e07",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Теги"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 401.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Меню быстрого перехода": false,
+      "graph:Граф": false,
+      "canvas:Создать новый холст": false,
+      "daily-notes:Сегодняшняя заметка": false,
+      "bases:Создать новую базу": false,
+      "templates:Вставить шаблон": false,
+      "command-palette:Открыть палитру команд": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-kanban:Создать новую доску": false,
+      "tldraw:Create new tldrawing": false,
+      "obsidian-git:Open Git source control": false,
+      "copilot:Open Copilot Chat": false,
+      "excel:Create Excel File": false,
+      "dashboard-navigator:Open dashboard navigator": false,
+      "media-companion:Open gallery": false
+    }
+  },
+  "active": "624037b247a2a845",
+  "lastOpenFiles": [
+    "Версия(0.56)/Без названия 9.base",
+    "Версия(0.56)/Персонажи.md",
+    "Версия(0.56)/Главная страница.md",
+    "Версия(0.56)/Арт. Главная.md",
+    "Версия(0.56)/Персонажи/Дом Лэйнов/Альберт Велтен.md",
+    "Версия(0/Кирро Хикс.md",
+    "Версия(0/Джерри Сорока.md",
+    "Материалы/image-14.png",
+    "Материалы/image-6.png",
+    "Материалы/image-13.png",
+    "Материалы/image-12.png",
+    "Материалы/image-10.png",
+    "Материалы/image.png",
+    "Материалы/image-5.png",
+    "Материалы/Untitled.png",
+    "Материалы/Screenshot_6.png",
+    "Игровой процесс/черновик хронология.md",
+    "Игровой процесс/промты диздока.md",
+    "Версия(0.56)/Либерия.md",
+    "Игровой процесс/Положительные эффекты.md",
+    "Игровой процесс/Формирования.md",
+    "Нарратив/Черновик.md",
+    "Нарратив/черновик хзаметки.md",
+    "Нарратив/черновик заметуки.md",
+    "Excel 2025-11-11 20.58.38.sheet.md",
+    "Excel 2025-11-11 20.57.32.sheet.md",
+    "Положительные эффекты.md",
+    "Версия(0.56)/Без названия 6.base",
+    "Нарратив/черновик заметки.md",
+    "Нарратив/Мода.md",
+    "Версия(0/Виктор Романов.md",
+    "Версия(0/Аликс Нерман.md",
+    "Черновик/Промпты.md",
+    "Версия(0.56)/Сеттинг.md",
+    "Шаблон/Геймдизайн шаблон.md",
+    "Версия(0.56)/Общий сюжет игры.md",
+    "Версия(0.56)/Главная страница.base",
+    "Версия(0",
+    "Без названия 2",
+    "Без названия 1",
+    "Без названия",
+    "Версия(0.56)/Без названия 8.base",
+    "Версия(0.56)/Без названия 7.base",
+    "Версия(0.56)/Без названия 5.base",
+    "Без названия.canvas",
+    "Материалы (свалка)/вивьен1.png",
+    "Доска референсов/Референс рас.canvas",
+    "Доска референсов/Материалы. Феликс..canvas",
+    "Доска референсов/Референс мира.canvas",
+    "Доска референсов/Референсы персонажей.canvas",
+    "Доска референсов/UI-UX.canvas",
+    "05 - Доска референсов/Референс мира.canvas",
+    "05 - Доска референсов/Материалы. Феликс..canvas",
+    "05 - Доска референсов/UI-UX.canvas",
+    "05 - Доска референсов/Референсы персонажей.canvas"
+  ]
+}

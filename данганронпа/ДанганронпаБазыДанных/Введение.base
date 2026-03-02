@@ -1,0 +1,7 @@
+views:
+  - type: list
+    name: Таблица
+    filters:
+      and:
+        - file.folder == "данганронпа/ФайлыГДДДанганронпа/Введение"
+    indentProperties: false

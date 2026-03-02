@@ -1,0 +1,8 @@
+views:
+  - type: table
+    name: Таблица
+    filters:
+      and:
+        - file.tags.contains("#боевка")
+        - Оружие == "Пистолеты"
+        - Проект == "Рейд Шутер"

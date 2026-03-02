@@ -1,0 +1,13 @@
+{
+  "gitlabUrl": "https://gitlab.com",
+  "gitlabToken": "glpat-AazFloPi_YCH2JSiisVBqm86MQp1Omc0dWc1Cw.01.121o1w4og",
+  "gitlabIssuesLevel": "personal",
+  "gitlabAppId": "",
+  "templateFile": "",
+  "outputDir": "/Gitlab Issues/",
+  "filter": "due_date=month",
+  "showIcon": false,
+  "purgeIssues": true,
+  "refreshOnStartup": true,
+  "intervalOfRefresh": "15"
+}

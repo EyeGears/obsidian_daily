@@ -1,0 +1,11 @@
+views:
+  - type: cards
+    name: Таблица
+    filters:
+      and:
+        - file.tags.contains("#досье")
+        - Проект == "Рейд Шутер"
+        - file.tags.contains("#игровой_персонаж")
+    order:
+      - file.name
+      - file.tags

@@ -1,0 +1,7 @@
+views:
+  - type: cards
+    name: Таблица
+    filters:
+      and:
+        - file.tags.contains("#MAIN_PAGE")
+        - file.name != "Главная страница"

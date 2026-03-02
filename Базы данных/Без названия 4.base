@@ -1,0 +1,9 @@
+views:
+  - type: table
+    name: Таблица
+    filters:
+      and:
+        - Основа == link("Рейд шутер/Оружие", "Оружие")
+        - file.tags.contains("боевка")
+        - Проект == "Рейд Шутер"
+        - file.tags.contains("оружие")

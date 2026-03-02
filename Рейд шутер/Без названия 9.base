@@ -1,0 +1,10 @@
+views:
+  - type: cards
+    name: Таблица
+    filters:
+      and:
+        - Проект == "Рейд Шутер"
+        - file.tags.contains("#исследование")
+    order:
+      - file.name
+      - file.tags
