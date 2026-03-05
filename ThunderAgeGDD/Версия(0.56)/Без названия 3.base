@@ -4,6 +4,7 @@ views:
     filters:
       and:
         - file.folder == "Версия(0.56)/Персонажи/Гвардия"
+        - Фракция == "Гвардия"
     order:
       - file.name
       - file.tags
