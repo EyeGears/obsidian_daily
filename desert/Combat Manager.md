@@ -1,3 +1,8 @@
+---
+tags:
+  - area/desert
+---
+
 # ⚙️ Combat Manager — структура и функции (на примере Hyper Light Drifter-style)
 
 ---

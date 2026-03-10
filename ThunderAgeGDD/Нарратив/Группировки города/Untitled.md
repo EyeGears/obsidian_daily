@@ -1,3 +1,10 @@
+---
+tags:
+  - area/thunderagegdd
+  - section/нарратив
+  - status/unprocessed
+---
+
 # Структура города
 
 ## Группировки

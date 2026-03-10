@@ -20,4 +20,7 @@ MC-size:
   - 991
   - 396
 MC-last-updated: 2025-10-23T03:37:55.772Z
+tags:
+  - area/thunderagegdd
+  - section/материалы
 ---
