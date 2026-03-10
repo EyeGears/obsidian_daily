@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Полная сетевая карта Свинцовой Дельты</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Courier New', monospace;
+            background: #0a0e27;
+            color: #e0e0e0;
+            overflow: hidden;
+        }
+
+        .container {
+            display: flex;
+            height: 100vh;
+            gap: 0;
+        }
+
+        .sidebar {
+            width: 280px;
+            background: rgba(10, 14, 39, 0.98);
+            border-right: 2px solid #f39c12;
+            padding: 15px;
+            overflow-y: auto;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .main-content {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .title-bar {
+            background: rgba(10, 14, 39, 0.95);
+            border-bottom: 2px solid #f39c12;
+            padding: 12px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .title {
+            color: #f39c12;
+            font-size: 1.3em;
+            font-weight: bold;
+            text-shadow: 0 0 10px rgba(243, 156, 18, 0.3);
+        }
+
+        .toolbar {
+            display: flex;
+            gap: 8px;
+        }
+
+        .btn {
+            background: #f39c12;
+            color: #0a0e27;
+            border: none;
+            padding: 6px 12px;
+            border-radius: 3px;
+            cursor: pointer;
+            font-weight: bold;
+            font-size: 0.85em;
+            transition: all 0.2s;
+        }
+
+        .btn:hover {
+            background: #f1c40f;
+            transform: scale(1.05);
+        }
+
+        .canvas-area {
+            flex: 1;
+            position: relative;
+            overflow: auto;
+            background: linear-gradient(135deg, #0f1428 0%, #1a1f3a 100%);
+        }
+
+        canvas {
+            display: block;
+            cursor: grab;
+        }
+
+        canvas:active {
+            cursor: grabbing;
+        }
+
+        .sidebar-title {
+            color: #f39c12;
+            font-size: 1.05em;
+            font-weight: bold;
+            margin-bottom: 12px;
+            text-shadow: 0 0 10px rgba(243, 156, 18, 0.3);
+        }
+
+        .district-card {
+            background: rgba(255, 255, 255, 0.05);
+            border-left: 4px solid;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 3px;
+            font-size: 0.85em;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .district-card:hover {
+            background: rgba(255, 255, 255, 0.08);
+            transform: translateX(3px);
+        }
+
+        .district-card.tumannaya { border-left-color: #3498db; }
+        .district-card.medny { border-left-color: #e67e22; }
+        .district-card.soty { border-left-color: #2ecc71; }
+        .district-card.granit { border-left-color: #e74c3c; }
+        .district-card.sad { border-left-color: #27ae60; }
+        .district-card.rebra { border-left-color: #95a5a6; }
+
+        .card-name {
+            font-weight: bold;
+            color: #ecf0f1;
+            margin-bottom: 4px;
+        }
+
+        .card-stats {
+            color: #bdc3c7;
+            font-size: 0.8em;
+            line-height: 1.3;
+        }
+
+        .stats-box {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid #f39c12;
+            padding: 10px;
+            border-radius: 3px;
+            margin-top: 15px;
+            text-align: center;
+            font-size: 0.85em;
+        }
+
+        .stat-row {
+            display: flex;
+            justify-content: space-between;
+            padding: 4px 0;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .stat-row:last-child {
+            border-bottom: none;
+        }
+
+        .stat-label {
+            color: #bdc3c7;
+        }
+
+        .stat-value {
+            color: #f39c12;
+            font-weight: bold;
+        }
+
+        .legend {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid #95a5a6;
+            padding: 10px;
+            border-radius: 3px;
+            margin-top: auto;
+            font-size: 0.75em;
+        }
+
+        .legend-title {
+            color: #95a5a6;
+            font-weight: bold;
+            margin-bottom: 8px;
+        }
+
+        .legend-items {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 6px;
+        }
+
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            padding: 3px 0;
+        }
+
+        .legend-color {
+            width: 10px;
+            height: 10px;
+            border-radius: 1px;
+            flex-shrink: 0;
+        }
+
+        .status-bar {
+            background: rgba(10, 14, 39, 0.95);
+            border-top: 1px solid #95a5a6;
+            padding: 8px 20px;
+            font-size: 0.8em;
+            color: #95a5a6;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .tooltip {
+            position: fixed;
+            background: rgba(0, 0, 0, 0.95);
+            color: #f39c12;
+            padding: 8px 12px;
+            border-radius: 3px;
+            font-size: 0.85em;
+            pointer-events: none;
+            border: 1px solid #f39c12;
+            z-index: 1000;
+            white-space: nowrap;
+        }
+
+        @media (max-width: 1024px) {
+            .sidebar {
+                width: 220px;
+                font-size: 0.9em;
+            }
+
+            .title {
+                font-size: 1.1em;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .sidebar {
+                display: none;
+            }
+
+            .container {
+                flex-direction: column;
+            }
+
+            .title-bar {
+                padding: 10px 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- БОКОВАЯ ПАНЕЛЬ -->
+        <div class="sidebar">
+            <div class="sidebar-title">🗺️ КАРТА ГОРОДА</div>
+
+            <div class="district-card tumannaya">
+                <div class="card-name">🌊 Туманная Кромка</div>
+                <div class="card-stats">
+                    <div>Население: ~3,570</div>
+                    <div>Домов: 77</div>
+                    <div>Тип: Прибрежный</div>
+                </div>
+            </div>
+
+            <div class="district-card medny">
+                <div class="card-name">⚙️ Медный Узел</div>
+                <div class="card-stats">
+                    <div>Население: ~3,740</div>
+                    <div>Домов: 76</div>
+                    <div>Тип: Промышленность</div>
+                </div>
+            </div>
+
+            <div class="district-card soty">
+                <div class="card-name">🏢 Соты</div>
+                <div class="card-stats">
+                    <div>Население: ~9,350</div>
+                    <div>Домов: 135</div>
+                    <div>Тип: Жилье</div>
+                </div>
+            </div>
+
+            <div class="district-card granit">
+                <div class="card-name">🏛️ Верхний Гранит</div>
+                <div class="card-stats">
+                    <div>Население: ~4,520</div>
+                    <div>Домов: 77</div>
+                    <div>Тип: Администрация</div>
+                </div>
+            </div>
+
+            <div class="district-card sad">
+                <div class="card-name">🌿 Сад Ветров</div>
+                <div class="card-stats">
+                    <div>Население: ~1,710</div>
+                    <div>Домов: 41</div>
+                    <div>Тип: Зеленый пояс</div>
+                </div>
+            </div>
+
+            <div class="district-card rebra">
+                <div class="card-name">⚠️ Нижние Ребра</div>
+                <div class="card-stats">
+                    <div>Население: ~2,620</div>
+                    <div>Домов: 60</div>
+                    <div>Тип: Затопленный</div>
+                </div>
+            </div>
+
+            <div class="stats-box">
+                <div class="stat-row">
+                    <span class="stat-label">Всего домов:</span>
+                    <span class="stat-value">466</span>
+                </div>
+                <div class="stat-row">
+                    <span class="stat-label">Жителей:</span>
+                    <span class="stat-value">~25.5K</span>
+                </div>
+                <div class="stat-row">
+                    <span class="stat-label">Улиц:</span>
+                    <span class="stat-value">12</span>
+                </div>
+                <div class="stat-row">
+                    <span class="stat-label">Районов:</span>
+                    <span class="stat-value">6</span>
+                </div>
+            </div>
+
+            <div class="legend">
+                <div class="legend-title">🔑 ЛЕГЕНДА</div>
+                <div class="legend-items">
+                    <div class="legend-item">
+                        <div class="legend-color" style="background: #3498db;"></div>
+                        <span>Туман</span>
+                    </div>
+                    <div class="legend-item">
+                        <div class="legend-color" style="background: #e67e22;"></div>
+                        <span>Медь</span>
+                    </div>
+                    <div class="legend-item">
+                        <div class="legend-color" style="background: #2ecc71;"></div>
+                        <span>Соты</span>
+                    </div>
+                    <div class="legend-item">
+                        <div class="legend-color" style="background: #e74c3c;"></div>
+                        <span>Гранит</span>
+                    </div>
+                    <div class="legend-item">
+                        <div class="legend-color" style="background: #27ae60;"></div>
+                        <span>Сад</span>
+                    </div>
+                    <div class="legend-item">
+                        <div class="legend-color" style="background: #95a5a6;"></div>
+                        <span>Ребра</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ОСНОВНОЙ КОНТЕНТ -->
+        <div class="main-content">
+            <div class="title-bar">
+                <div class="title">⚡ СВИНЦОВАЯ ДЕЛЬТА | ПОЛНАЯ КАРТА</div>
+                <div class="toolbar">
+                    <button class="btn" onclick="resetMap()">🔄</button>
+                    <button class="btn" onclick="toggleGrid()">⊞</button>
+                    <button class="btn" onclick="toggleLabels()">🔤</button>
+                </div>
+            </div>
+
+            <div class="canvas-area">
+                <canvas id="mainCanvas"></canvas>
+            </div>
+
+            <div class="status-bar">
+                <span id="coordInfo">X: 0 | Y: 0</span>
+                <span id="zoomInfo">Масштаб: 100%</span>
+                <span>⚡ Радиохакинг • Братство • Спасение</span>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const canvas = document.getElementById('mainCanvas');
+        const ctx = canvas.getContext('2d');
+
+        // РАЗМЕРЫ И ПАРАМЕТРЫ
+        const CELL_SIZE = 40;
+        const CITY_WIDTH = 60;
+        const CITY_HEIGHT = 35;
+
+        canvas.width = CITY_WIDTH * CELL_SIZE;
+        canvas.height = CITY_HEIGHT * CELL_SIZE;
+
+        let zoom = 1;
+        let panX = 0;
+        let panY = 0;
+        let showGridLines = false;
+        let showBuildingLabels = false;
+
+        // ГЕНЕРИРОВАНИЕ СЕТКИ ЗДАНИЙ
+        const cityGrid = new Array(CITY_HEIGHT).fill(null).map(() =>
+            new Array(CITY_WIDTH).fill(null)
+        );
+
+        // РАЗМЕЩЕНИЕ РАЙОНОВ
+        function initializeCity() {
+            const districts = [
+                { id: 'tumannaya', color: '#3498db', startX: 2, startY: 25, width: 14, height: 6 },
+                { id: 'medny', color: '#e67e22', startX: 10, startY: 13, width: 14, height: 8 },
+                { id: 'soty', color: '#2ecc71', startX: 20, startY: 4, width: 14, height: 10 },
+                { id: 'granit', color: '#e74c3c', startX: 12, startY: 1, width: 20, height: 4 },
+                { id: 'sad', color: '#27ae60', startX: 36, startY: 4, width: 14, height: 10 },
+                { id: 'rebra', color: '#95a5a6', startX: 36, startY: 25, width: 14, height: 6 }
+            ];
+
+            districts.forEach(dist => {
+                for (let y = dist.startY; y < dist.startY + dist.height; y++) {
+                    for (let x = dist.startX; x < dist.startX + dist.width; x++) {
+                        if (y < CITY_HEIGHT && x < CITY_WIDTH) {
+                            cityGrid[y][x] = {
+                                district: dist.id,
+                                color: dist.color,
+                                type: 'building'
+                            };
+                        }
+                    }
+                }
+            });
+
+            // РЕКА
+            for (let x = 0; x < CITY_WIDTH; x++) {
+                const y = Math.floor(18 + Math.sin(x / 10) * 1.5);
+                if (y >= 0 && y < CITY_HEIGHT) {
+                    cityGrid[y][x] = {
+                        district: 'river',
+                        color: '#3498db',
+                        type: 'water'
+                    };
+                }
+            }
+        }
+
+        // ОТРИСОВКА КАРТЫ
+        function drawMap() {
+            // Фон
+            ctx.fillStyle = '#0a0e27';
+            ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+            ctx.save();
+            ctx.translate(panX, panY);
+            ctx.scale(zoom, zoom);
+
+            // Сетка (опционально)
+            if (showGridLines) {
+                ctx.strokeStyle = 'rgba(255, 255, 255, 0.05)';
+                ctx.lineWidth = 0.5;
+                for (let x = 0; x <= CITY_WIDTH; x++) {
+                    ctx.beginPath();
+                    ctx.moveTo(x * CELL_SIZE, 0);
+                    ctx.lineTo(x * CELL_SIZE, CITY_HEIGHT * CELL_SIZE);
+                    ctx.stroke();
+                }
+                for (let y = 0; y <= CITY_HEIGHT; y++) {
+                    ctx.beginPath();
+                    ctx.moveTo(0, y * CELL_SIZE);
+                    ctx.lineTo(CITY_WIDTH * CELL_SIZE, y * CELL_SIZE);
+                    ctx.stroke();
+                }
+            }
+
+            // Здания
+            for (let y = 0; y < CITY_HEIGHT; y++) {
+                for (let x = 0; x < CITY_WIDTH; x++) {
+                    const cell = cityGrid[y][x];
+                    if (cell) {
+                        drawCell(x, y, cell);
+                    }
+                }
+            }
+
+            // Подписи районов (если включены)
+            if (showBuildingLabels) {
+                drawDistrictLabels();
+            }
+
+            ctx.restore();
+        }
+
+        function drawCell(x, y, cell) {
+            const px = x * CELL_SIZE;
+            const py = y * CELL_SIZE;
+
+            if (cell.type === 'water') {
+                // Вода
+                ctx.fillStyle = cell.color;
+                ctx.globalAlpha = 0.2;
+                ctx.fillRect(px, py, CELL_SIZE, CELL_SIZE);
+                ctx.globalAlpha = 1;
+
+                // Волны
+                ctx.strokeStyle = cell.color;
+                ctx.lineWidth = 1;
+                ctx.beginPath();
+                ctx.arc(px + CELL_SIZE / 2, py + CELL_SIZE / 2, CELL_SIZE / 3, 0, Math.PI * 2);
+                ctx.stroke();
+            } else {
+                // Здание
+                ctx.fillStyle = cell.color;
+                ctx.globalAlpha = 0.7;
+                ctx.fillRect(px + 1, py + 1, CELL_SIZE - 2, CELL_SIZE - 2);
+                ctx.globalAlpha = 1;
+
+                // Граница
+                ctx.strokeStyle = cell.color;
+                ctx.lineWidth = 1;
+                ctx.strokeRect(px + 1, py + 1, CELL_SIZE - 2, CELL_SIZE - 2);
+
+                // Окна
+                ctx.fillStyle = '#f39c12';
+                ctx.globalAlpha = 0.6;
+                const wSize = 3;
+                for (let wx = px + 4; wx < px + CELL_SIZE - 4; wx += 6) {
+                    for (let wy = py + 4; wy < py + CELL_SIZE - 4; wy += 6) {
+                        ctx.fillRect(wx, wy, wSize, wSize);
+                    }
+                }
+                ctx.globalAlpha = 1;
+            }
+        }
+
+        function drawDistrictLabels() {
+            const districtNames = {
+                'tumannaya': '🌊 Туман',
+                'medny': '⚙️ Медь',
+                'soty': '🏢 Соты',
+                'granit': '🏛️ Гранит',
+                'sad': '🌿 Сад',
+                'rebra': '⚠️ Ребра'
+            };
+
+            const districtCenters = {};
+            let counts = {};
+
+            for (let y = 0; y < CITY_HEIGHT; y++) {
+                for (let x = 0; x < CITY_WIDTH; x++) {
+                    const cell = cityGrid[y][x];
+                    if (cell && cell.type === 'building') {
+                        if (!districtCenters[cell.district]) {
+                            districtCenters[cell.district] = { x: 0, y: 0 };
+                            counts[cell.district] = 0;
+                        }
+                        districtCenters[cell.district].x += x;
+                        districtCenters[cell.district].y += y;
+                        counts[cell.district]++;
+                    }
+                }
+            }
+
+            ctx.font = 'bold 12px Arial';
+            ctx.textAlign = 'center';
+
+            for (const [dist, center] of Object.entries(districtCenters)) {
+                const avgX = (center.x / counts[dist]) * CELL_SIZE;
+                const avgY = (center.y / counts[dist]) * CELL_SIZE;
+
+                ctx.fillStyle = 'rgba(0, 0, 0, 0.7)';
+                ctx.fillRect(avgX - 40, avgY - 12, 80, 24);
+
+                ctx.fillStyle = '#f39c12';
+                ctx.fillText(districtNames[dist], avgX, avgY + 6);
+            }
+        }
+
+        // УПРАВЛЕНИЕ
+        function resetMap() {
+            panX = 0;
+            panY = 0;
+            zoom = 1;
+            drawMap();
+        }
+
+        function toggleGrid() {
+            showGridLines = !showGridLines;
+            drawMap();
+        }
+
+        function toggleLabels() {
+            showBuildingLabels = !showBuildingLabels;
+            drawMap();
+        }
+
+        // НАВИГАЦИЯ МЫШЬЮ
+        let isDragging = false;
+        let lastX = 0;
+        let lastY = 0;
+
+        canvas.addEventListener('mousedown', (e) => {
+            isDragging = true;
+            lastX = e.clientX;
+            lastY = e.clientY;
+            canvas.style.cursor = 'grabbing';
+        });
+
+        canvas.addEventListener('mousemove', (e) => {
+            const rect = canvas.getBoundingClientRect();
+            const canvasX = (e.clientX - rect.left - panX) / zoom;
+            const canvasY = (e.clientY - rect.top - panY) / zoom;
+            document.getElementById('coordInfo').textContent =
+                `X: ${Math.floor(canvasX / CELL_SIZE)} | Y: ${Math.floor(canvasY / CELL_SIZE)}`;
+
+            if (isDragging) {
+                panX += e.clientX - lastX;
+                panY += e.clientY - lastY;
+                lastX = e.clientX;
+                lastY = e.clientY;
+                drawMap();
+            }
+        });
+
+        canvas.addEventListener('mouseup', () => {
+            isDragging = false;
+            canvas.style.cursor = 'grab';
+        });
+
+        canvas.addEventListener('wheel', (e) => {
+            e.preventDefault();
+            const zoomChange = e.deltaY > 0 ? 0.8 : 1.2;
+            zoom = Math.max(0.5, Math.min(3, zoom * zoomChange));
+            document.getElementById('zoomInfo').textContent = `Масштаб: ${Math.round(zoom * 100)}%`;
+            drawMap();
+        });
+
+        // ИНИЦИАЛИЗАЦИЯ
+        initializeCity();
+        drawMap();
+
+        // Адаптивность окна
+        window.addEventListener('resize', () => {
+            const container = document.querySelector('.canvas-area');
+            canvas.width = container.clientWidth;
+            canvas.height = container.clientHeight;
+            drawMap();
+        });
+    </script>
+</body>
+</html>

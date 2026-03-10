@@ -1,0 +1,800 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Карта Свинцовой Дельты</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Courier New', monospace;
+            background: #0a0e27;
+            color: #e0e0e0;
+            overflow: hidden;
+            height: 100vh;
+        }
+
+        .map-container {
+            display: flex;
+            height: 100vh;
+            gap: 0;
+        }
+
+        .sidebar {
+            width: 280px;
+            background: rgba(15, 20, 40, 0.95);
+            border-right: 2px solid #f39c12;
+            overflow-y: auto;
+            padding: 15px;
+        }
+
+        .sidebar-title {
+            color: #f39c12;
+            font-size: 1.1em;
+            font-weight: bold;
+            margin-bottom: 15px;
+            text-shadow: 0 0 10px rgba(243, 156, 18, 0.3);
+        }
+
+        .district-item {
+            margin-bottom: 12px;
+            padding: 10px;
+            border-left: 4px solid;
+            background: rgba(255, 255, 255, 0.05);
+            cursor: pointer;
+            transition: all 0.2s;
+            border-radius: 3px;
+        }
+
+        .district-item:hover {
+            background: rgba(255, 255, 255, 0.1);
+            transform: translateX(5px);
+        }
+
+        .district-item.tumannaya { border-left-color: #3498db; }
+        .district-item.medny { border-left-color: #e67e22; }
+        .district-item.soty { border-left-color: #2ecc71; }
+        .district-item.granit { border-left-color: #e74c3c; }
+        .district-item.sad { border-left-color: #27ae60; }
+        .district-item.rebra { border-left-color: #95a5a6; }
+
+        .district-name {
+            font-weight: bold;
+            font-size: 0.9em;
+            margin-bottom: 3px;
+        }
+
+        .street-list {
+            font-size: 0.75em;
+            color: #bdc3c7;
+            margin-left: 5px;
+            line-height: 1.3;
+        }
+
+        .canvas-wrapper {
+            flex: 1;
+            position: relative;
+            overflow: hidden;
+            background: linear-gradient(135deg, #0f1428 0%, #1a1f3a 100%);
+        }
+
+        canvas {
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+
+        .controls {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background: rgba(15, 20, 40, 0.9);
+            border: 2px solid #f39c12;
+            padding: 15px;
+            border-radius: 5px;
+            z-index: 100;
+        }
+
+        .control-btn {
+            background: #f39c12;
+            color: #0f1428;
+            border: none;
+            padding: 8px 15px;
+            margin: 5px;
+            border-radius: 3px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: all 0.2s;
+        }
+
+        .control-btn:hover {
+            background: #f1c40f;
+            transform: scale(1.05);
+        }
+
+        .zoom-slider {
+            margin: 10px 0;
+        }
+
+        .zoom-slider input {
+            width: 100%;
+        }
+
+        .legend {
+            position: absolute;
+            bottom: 10px;
+            left: 10px;
+            background: rgba(15, 20, 40, 0.9);
+            border: 2px solid #f39c12;
+            padding: 15px;
+            border-radius: 5px;
+            font-size: 0.8em;
+            max-width: 250px;
+        }
+
+        .legend-item {
+            display: flex;
+            align-items: center;
+            margin: 5px 0;
+            gap: 8px;
+        }
+
+        .legend-color {
+            width: 20px;
+            height: 20px;
+            border-radius: 2px;
+        }
+
+        .info-panel {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            background: rgba(15, 20, 40, 0.95);
+            border: 2px solid #1abc9c;
+            padding: 15px;
+            border-radius: 5px;
+            max-width: 280px;
+            z-index: 99;
+            max-height: 300px;
+            overflow-y: auto;
+        }
+
+        .info-title {
+            color: #1abc9c;
+            font-weight: bold;
+            margin-bottom: 10px;
+            font-size: 1em;
+        }
+
+        .info-text {
+            font-size: 0.85em;
+            color: #bdc3c7;
+            line-height: 1.4;
+        }
+
+        .info-text strong {
+            color: #ecf0f1;
+        }
+
+        .close-info {
+            float: right;
+            cursor: pointer;
+            color: #f39c12;
+            font-weight: bold;
+        }
+
+        .close-info:hover {
+            color: #f1c40f;
+        }
+
+        .coordinates {
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+            background: rgba(15, 20, 40, 0.9);
+            border: 1px solid #95a5a6;
+            padding: 10px;
+            border-radius: 3px;
+            font-size: 0.8em;
+            color: #95a5a6;
+        }
+
+        @media (max-width: 1024px) {
+            .sidebar {
+                width: 200px;
+            }
+
+            .controls {
+                padding: 10px;
+            }
+
+            .control-btn {
+                padding: 6px 10px;
+                font-size: 0.9em;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .sidebar {
+                display: none;
+            }
+
+            .map-container {
+                flex-direction: column;
+            }
+
+            .info-panel {
+                max-width: 90vw;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="map-container">
+        <!-- БОКОВАЯ ПАНЕЛЬ -->
+        <div class="sidebar">
+            <div class="sidebar-title">🗺️ РАЙОНЫ</div>
+
+            <div class="district-item tumannaya">
+                <div class="district-name">🌊 Туманная Кромка</div>
+                <div class="street-list">
+                    • Набережный Тракт (46 домов)<br>
+                    • Улица Шлюзовая (31 дом)
+                </div>
+            </div>
+
+            <div class="district-item medny">
+                <div class="district-name">⚙️ Медный Узел</div>
+                <div class="street-list">
+                    • Меднолитейный Проспект (52 дома)<br>
+                    • Улица Клепальная (24 дома)
+                </div>
+            </div>
+
+            <div class="district-item soty">
+                <div class="district-name">🏢 Соты</div>
+                <div class="street-list">
+                    • Галерея Сот-Восток (64 дома)<br>
+                    • Проспект Каркасный (71 дом)
+                </div>
+            </div>
+
+            <div class="district-item granit">
+                <div class="district-name">🏛️ Верхний Гранит</div>
+                <div class="street-list">
+                    • Гранитный Круг (58 домов)<br>
+                    • Улица Архивная (19 домов)
+                </div>
+            </div>
+
+            <div class="district-item sad">
+                <div class="district-name">🌿 Сад Ветров</div>
+                <div class="street-list">
+                    • Аллея Ирисов (27 домов)<br>
+                    • Канальная улица (14 домов)
+                </div>
+            </div>
+
+            <div class="district-item rebra">
+                <div class="district-name">⚠️ Нижние Ребра</div>
+                <div class="street-list">
+                    • Теневой Ярус (38 домов)<br>
+                    • Ул. Ржавых Лестниц (22 дома)
+                </div>
+            </div>
+
+            <hr style="border: 1px solid rgba(255,255,255,0.1); margin: 20px 0;">
+
+            <div class="sidebar-title">📊 ВСЕГО</div>
+            <div style="font-size: 0.9em; line-height: 1.6;">
+                <div><strong>466</strong> домов</div>
+                <div><strong>~25,510</strong> жителей</div>
+                <div><strong>12</strong> основных улиц</div>
+            </div>
+        </div>
+
+        <!-- ГЛАВНЫЙ ХОЛСТ КАРТЫ -->
+        <div class="canvas-wrapper">
+            <canvas id="mapCanvas"></canvas>
+
+            <!-- ИНФОРМАЦИОННАЯ ПАНЕЛЬ -->
+            <div class="info-panel" id="infoPanel" style="display: none;">
+                <span class="close-info" onclick="document.getElementById('infoPanel').style.display='none';">✕</span>
+                <div class="info-title" id="infoTitle">Здание</div>
+                <div class="info-text" id="infoText"></div>
+            </div>
+
+            <!-- ЭЛЕМЕНТЫ УПРАВЛЕНИЯ -->
+            <div class="controls">
+                <div>
+                    <button class="control-btn" onclick="resetMap()">🔄 Сброс</button>
+                    <button class="control-btn" onclick="toggleGrid()">⊞ Сетка</button>
+                </div>
+                <div class="zoom-slider">
+                    <label style="font-size: 0.8em; color: #f39c12;">Масштаб:</label>
+                    <input type="range" id="zoomSlider" min="0.5" max="3" step="0.1" value="1"
+                           onchange="setZoom(this.value)" style="margin-top: 5px;">
+                </div>
+            </div>
+
+            <!-- ЛЕГЕНДА -->
+            <div class="legend">
+                <div style="color: #f39c12; font-weight: bold; margin-bottom: 8px;">🔑 ЛЕГЕНДА</div>
+                <div class="legend-item">
+                    <div class="legend-color" style="background: #3498db;"></div>
+                    <span>Туманная Кромка</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-color" style="background: #e67e22;"></div>
+                    <span>Медный Узел</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-color" style="background: #2ecc71;"></div>
+                    <span>Соты</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-color" style="background: #e74c3c;"></div>
+                    <span>Верхний Гранит</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-color" style="background: #27ae60;"></div>
+                    <span>Сад Ветров</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-color" style="background: #95a5a6;"></div>
+                    <span>Нижние Ребра</span>
+                </div>
+                <div class="legend-item" style="margin-top: 10px; border-top: 1px solid rgba(255,255,255,0.1); padding-top: 8px;">
+                    <div class="legend-color" style="background: #3498db; border: 2px solid #f39c12;"></div>
+                    <span>Реки и вода</span>
+                </div>
+            </div>
+
+            <!-- КООРДИНАТЫ -->
+            <div class="coordinates">
+                X: <span id="coordX">0</span> | Y: <span id="coordY">0</span>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const canvas = document.getElementById('mapCanvas');
+        const ctx = canvas.getContext('2d');
+
+        // Размеры
+        canvas.width = window.innerWidth - 280;
+        canvas.height = window.innerHeight;
+
+        let zoom = 1;
+        let panX = 0;
+        let panY = 0;
+        let showGrid = false;
+
+        // ДАННЫЕ РАЙОНОВ И ЗДАНИЙ
+        const districts = {
+            tumannaya: {
+                name: '🌊 Туманная Кромка',
+                color: '#3498db',
+                y: 750,
+                height: 180,
+                description: 'Прибрежный ярус. Дома на сваях, шлюзы, влажный смог.',
+                streets: [
+                    {
+                        name: 'Набережный Тракт',
+                        x: 100,
+                        y: 770,
+                        buildings: 46,
+                        width: 200,
+                        height: 40
+                    },
+                    {
+                        name: 'Улица Шлюзовая',
+                        x: 100,
+                        y: 850,
+                        buildings: 31,
+                        width: 140,
+                        height: 40
+                    }
+                ]
+            },
+            medny: {
+                name: '⚙️ Медный Узел',
+                color: '#e67e22',
+                y: 500,
+                height: 200,
+                description: 'Промышленная зона. Заводы, цеха, трубопроводы.',
+                streets: [
+                    {
+                        name: 'Меднолитейный Проспект',
+                        x: 400,
+                        y: 520,
+                        buildings: 52,
+                        width: 220,
+                        height: 50
+                    },
+                    {
+                        name: 'Улица Клепальная',
+                        x: 400,
+                        y: 620,
+                        buildings: 24,
+                        width: 150,
+                        height: 40
+                    }
+                ]
+            },
+            soty: {
+                name: '🏢 Соты',
+                color: '#2ecc71',
+                y: 200,
+                height: 220,
+                description: 'Жилые платформы на фермах. Основная плотность населения.',
+                streets: [
+                    {
+                        name: 'Галерея Сот-Восток',
+                        x: 750,
+                        y: 220,
+                        buildings: 64,
+                        width: 190,
+                        height: 60
+                    },
+                    {
+                        name: 'Проспект Каркасный',
+                        x: 750,
+                        y: 330,
+                        buildings: 71,
+                        width: 250,
+                        height: 50
+                    }
+                ]
+            },
+            granit: {
+                name: '🏛️ Верхний Гранит',
+                color: '#e74c3c',
+                y: 50,
+                height: 120,
+                description: 'Административное кольцо. Башни управления, архивы.',
+                streets: [
+                    {
+                        name: 'Гранитный Круг',
+                        x: 400,
+                        y: 70,
+                        buildings: 58,
+                        width: 350,
+                        height: 40
+                    },
+                    {
+                        name: 'Улица Архивная',
+                        x: 400,
+                        y: 130,
+                        buildings: 19,
+                        width: 100,
+                        height: 30
+                    }
+                ]
+            },
+            sad: {
+                name: '🌿 Сад Ветров',
+                color: '#27ae60',
+                y: 200,
+                height: 220,
+                description: 'Зеленый пояс. Парки, биокупола, теплицы.',
+                streets: [
+                    {
+                        name: 'Аллея Ирисов',
+                        x: 1150,
+                        y: 220,
+                        buildings: 27,
+                        width: 160,
+                        height: 60
+                    },
+                    {
+                        name: 'Канальная улица',
+                        x: 1150,
+                        y: 320,
+                        buildings: 14,
+                        width: 130,
+                        height: 40
+                    }
+                ]
+            },
+            rebra: {
+                name: '⚠️ Нижние Ребра',
+                color: '#95a5a6',
+                y: 750,
+                height: 180,
+                description: 'Затопленный сектор. Контрабанда, подпольные лаборатории.',
+                streets: [
+                    {
+                        name: 'Теневой Ярус',
+                        x: 1200,
+                        y: 770,
+                        buildings: 38,
+                        width: 170,
+                        height: 40
+                    },
+                    {
+                        name: 'Улица Ржавых Лестниц',
+                        x: 1200,
+                        y: 850,
+                        buildings: 22,
+                        width: 160,
+                        height: 40
+                    }
+                ]
+            }
+        };
+
+        // ФУНКЦИИ РИСОВАНИЯ
+        function drawMap() {
+            ctx.fillStyle = '#0a0e27';
+            ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+            ctx.save();
+            ctx.translate(panX, panY);
+            ctx.scale(zoom, zoom);
+
+            // Рисуем сетку
+            if (showGrid) drawGrid();
+
+            // Рисуем реку
+            drawRiver();
+
+            // Рисуем все районы и здания
+            Object.values(districts).forEach(district => {
+                drawDistrict(district);
+            });
+
+            // Рисуем связи между районами
+            drawConnections();
+
+            ctx.restore();
+        }
+
+        function drawGrid() {
+            ctx.strokeStyle = 'rgba(255, 255, 255, 0.05)';
+            ctx.lineWidth = 1;
+
+            for (let i = 0; i < 2000; i += 50) {
+                // Вертикальные линии
+                ctx.beginPath();
+                ctx.moveTo(i, 0);
+                ctx.lineTo(i, 1000);
+                ctx.stroke();
+
+                // Горизонтальные линии
+                ctx.beginPath();
+                ctx.moveTo(0, i);
+                ctx.lineTo(1500, i);
+                ctx.stroke();
+            }
+        }
+
+        function drawRiver() {
+            ctx.fillStyle = 'rgba(52, 152, 219, 0.15)';
+            ctx.strokeStyle = '#3498db';
+            ctx.lineWidth = 40;
+
+            ctx.beginPath();
+            ctx.moveTo(0, 700);
+            ctx.quadraticCurveTo(750, 650, 1500, 700);
+            ctx.stroke();
+
+            // Заливка реки
+            ctx.beginPath();
+            ctx.moveTo(0, 680);
+            ctx.quadraticCurveTo(750, 630, 1500, 680);
+            ctx.lineTo(1500, 720);
+            ctx.quadraticCurveTo(750, 770, 0, 720);
+            ctx.closePath();
+            ctx.fill();
+
+            // Текст реки
+            ctx.fillStyle = '#3498db';
+            ctx.font = 'bold 20px Arial';
+            ctx.textAlign = 'center';
+            ctx.fillText('РЕКА КАРА-ЛИМН (радиоактивна)', 750, 740);
+        }
+
+        function drawDistrict(district) {
+            ctx.fillStyle = district.color;
+            ctx.globalAlpha = 0.1;
+            ctx.fillRect(district.streets[0].x - 20, district.y, 600, district.height);
+            ctx.globalAlpha = 1.0;
+
+            // Название района
+            ctx.fillStyle = district.color;
+            ctx.font = 'bold 18px Arial';
+            ctx.textAlign = 'left';
+            ctx.fillText(district.name, district.streets[0].x - 20, district.y - 10);
+
+            // Рисуем улицы с зданиями
+            district.streets.forEach(street => {
+                drawStreet(street, district.color);
+            });
+        }
+
+        function drawStreet(street, districtColor) {
+            const buildingWidth = street.width / street.buildings;
+            const buildingHeight = street.height / 2;
+
+            // Фон улицы
+            ctx.fillStyle = 'rgba(255, 255, 255, 0.05)';
+            ctx.strokeStyle = districtColor;
+            ctx.lineWidth = 2;
+            ctx.fillRect(street.x, street.y, street.width, street.height);
+            ctx.strokeRect(street.x, street.y, street.width, street.height);
+
+            // Название улицы
+            ctx.fillStyle = districtColor;
+            ctx.font = 'bold 12px Courier';
+            ctx.textAlign = 'left';
+            ctx.fillText(street.name + ` (${street.buildings} домов)`, street.x + 5, street.y - 5);
+
+            // Рисуем здания
+            for (let i = 0; i < street.buildings; i++) {
+                const buildX = street.x + (i % Math.ceil(street.buildings / 2)) * buildingWidth;
+                const buildY = street.y + Math.floor(i / Math.ceil(street.buildings / 2)) * buildingHeight;
+
+                // Основание здания
+                ctx.fillStyle = districtColor;
+                ctx.globalAlpha = 0.6;
+                ctx.fillRect(buildX + 1, buildY + 1, buildingWidth - 2, buildingHeight - 2);
+                ctx.globalAlpha = 1.0;
+
+                // Граница здания
+                ctx.strokeStyle = districtColor;
+                ctx.lineWidth = 1;
+                ctx.strokeRect(buildX + 1, buildY + 1, buildingWidth - 2, buildingHeight - 2);
+
+                // Окна
+                const windowSize = 3;
+                const windowGap = 2;
+                ctx.fillStyle = '#f39c12';
+                for (let wx = buildX + 3; wx < buildX + buildingWidth - 3; wx += windowGap + windowSize) {
+                    for (let wy = buildY + 3; wy < buildY + buildingHeight - 3; wy += windowGap + windowSize) {
+                        ctx.fillRect(wx, wy, windowSize, windowSize);
+                    }
+                }
+            }
+        }
+
+        function drawConnections() {
+            ctx.strokeStyle = '#f39c12';
+            ctx.lineWidth = 2;
+            ctx.setLineDash([5, 5]);
+
+            // Лифт между районами
+            ctx.beginPath();
+            ctx.moveTo(750, 400);
+            ctx.lineTo(750, 200);
+            ctx.stroke();
+
+            ctx.beginPath();
+            ctx.moveTo(750, 550);
+            ctx.lineTo(750, 700);
+            ctx.stroke();
+
+            // Мосты
+            ctx.beginPath();
+            ctx.moveTo(300, 700);
+            ctx.lineTo(1300, 700);
+            ctx.stroke();
+
+            ctx.setLineDash([]);
+        }
+
+        // УПРАВЛЕНИЕ КАРТОЙ
+        function resetMap() {
+            panX = 0;
+            panY = 0;
+            zoom = 1;
+            document.getElementById('zoomSlider').value = 1;
+            drawMap();
+        }
+
+        function setZoom(value) {
+            zoom = parseFloat(value);
+            drawMap();
+        }
+
+        function toggleGrid() {
+            showGrid = !showGrid;
+            drawMap();
+        }
+
+        // ОБРАБОТКА МЫШИ
+        let isDragging = false;
+        let dragX = 0;
+        let dragY = 0;
+
+        canvas.addEventListener('mousedown', (e) => {
+            isDragging = true;
+            dragX = e.clientX;
+            dragY = e.clientY;
+        });
+
+        canvas.addEventListener('mousemove', (e) => {
+            // Обновляем координаты
+            const rect = canvas.getBoundingClientRect();
+            const canvasX = e.clientX - rect.left;
+            const canvasY = e.clientY - rect.top;
+            document.getElementById('coordX').textContent = Math.round((canvasX - panX) / zoom);
+            document.getElementById('coordY').textContent = Math.round((canvasY - panY) / zoom);
+
+            if (isDragging) {
+                panX += e.clientX - dragX;
+                panY += e.clientY - dragY;
+                dragX = e.clientX;
+                dragY = e.clientY;
+                drawMap();
+            }
+        });
+
+        canvas.addEventListener('mouseup', () => {
+            isDragging = false;
+        });
+
+        canvas.addEventListener('wheel', (e) => {
+            e.preventDefault();
+            const zoomSpeed = 0.1;
+            const direction = e.deltaY > 0 ? -1 : 1;
+            const newZoom = Math.max(0.5, Math.min(3, zoom + direction * zoomSpeed));
+            zoom = newZoom;
+            document.getElementById('zoomSlider').value = zoom;
+            drawMap();
+        });
+
+        // Клик по зданию
+        canvas.addEventListener('click', (e) => {
+            const rect = canvas.getBoundingClientRect();
+            const canvasX = (e.clientX - rect.left - panX) / zoom;
+            const canvasY = (e.clientY - rect.top - panY) / zoom;
+
+            // Проверяем, в какое здание кликнули
+            let found = false;
+            for (const [districtKey, district] of Object.entries(districts)) {
+                for (const street of district.streets) {
+                    if (canvasX >= street.x && canvasX <= street.x + street.width &&
+                        canvasY >= street.y && canvasY <= street.y + street.height) {
+                        showBuildingInfo(street, district);
+                        found = true;
+                        break;
+                    }
+                }
+                if (found) break;
+            }
+        });
+
+        function showBuildingInfo(street, district) {
+            const infoPanel = document.getElementById('infoPanel');
+            document.getElementById('infoTitle').textContent = street.name;
+            document.getElementById('infoText').innerHTML = `
+                <strong>Район:</strong> ${district.name}<br>
+                <strong>Домов:</strong> ${street.buildings}<br>
+                <strong>Высота:</strong> +${Math.floor(Math.random() * 40) + 2}м<br>
+                <strong>Жителей:</strong> ~${Math.floor(street.buildings * 60)}<br>
+                <br>
+                <strong>Описание:</strong><br>
+                ${district.description}
+            `;
+            infoPanel.style.display = 'block';
+        }
+
+        // Адаптивность
+        window.addEventListener('resize', () => {
+            canvas.width = window.innerWidth - 280;
+            canvas.height = window.innerHeight;
+            drawMap();
+        });
+
+        // Начальная отрисовка
+        drawMap();
+    </script>
+</body>
+</html>

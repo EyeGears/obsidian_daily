@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Детальная карта Свинцовой Дельты</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Courier New', monospace;
+            background: #0a0e27;
+            color: #e0e0e0;
+            overflow: hidden;
+            height: 100vh;
+        }
+
+        .map-container {
+            display: flex;
+            height: 100vh;
+        }
+
+        .left-panel {
+            width: 300px;
+            background: rgba(10, 14, 39, 0.95);
+            border-right: 2px solid #f39c12;
+            overflow-y: auto;
+            padding: 15px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .right-panel {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+        }
+
+        .map-title {
+            color: #f39c12;
+            font-size: 1.2em;
+            font-weight: bold;
+            margin-bottom: 15px;
+            text-shadow: 0 0 10px rgba(243, 156, 18, 0.3);
+        }
+
+        .map-canvas {
+            flex: 1;
+            position: relative;
+            overflow: hidden;
+            background: linear-gradient(135deg, #0f1428 0%, #1a1f3a 100%);
+        }
+
+        .map-svg {
+            width: 100%;
+            height: 100%;
+            display: block;
+        }
+
+        .controls-top {
+            background: rgba(10, 14, 39, 0.9);
+            border-bottom: 2px solid #f39c12;
+            padding: 10px 15px;
+            display: flex;
+            gap: 10px;
+            align-items: center;
+        }
+
+        .control-btn {
+            background: #f39c12;
+            color: #0a0e27;
+            border: none;
+            padding: 6px 12px;
+            border-radius: 3px;
+            cursor: pointer;
+            font-weight: bold;
+            font-size: 0.85em;
+            transition: all 0.2s;
+        }
+
+        .control-btn:hover {
+            background: #f1c40f;
+            transform: scale(1.05);
+        }
+
+        .zoom-control {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 0.85em;
+        }
+
+        .zoom-control input {
+            width: 120px;
+            height: 6px;
+        }
+
+        .tooltip {
+            position: absolute;
+            background: rgba(0, 0, 0, 0.9);
+            color: #f39c12;
+            padding: 8px 12px;
+            border-radius: 3px;
+            font-size: 0.85em;
+            pointer-events: none;
+            z-index: 1000;
+            white-space: nowrap;
+            border: 1px solid #f39c12;
+        }
+
+        .panel-section {
+            margin-bottom: 20px;
+            padding: 12px;
+            background: rgba(255, 255, 255, 0.05);
+            border-left: 3px solid #f39c12;
+            border-radius: 3px;
+        }
+
+        .section-title {
+            color: #f39c12;
+            font-weight: bold;
+            margin-bottom: 10px;
+            font-size: 0.95em;
+        }
+
+        .building-list {
+            font-size: 0.8em;
+            color: #bdc3c7;
+            line-height: 1.5;
+        }
+
+        .building-item {
+            display: flex;
+            justify-content: space-between;
+            padding: 4px 0;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .building-item:last-child {
+            border-bottom: none;
+        }
+
+        .status-bar {
+            background: rgba(10, 14, 39, 0.9);
+            border-top: 1px solid #95a5a6;
+            padding: 8px 15px;
+            font-size: 0.8em;
+            color: #95a5a6;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .legend-compact {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 8px;
+            font-size: 0.75em;
+        }
+
+        .legend-item-small {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            padding: 4px;
+            background: rgba(255, 255, 255, 0.03);
+            border-radius: 2px;
+        }
+
+        .color-box {
+            width: 12px;
+            height: 12px;
+            border-radius: 2px;
+        }
+
+        @media (max-width: 1200px) {
+            .left-panel {
+                width: 250px;
+            }
+
+            .section-title {
+                font-size: 0.85em;
+            }
+
+            .building-list {
+                font-size: 0.75em;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .left-panel {
+                display: none;
+            }
+
+            .map-container {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="map-container">
+        <!-- ЛЕВАЯ ПАНЕЛЬ -->
+        <div class="left-panel">
+            <div class="map-title">🗺️ ПОДРОБНАЯ КАРТА</div>
+
+            <div class="panel-section">
+                <div class="section-title">📍 ТУМАННАЯ КРОМКА</div>
+                <div class="building-list">
+                    <div class="building-item">
+                        <span>Набережный Тракт</span>
+                        <span>46🏠</span>
+                    </div>
+                    <div class="building-item">
+                        <span>Шлюзовая ул.</span>
+                        <span>31🏠</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="panel-section">
+                <div class="section-title">⚙️ МЕДНЫЙ УЗЕЛ</div>
+                <div class="building-list">
+                    <div class="building-item">
+                        <span>Меднолит. Пр.</span>
+                        <span>52🏭</span>
+                    </div>
+                    <div class="building-item">
+                        <span>Клепальная ул.</span>
+                        <span>24🏭</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="panel-section">
+                <div class="section-title">🏢 СОТЫ</div>
+                <div class="building-list">
+                    <div class="building-item">
+                        <span>Сот-Восток</span>
+                        <span>64🏠</span>
+                    </div>
+                    <div class="building-item">
+                        <span>Каркасный Пр.</span>
+                        <span>71🏠</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="panel-section">
+                <div class="section-title">🏛️ ВЕРХНИЙ ГРАНИТ</div>
+                <div class="building-list">
+                    <div class="building-item">
+                        <span>Гранитный Круг</span>
+                        <span>58🏛️</span>
+                    </div>
+                    <div class="building-item">
+                        <span>Архивная ул.</span>
+                        <span>19📚</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="panel-section">
+                <div class="section-title">🌿 САД ВЕТРОВ</div>
+                <div class="building-list">
+                    <div class="building-item">
+                        <span>Аллея Ирисов</span>
+                        <span>27🌿</span>
+                    </div>
+                    <div class="building-item">
+                        <span>Канальная ул.</span>
+                        <span>14💧</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="panel-section">
+                <div class="section-title">⚠️ НИЖНИЕ РЕБРА</div>
+                <div class="building-list">
+                    <div class="building-item">
+                        <span>Теневой Ярус</span>
+                        <span>38⚫</span>
+                    </div>
+                    <div class="building-item">
+                        <span>Ржавых Лестниц</span>
+                        <span>22⚫</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="panel-section">
+                <div class="section-title">🔑 ЛЕГЕНДА</div>
+                <div class="legend-compact">
+                    <div class="legend-item-small">
+                        <div class="color-box" style="background: #3498db;"></div>
+                        <span>Туманная</span>
+                    </div>
+                    <div class="legend-item-small">
+                        <div class="color-box" style="background: #e67e22;"></div>
+                        <span>Медный</span>
+                    </div>
+                    <div class="legend-item-small">
+                        <div class="color-box" style="background: #2ecc71;"></div>
+                        <span>Соты</span>
+                    </div>
+                    <div class="legend-item-small">
+                        <div class="color-box" style="background: #e74c3c;"></div>
+                        <span>Гранит</span>
+                    </div>
+                    <div class="legend-item-small">
+                        <div class="color-box" style="background: #27ae60;"></div>
+                        <span>Сад</span>
+                    </div>
+                    <div class="legend-item-small">
+                        <div class="color-box" style="background: #95a5a6;"></div>
+                        <span>Ребра</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ПРАВАЯ ПАНЕЛЬ С КАРТОЙ -->
+        <div class="right-panel">
+            <div class="controls-top">
+                <button class="control-btn" onclick="resetView()">🔄 Сброс</button>
+                <button class="control-btn" onclick="toggleBuildings()">🏠 Здания</button>
+                <button class="control-btn" onclick="toggleLabels()">🔤 Названия</button>
+                <div class="zoom-control">
+                    <label>🔍</label>
+                    <input type="range" id="zoomSlider" min="50" max="300" value="100"
+                           onchange="updateZoom(this.value)">
+                    <span id="zoomPercent">100%</span>
+                </div>
+            </div>
+
+            <div class="map-canvas" id="mapCanvas">
+                <svg class="map-svg" id="mapSvg" viewBox="0 0 1600 1000">
+                    <!-- Фон -->
+                    <defs>
+                        <linearGradient id="skyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+                            <stop offset="0%" style="stop-color:#1a2f4f;stop-opacity:1" />
+                            <stop offset="100%" style="stop-color:#0f1428;stop-opacity:1" />
+                        </linearGradient>
+                    </defs>
+                    <rect width="1600" height="1000" fill="url(#skyGradient)"/>
+
+                    <!-- РЕКА -->
+                    <g id="river">
+                        <path d="M 0 650 Q 400 600, 800 650 T 1600 650" stroke="#3498db" stroke-width="80" fill="none" opacity="0.3"/>
+                        <path d="M 0 650 Q 400 600, 800 650 T 1600 650" stroke="#3498db" stroke-width="4" fill="none"/>
+                        <text x="800" y="700" text-anchor="middle" fill="#3498db" font-size="16" font-weight="bold">РЕКА КАРА-ЛИМН</text>
+                    </g>
+
+                    <!-- РАЙОНЫ И ЗДАНИЯ -->
+                    <g id="buildings"></g>
+
+                    <!-- ПОДПИСИ -->
+                    <g id="labels"></g>
+
+                    <!-- СВЯЗИ -->
+                    <g id="connections" stroke="#f39c12" stroke-width="2" stroke-dasharray="5,5" opacity="0.6">
+                        <!-- Лифты -->
+                        <line x1="800" y1="400" x2="800" y2="200"/>
+                        <line x1="800" y1="500" x2="800" y2="650"/>
+                        <!-- Мосты -->
+                        <line x1="300" y1="650" x2="1300" y2="650"/>
+                    </g>
+                </svg>
+            </div>
+
+            <div class="status-bar">
+                <span>⚡ Свинцовая Дельта | Масштаб: <span id="scaleInfo">100%</span> | Районов: 6 | Домов: 466</span>
+                <span id="mousePos">X: 0 | Y: 0</span>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const svg = document.getElementById('mapSvg');
+        const buildingsGroup = document.getElementById('buildings');
+        const labelsGroup = document.getElementById('labels');
+        let scale = 1;
+        let showBuildingLabels = true;
+
+        // ДАННЫЕ РАЙОНОВ
+        const districtsData = [
+            {
+                id: 'tumannaya',
+                name: '🌊 Туманная Кромка',
+                color: '#3498db',
+                x: 150,
+                y: 700,
+                width: 400,
+                height: 200,
+                buildings: [
+                    { name: 'Набережный Тракт', count: 46 },
+                    { name: 'Улица Шлюзовая', count: 31 }
+                ]
+            },
+            {
+                id: 'medny',
+                name: '⚙️ Медный Узел',
+                color: '#e67e22',
+                x: 400,
+                y: 450,
+                width: 400,
+                height: 220,
+                buildings: [
+                    { name: 'Меднолитейный Проспект', count: 52 },
+                    { name: 'Улица Клепальная', count: 24 }
+                ]
+            },
+            {
+                id: 'soty',
+                name: '🏢 Соты',
+                color: '#2ecc71',
+                x: 700,
+                y: 150,
+                width: 400,
+                height: 250,
+                buildings: [
+                    { name: 'Галерея Сот-Восток', count: 64 },
+                    { name: 'Проспект Каркасный', count: 71 }
+                ]
+            },
+            {
+                id: 'granit',
+                name: '🏛️ Верхний Гранит',
+                color: '#e74c3c',
+                x: 400,
+                y: 50,
+                width: 600,
+                height: 120,
+                buildings: [
+                    { name: 'Гранитный Круг', count: 58 },
+                    { name: 'Улица Архивная', count: 19 }
+                ]
+            },
+            {
+                id: 'sad',
+                name: '🌿 Сад Ветров',
+                color: '#27ae60',
+                x: 1050,
+                y: 150,
+                width: 400,
+                height: 250,
+                buildings: [
+                    { name: 'Аллея Ирисов', count: 27 },
+                    { name: 'Канальная улица', count: 14 }
+                ]
+            },
+            {
+                id: 'rebra',
+                name: '⚠️ Нижние Ребра',
+                color: '#95a5a6',
+                x: 1050,
+                y: 700,
+                width: 400,
+                height: 200,
+                buildings: [
+                    { name: 'Теневой Ярус', count: 38 },
+                    { name: 'Улица Ржавых Лестниц', count: 22 }
+                ]
+            }
+        ];
+
+        // ФУНКЦИЯ РИСОВАНИЯ ЗДАНИЙ
+        function drawBuildings() {
+            buildingsGroup.innerHTML = '';
+
+            districtsData.forEach(district => {
+                // Фон района
+                const bg = document.createElementNS('http://www.w3.org/2000/svg', 'rect');
+                bg.setAttribute('x', district.x);
+                bg.setAttribute('y', district.y);
+                bg.setAttribute('width', district.width);
+                bg.setAttribute('height', district.height);
+                bg.setAttribute('fill', district.color);
+                bg.setAttribute('opacity', '0.1');
+                bg.setAttribute('stroke', district.color);
+                bg.setAttribute('stroke-width', '2');
+                buildingsGroup.appendChild(bg);
+
+                // Здания
+                const buildingWidth = district.width / 15;
+                const buildingHeight = district.height / 8;
+                let buildingIndex = 0;
+                let totalBuildings = 0;
+
+                district.buildings.forEach(street => {
+                    totalBuildings += street.count;
+                });
+
+                const buildingsPerRow = Math.ceil(Math.sqrt(totalBuildings));
+
+                for (let i = 0; i < totalBuildings; i++) {
+                    const row = Math.floor(i / buildingsPerRow);
+                    const col = i % buildingsPerRow;
+
+                    const bx = district.x + col * buildingWidth;
+                    const by = district.y + row * buildingHeight;
+
+                    // Здание
+                    const building = document.createElementNS('http://www.w3.org/2000/svg', 'rect');
+                    building.setAttribute('x', bx);
+                    building.setAttribute('y', by);
+                    building.setAttribute('width', buildingWidth - 1);
+                    building.setAttribute('height', buildingHeight - 1);
+                    building.setAttribute('fill', district.color);
+                    building.setAttribute('opacity', '0.6');
+                    building.setAttribute('stroke', district.color);
+                    building.setAttribute('stroke-width', '0.5');
+                    building.classList.add('building');
+                    building.setAttribute('data-district', district.id);
+
+                    building.addEventListener('mouseover', (e) => {
+                        showTooltip(e, `${district.name}`);
+                        building.setAttribute('opacity', '0.9');
+                    });
+
+                    building.addEventListener('mouseout', () => {
+                        hideTooltip();
+                        building.setAttribute('opacity', '0.6');
+                    });
+
+                    buildingsGroup.appendChild(building);
+
+                    // Окна
+                    const windowSize = 1;
+                    const windowGap = 1;
+                    for (let wx = bx + 1; wx < bx + buildingWidth - 3; wx += windowGap + windowSize) {
+                        for (let wy = by + 1; wy < by + buildingHeight - 3; wy += windowGap + windowSize) {
+                            const window = document.createElementNS('http://www.w3.org/2000/svg', 'rect');
+                            window.setAttribute('x', wx);
+                            window.setAttribute('y', wy);
+                            window.setAttribute('width', windowSize);
+                            window.setAttribute('height', windowSize);
+                            window.setAttribute('fill', '#f39c12');
+                            window.setAttribute('opacity', '0.7');
+                            buildingsGroup.appendChild(window);
+                        }
+                    }
+                }
+            });
+
+            drawLabels();
+        }
+
+        // ФУНКЦИЯ РИСОВАНИЯ ПОДПИСЕЙ
+        function drawLabels() {
+            labelsGroup.innerHTML = '';
+
+            districtsData.forEach(district => {
+                // Название района
+                const title = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+                title.setAttribute('x', district.x + district.width / 2);
+                title.setAttribute('y', district.y - 10);
+                title.setAttribute('text-anchor', 'middle');
+                title.setAttribute('fill', district.color);
+                title.setAttribute('font-size', '14');
+                title.setAttribute('font-weight', 'bold');
+                title.textContent = district.name;
+                if (showBuildingLabels) labelsGroup.appendChild(title);
+
+                // Количество домов
+                let totalCount = 0;
+                district.buildings.forEach(street => {
+                    totalCount += street.count;
+                });
+
+                const count = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+                count.setAttribute('x', district.x + district.width / 2);
+                count.setAttribute('y', district.y + district.height + 15);
+                count.setAttribute('text-anchor', 'middle');
+                count.setAttribute('fill', district.color);
+                count.setAttribute('font-size', '12');
+                count.textContent = `${totalCount} домов`;
+                if (showBuildingLabels) labelsGroup.appendChild(count);
+            });
+        }
+
+        // УПРАВЛЕНИЕ
+        function resetView() {
+            document.getElementById('zoomSlider').value = 100;
+            updateZoom(100);
+        }
+
+        function toggleBuildings() {
+            const btn = event.target;
+            btn.style.opacity = btn.style.opacity === '0.5' ? '1' : '0.5';
+        }
+
+        function toggleLabels() {
+            showBuildingLabels = !showBuildingLabels;
+            drawLabels();
+        }
+
+        function updateZoom(value) {
+            scale = value / 100;
+            const svg = document.getElementById('mapSvg');
+            const canvas = document.getElementById('mapCanvas');
+
+            if (scale < 1) {
+                svg.style.width = (1600 * scale) + 'px';
+                svg.style.height = (1000 * scale) + 'px';
+            } else {
+                svg.style.width = '100%';
+                svg.style.height = '100%';
+            }
+
+            document.getElementById('zoomPercent').textContent = value + '%';
+            document.getElementById('scaleInfo').textContent = value + '%';
+        }
+
+        // ТУЛТИПЫ
+        function showTooltip(e, text) {
+            const tooltip = document.getElementById('tooltip') || document.createElement('div');
+            tooltip.id = 'tooltip';
+            tooltip.className = 'tooltip';
+            tooltip.textContent = text;
+            tooltip.style.left = e.clientX + 10 + 'px';
+            tooltip.style.top = e.clientY + 10 + 'px';
+            if (!document.getElementById('tooltip')) {
+                document.body.appendChild(tooltip);
+            }
+        }
+
+        function hideTooltip() {
+            const tooltip = document.getElementById('tooltip');
+            if (tooltip) tooltip.remove();
+        }
+
+        // ОТСЛЕЖИВАНИЕ МЫШИ
+        document.getElementById('mapCanvas').addEventListener('mousemove', (e) => {
+            const rect = document.getElementById('mapCanvas').getBoundingClientRect();
+            const x = Math.round((e.clientX - rect.left) / scale);
+            const y = Math.round((e.clientY - rect.top) / scale);
+            document.getElementById('mousePos').textContent = `X: ${x} | Y: ${y}`;
+        });
+
+        // ИНИЦИАЛИЗАЦИЯ
+        drawBuildings();
+    </script>
+</body>
+</html>
