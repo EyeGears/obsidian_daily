@@ -1,1 +1,6 @@
+---
+tags:
+  - area/thunderagegdd
+---
+
 # proverka

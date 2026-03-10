@@ -16,4 +16,6 @@ MC-size:
   - 423
   - 315
 MC-last-updated: 2025-11-19T02:35:27.232Z
+tags:
+  - area/шаблоны
 ---
