@@ -1,0 +1,8 @@
+﻿views:
+  - type: table
+    name: Таблица
+    filters:
+      and:
+        - file.folder == "ThunderAgeGDD/Нарратив/Группировки города"
+    order:
+      - file.name

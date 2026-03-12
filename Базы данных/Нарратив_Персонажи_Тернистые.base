@@ -1,0 +1,8 @@
+﻿views:
+  - type: table
+    name: Таблица
+    filters:
+      and:
+        - file.folder == "ThunderAgeGDD/Версия(0.56)/Персонажи/Тернистые"
+    order:
+      - file.name

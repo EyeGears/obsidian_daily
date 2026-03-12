@@ -3,6 +3,7 @@ tags:
   - area/echosystem
   - doc/dizdoc
   - status/active
+  - MAIN_PAGE
 ---
 
 # Echosystem — диздок (разделённый)

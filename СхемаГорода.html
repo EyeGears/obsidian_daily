@@ -1,0 +1,384 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>СхемаГорода — Либерти-Сити</title>
+  <style>
+    :root {
+      --bg: #0e0f12;
+      --panel: #15171c;
+      --ink: #f1f1f1;
+      --muted: #b7bcc5;
+      --line: #2a2e36;
+      --river: #2e3b55;
+
+      --lib-arkada: #c2c2c2;
+      --lib-korona: #a9a9a9;
+      --lib-redut: #9a9a9a;
+      --lib-sobor: #b0b0b0;
+      --lib-registr: #8e8e8e;
+      --lib-pautina: #7f7f7f;
+      --lib-shramy: #6d6d6d;
+
+      --sd-tum: #bdbdbd;
+      --sd-med: #9f9f9f;
+      --sd-soty: #adadad;
+      --sd-gran: #8a8a8a;
+      --sd-sad: #a3a3a3;
+      --sd-rebra: #7a7a7a;
+
+      --house: #e6e6e6;
+      --house-dark: #cfcfcf;
+      --admin: #f2f2f2;
+      --industrial: #b5b5b5;
+      --temple: #f7f7f7;
+      --plaza: #dbdbdb;
+      --station: #efefef;
+      --port: #c8c8c8;
+    }
+
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: "PT Serif", "Times New Roman", serif;
+    }
+
+    header {
+      padding: 20px 24px;
+      border-bottom: 1px solid var(--line);
+      background: linear-gradient(180deg, #121318, #0f1116);
+    }
+
+    h1 {
+      margin: 0 0 6px 0;
+      font-size: 24px;
+      letter-spacing: 0.4px;
+    }
+
+    .sub {
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .layout {
+      display: grid;
+      grid-template-columns: 1.2fr 0.8fr;
+      gap: 16px;
+      padding: 16px;
+    }
+
+    .card {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 12px;
+    }
+
+    .legend h2, .notes h2 { font-size: 14px; margin: 0 0 8px 0; }
+
+    .legend ul, .notes ul { list-style: none; padding: 0; margin: 0; }
+    .legend li, .notes li { margin: 6px 0; display: flex; align-items: center; gap: 8px; }
+
+    .swatch {
+      width: 14px;
+      height: 14px;
+      border: 1px solid #000;
+    }
+
+    .map-wrap {
+      width: 100%;
+      overflow: auto;
+    }
+
+    svg {
+      width: 100%;
+      height: auto;
+      background: #0f1116;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+    }
+
+    .district {
+      stroke: #0a0a0a;
+      stroke-width: 2;
+    }
+
+    .label {
+      fill: #f5f5f5;
+      font-size: 12px;
+      font-weight: 600;
+      text-shadow: 0 1px 0 #000;
+    }
+
+    .small {
+      fill: #d7d7d7;
+      font-size: 10px;
+    }
+
+    .river {
+      fill: var(--river);
+      opacity: 0.7;
+    }
+
+    .divider {
+      stroke: #f1f1f1;
+      stroke-width: 2;
+      stroke-dasharray: 6 4;
+      opacity: 0.35;
+    }
+
+    .road { stroke: #dadada; stroke-width: 5; opacity: 0.6; }
+    .road-minor { stroke: #bfbfbf; stroke-width: 3; opacity: 0.55; }
+    .bridge { stroke: #f5f5f5; stroke-width: 6; stroke-linecap: round; opacity: 0.85; }
+
+    .house { fill: var(--house); opacity: 0.8; stroke: #111; stroke-width: 0.6; }
+    .house-dark { fill: var(--house-dark); opacity: 0.8; stroke: #111; stroke-width: 0.6; }
+    .admin { fill: var(--admin); stroke: #111; stroke-width: 0.8; }
+    .industrial { fill: var(--industrial); stroke: #111; stroke-width: 0.8; }
+    .temple { fill: var(--temple); stroke: #111; stroke-width: 0.8; }
+    .plaza { fill: var(--plaza); stroke: #111; stroke-width: 0.8; }
+    .station { fill: var(--station); stroke: #111; stroke-width: 0.8; }
+    .port { fill: var(--port); stroke: #111; stroke-width: 0.8; }
+
+    @media (max-width: 980px) {
+      .layout { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Либерти-Сити — объединенная схема города</h1>
+    <div class="sub">Схема с квартальной плотностью, домами, дорогами, мостами, портами, вокзалом и площадями.</div>
+  </header>
+
+  <div class="layout">
+    <div class="card map-wrap">
+      <svg viewBox="0 0 1200 800" role="img" aria-label="Схема Либерти-Сити">
+        <!-- River -->
+        <path class="river" d="M0,430 C260,380 460,420 700,380 C920,350 1080,370 1200,330 L1200,430 C980,470 820,470 640,510 C420,560 220,520 0,560 Z" />
+
+        <!-- Districts -->
+        <rect class="district" x="60" y="70" width="360" height="160" fill="var(--lib-redut)" />
+        <rect class="district" x="440" y="70" width="300" height="160" fill="var(--lib-sobor)" />
+        <rect class="district" x="760" y="70" width="380" height="160" fill="var(--lib-registr)" />
+
+        <rect class="district" x="120" y="250" width="340" height="170" fill="var(--lib-arkada)" />
+        <rect class="district" x="500" y="250" width="320" height="170" fill="var(--lib-korona)" />
+
+        <rect class="district" x="60" y="450" width="330" height="170" fill="var(--lib-pautina)" />
+        <rect class="district" x="420" y="470" width="320" height="170" fill="var(--lib-shramy)" />
+
+        <rect class="district" x="780" y="250" width="360" height="170" fill="var(--sd-soty)" />
+        <rect class="district" x="780" y="450" width="360" height="170" fill="var(--sd-med)" />
+        <rect class="district" x="60" y="640" width="320" height="130" fill="var(--sd-tum)" />
+        <rect class="district" x="400" y="640" width="320" height="130" fill="var(--sd-gran)" />
+        <rect class="district" x="740" y="640" width="320" height="130" fill="var(--sd-sad)" />
+        <rect class="district" x="1080" y="640" width="100" height="130" fill="var(--sd-rebra)" />
+
+        <!-- Roads -->
+        <line class="road" x1="240" y1="80" x2="240" y2="770" />
+        <line class="road" x1="580" y1="80" x2="580" y2="770" />
+        <line class="road" x1="920" y1="80" x2="920" y2="770" />
+
+        <line class="road" x1="70" y1="180" x2="1140" y2="180" />
+        <line class="road" x1="90" y1="340" x2="1140" y2="340" />
+        <line class="road" x1="90" y1="520" x2="1140" y2="520" />
+        <line class="road" x1="90" y1="700" x2="1140" y2="700" />
+
+        <line class="road-minor" x1="140" y1="120" x2="140" y2="760" />
+        <line class="road-minor" x1="340" y1="120" x2="340" y2="760" />
+        <line class="road-minor" x1="440" y1="120" x2="440" y2="760" />
+        <line class="road-minor" x1="700" y1="120" x2="700" y2="760" />
+        <line class="road-minor" x1="820" y1="120" x2="820" y2="760" />
+        <line class="road-minor" x1="1040" y1="120" x2="1040" y2="760" />
+
+        <!-- Bridges -->
+        <line class="bridge" x1="260" y1="390" x2="320" y2="370" />
+        <line class="bridge" x1="560" y1="400" x2="620" y2="380" />
+        <line class="bridge" x1="900" y1="370" x2="980" y2="350" />
+
+        <!-- Plazas -->
+        <rect class="plaza" x="170" y="300" width="60" height="40" />
+        <rect class="plaza" x="540" y="300" width="60" height="40" />
+        <rect class="plaza" x="860" y="300" width="70" height="40" />
+        <rect class="plaza" x="200" y="640" width="70" height="40" />
+
+        <!-- Temples (Sabor area) -->
+        <rect class="temple" x="520" y="110" width="60" height="40" />
+        <rect class="temple" x="600" y="130" width="40" height="30" />
+
+        <!-- Admin (Registr) -->
+        <rect class="admin" x="840" y="110" width="80" height="45" />
+        <rect class="admin" x="930" y="120" width="70" height="35" />
+
+        <!-- Station (Redut) -->
+        <rect class="station" x="120" y="120" width="80" height="40" />
+        <rect class="station" x="210" y="120" width="50" height="30" />
+
+        <!-- Port (Arkada/Pautina) -->
+        <rect class="port" x="150" y="410" width="140" height="30" />
+        <rect class="port" x="170" y="440" width="100" height="20" />
+
+        <!-- Industrial (Medny Uzel / Shramy) -->
+        <rect class="industrial" x="820" y="500" width="110" height="50" />
+        <rect class="industrial" x="520" y="540" width="90" height="40" />
+
+        <!-- Houses: dense grids by district -->
+        <!-- Redut dense -->
+        <g>
+          <rect class="house" x="80" y="90" width="16" height="10" />
+          <rect class="house" x="100" y="90" width="16" height="10" />
+          <rect class="house" x="120" y="90" width="16" height="10" />
+          <rect class="house" x="140" y="90" width="16" height="10" />
+          <rect class="house" x="160" y="90" width="16" height="10" />
+          <rect class="house" x="180" y="90" width="16" height="10" />
+          <rect class="house" x="200" y="90" width="16" height="10" />
+          <rect class="house" x="220" y="90" width="16" height="10" />
+          <rect class="house" x="240" y="90" width="16" height="10" />
+          <rect class="house" x="260" y="90" width="16" height="10" />
+          <rect class="house" x="280" y="90" width="16" height="10" />
+        </g>
+
+        <!-- Arkada dense -->
+        <g>
+          <rect class="house" x="140" y="270" width="16" height="10" />
+          <rect class="house" x="160" y="270" width="16" height="10" />
+          <rect class="house" x="180" y="270" width="16" height="10" />
+          <rect class="house" x="200" y="270" width="16" height="10" />
+          <rect class="house" x="220" y="270" width="16" height="10" />
+          <rect class="house" x="240" y="270" width="16" height="10" />
+          <rect class="house" x="260" y="270" width="16" height="10" />
+          <rect class="house" x="280" y="270" width="16" height="10" />
+          <rect class="house" x="300" y="270" width="16" height="10" />
+        </g>
+
+        <!-- Korona medium -->
+        <g>
+          <rect class="house-dark" x="520" y="270" width="20" height="12" />
+          <rect class="house-dark" x="545" y="270" width="20" height="12" />
+          <rect class="house-dark" x="570" y="270" width="20" height="12" />
+          <rect class="house-dark" x="595" y="270" width="20" height="12" />
+          <rect class="house-dark" x="620" y="270" width="20" height="12" />
+        </g>
+
+        <!-- Pautina very dense -->
+        <g>
+          <rect class="house" x="90" y="470" width="12" height="9" />
+          <rect class="house" x="104" y="470" width="12" height="9" />
+          <rect class="house" x="118" y="470" width="12" height="9" />
+          <rect class="house" x="132" y="470" width="12" height="9" />
+          <rect class="house" x="146" y="470" width="12" height="9" />
+          <rect class="house" x="160" y="470" width="12" height="9" />
+          <rect class="house" x="174" y="470" width="12" height="9" />
+          <rect class="house" x="188" y="470" width="12" height="9" />
+        </g>
+
+        <!-- Soty dense -->
+        <g>
+          <rect class="house" x="800" y="270" width="14" height="10" />
+          <rect class="house" x="818" y="270" width="14" height="10" />
+          <rect class="house" x="836" y="270" width="14" height="10" />
+          <rect class="house" x="854" y="270" width="14" height="10" />
+          <rect class="house" x="872" y="270" width="14" height="10" />
+          <rect class="house" x="890" y="270" width="14" height="10" />
+          <rect class="house" x="908" y="270" width="14" height="10" />
+        </g>
+
+        <!-- Medny Uzel medium -->
+        <g>
+          <rect class="house-dark" x="800" y="470" width="14" height="10" />
+          <rect class="house-dark" x="818" y="470" width="14" height="10" />
+          <rect class="house-dark" x="836" y="470" width="14" height="10" />
+          <rect class="house-dark" x="854" y="470" width="14" height="10" />
+          <rect class="house-dark" x="872" y="470" width="14" height="10" />
+        </g>
+
+        <!-- Tumannaya Kromka low -->
+        <g>
+          <rect class="house" x="80" y="670" width="18" height="12" />
+          <rect class="house" x="105" y="670" width="18" height="12" />
+          <rect class="house" x="130" y="670" width="18" height="12" />
+        </g>
+
+        <!-- Upper Granit medium -->
+        <g>
+          <rect class="house-dark" x="420" y="670" width="18" height="12" />
+          <rect class="house-dark" x="445" y="670" width="18" height="12" />
+          <rect class="house-dark" x="470" y="670" width="18" height="12" />
+        </g>
+
+        <!-- Sad Vetrov low -->
+        <g>
+          <rect class="house" x="760" y="670" width="18" height="12" />
+          <rect class="house" x="785" y="670" width="18" height="12" />
+          <rect class="house" x="810" y="670" width="18" height="12" />
+        </g>
+
+        <!-- Divider -->
+        <line class="divider" x1="740" y1="40" x2="740" y2="780" />
+
+        <!-- Labels -->
+        <text class="label" x="90" y="110">Редут</text>
+        <text class="label" x="470" y="110">Собор</text>
+        <text class="label" x="790" y="110">Регистр</text>
+        <text class="label" x="140" y="290">Аркада</text>
+        <text class="label" x="520" y="290">Корона</text>
+        <text class="label" x="90" y="490">Паутина</text>
+        <text class="label" x="440" y="510">Шрамы</text>
+        <text class="label" x="800" y="290">Соты</text>
+        <text class="label" x="800" y="490">Медный Узел</text>
+        <text class="label" x="80" y="680">Туманная Кромка</text>
+        <text class="label" x="420" y="680">Верхний Гранит</text>
+        <text class="label" x="760" y="680">Сад Ветров</text>
+        <text class="label" x="1086" y="680">Нижние Ребра</text>
+
+        <text class="small" x="760" y="30">Секция Либерии</text>
+        <text class="small" x="760" y="60">(историческое ядро)</text>
+        <text class="small" x="820" y="780">Секция Свинцовой Дельты</text>
+      </svg>
+    </div>
+
+    <div class="card legend">
+      <h2>Легенда районов</h2>
+      <ul>
+        <li><span class="swatch" style="background: var(--lib-arkada)"></span>Аркада</li>
+        <li><span class="swatch" style="background: var(--lib-korona)"></span>Корона</li>
+        <li><span class="swatch" style="background: var(--lib-redut)"></span>Редут</li>
+        <li><span class="swatch" style="background: var(--lib-sobor)"></span>Собор</li>
+        <li><span class="swatch" style="background: var(--lib-registr)"></span>Регистр</li>
+        <li><span class="swatch" style="background: var(--lib-pautina)"></span>Паутина</li>
+        <li><span class="swatch" style="background: var(--lib-shramy)"></span>Шрамы</li>
+        <li><span class="swatch" style="background: var(--sd-tum)"></span>Туманная Кромка</li>
+        <li><span class="swatch" style="background: var(--sd-med)"></span>Медный Узел</li>
+        <li><span class="swatch" style="background: var(--sd-soty)"></span>Соты</li>
+        <li><span class="swatch" style="background: var(--sd-gran)"></span>Верхний Гранит</li>
+        <li><span class="swatch" style="background: var(--sd-sad)"></span>Сад Ветров</li>
+        <li><span class="swatch" style="background: var(--sd-rebra)"></span>Нижние Ребра</li>
+      </ul>
+      <h2 style="margin-top:12px;">Типы объектов</h2>
+      <ul>
+        <li><span class="swatch" style="background: var(--house)"></span>Жилые дома</li>
+        <li><span class="swatch" style="background: var(--admin)"></span>Администрация</li>
+        <li><span class="swatch" style="background: var(--industrial)"></span>Промзоны</li>
+        <li><span class="swatch" style="background: var(--temple)"></span>Храмы</li>
+        <li><span class="swatch" style="background: var(--plaza)"></span>Площади</li>
+        <li><span class="swatch" style="background: var(--station)"></span>Вокзал</li>
+        <li><span class="swatch" style="background: var(--port)"></span>Порт</li>
+      </ul>
+    </div>
+
+    <div class="card notes">
+      <h2>Примечания</h2>
+      <ul>
+        <li>Плотность кварталов повышена в Аркаде, Паутинах и Сотах.</li>
+        <li>Корона и Верхний Гранит — средняя плотность, более крупные дома.</li>
+        <li>Туманная Кромка и Сад Ветров — низкая плотность и больше пространства.</li>
+        <li>Промзоны и Шрамы отмечены отдельно.</li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>

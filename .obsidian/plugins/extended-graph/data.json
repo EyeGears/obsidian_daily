@@ -86,7 +86,141 @@
     "hideUnresolved": false,
     "showOrphans": true,
     "collapse-color-groups": true,
-    "colorGroups": [],
+    "colorGroups": [
+      {
+        "query": "path:\"desert/\"",
+        "color": {
+          "a": 1,
+          "rgb": 15881300
+        }
+      },
+      {
+        "query": "path:\"dungeon godot/\"",
+        "color": {
+          "a": 1,
+          "rgb": 15894100
+        }
+      },
+      {
+        "query": "path:\"echosystem/\"",
+        "color": {
+          "a": 1,
+          "rgb": 15906900
+        }
+      },
+      {
+        "query": "path:\"ThunderAgeGDD/\"",
+        "color": {
+          "a": 1,
+          "rgb": 15919444
+        }
+      },
+      {
+        "query": "path:\"Анимация обучение/\"",
+        "color": {
+          "a": 1,
+          "rgb": 13169236
+        }
+      },
+      {
+        "query": "path:\"Годот/\"",
+        "color": {
+          "a": 1,
+          "rgb": 9957972
+        }
+      },
+      {
+        "query": "path:\"данганронпа/\"",
+        "color": {
+          "a": 1,
+          "rgb": 6681172
+        }
+      },
+      {
+        "query": "path:\"дарк соулс/\"",
+        "color": {
+          "a": 1,
+          "rgb": 5567093
+        }
+      },
+      {
+        "query": "path:\"ежедневник/\"",
+        "color": {
+          "a": 1,
+          "rgb": 5567143
+        }
+      },
+      {
+        "query": "path:\"Заметки на различные вещи/\"",
+        "color": {
+          "a": 1,
+          "rgb": 5567193
+        }
+      },
+      {
+        "query": "path:\"Лучник шутер/\"",
+        "color": {
+          "a": 1,
+          "rgb": 5560818
+        }
+      },
+      {
+        "query": "path:\"Материалы (свалка)/\"",
+        "color": {
+          "a": 1,
+          "rgb": 5548018
+        }
+      },
+      {
+        "query": "path:\"Рейд шутер/\"",
+        "color": {
+          "a": 1,
+          "rgb": 5535218
+        }
+      },
+      {
+        "query": "path:\"слешер без перекатов/\"",
+        "color": {
+          "a": 1,
+          "rgb": 6640882
+        }
+      },
+      {
+        "query": "path:\"ТГ КАНАЛ/\"",
+        "color": {
+          "a": 1,
+          "rgb": 9917682
+        }
+      },
+      {
+        "query": "path:\"театр/\"",
+        "color": {
+          "a": 1,
+          "rgb": 13128946
+        }
+      },
+      {
+        "query": "path:\"Шаблон общий/\"",
+        "color": {
+          "a": 1,
+          "rgb": 15881449
+        }
+      },
+      {
+        "query": "path:\"Шаблоны/\"",
+        "color": {
+          "a": 1,
+          "rgb": 15881400
+        }
+      },
+      {
+        "query": "path:\"Шутер/\"",
+        "color": {
+          "a": 1,
+          "rgb": 15881350
+        }
+      }
+    ],
     "collapse-display": true,
     "showArrow": false,
     "textFadeMultiplier": 0,
@@ -97,8 +231,8 @@
     "repelStrength": 10,
     "linkStrength": 1,
     "linkDistance": 250,
-    "scale": 1,
-    "close": false
+    "scale": 0.7132754626224312,
+    "close": true
   },
   "openInNewTab": false,
   "canonicalizePropertiesWithDataview": true,
