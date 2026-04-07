@@ -1,6 +1,7 @@
 {
   "customOrder": {
     "/": [
+      "ThunderAgeGDD(1.0)",
       "Анализ навыков.md",
       "СхемаГорода.html",
       "AUDIT_LORE_GAPS.md",
@@ -436,6 +437,7 @@
       "echosystem/Заметки.md"
     ],
     "ThunderAgeGDD": [
+      "ThunderAgeGDD/Реверс инженеринг лимбус.md",
       "ThunderAgeGDD/Технологии сеттинга",
       "ThunderAgeGDD/JRPG Тактический Геймплей",
       "ThunderAgeGDD/Сюжет промпт",
@@ -639,6 +641,7 @@
       "ThunderAgeGDD/Версия(0.56)/Персонажи/Пауки/Аликс Нерман.md"
     ],
     "ThunderAgeGDD/Версия(0.56)/Персонажи/Тернистые": [
+      "ThunderAgeGDD/Версия(0.56)/Персонажи/Тернистые/Артем Остапов",
       "ThunderAgeGDD/Версия(0.56)/Персонажи/Тернистые/Главная.md",
       "ThunderAgeGDD/Версия(0.56)/Персонажи/Тернистые/Франц Фердинанд.md",
       "ThunderAgeGDD/Версия(0.56)/Персонажи/Тернистые/Феликс Гадюка.md",
@@ -650,8 +653,7 @@
       "ThunderAgeGDD/Версия(0.56)/Персонажи/Тернистые/Клара Мортис.md",
       "ThunderAgeGDD/Версия(0.56)/Персонажи/Тернистые/Маркус Ферр.md",
       "ThunderAgeGDD/Версия(0.56)/Персонажи/Тернистые/Лина Моор.md",
-      "ThunderAgeGDD/Версия(0.56)/Персонажи/Тернистые/Волк.md",
-      "ThunderAgeGDD/Версия(0.56)/Персонажи/Тернистые/Артем Остапов.md"
+      "ThunderAgeGDD/Версия(0.56)/Персонажи/Тернистые/Волк.md"
     ],
     "ThunderAgeGDD/Игровой процесс": [
       "ThunderAgeGDD/Игровой процесс/Главная.md",
@@ -730,6 +732,8 @@
       "ThunderAgeGDD/Материалы/image-1.png"
     ],
     "ThunderAgeGDD/Нарратив": [
+      "ThunderAgeGDD/Нарратив/Диалоги — городской сленг.md",
+      "ThunderAgeGDD/Нарратив/На будущее сюжет.md",
       "ThunderAgeGDD/Нарратив/Демоны - детальное описание.md",
       "ThunderAgeGDD/Нарратив/Лидеры фракций.md",
       "ThunderAgeGDD/Нарратив/Персонажи - основная команда.md",
@@ -760,6 +764,7 @@
       "ThunderAgeGDD/Нарратив/История/Либерия.md"
     ],
     "ThunderAgeGDD/Сеттинг": [
+      "ThunderAgeGDD/Сеттинг/Словарь сленга.md",
       "ThunderAgeGDD/Сеттинг/Железные дороги.md",
       "ThunderAgeGDD/Сеттинг/Система погоды.md",
       "ThunderAgeGDD/Сеттинг/Главная.md",
@@ -820,6 +825,10 @@
       "ThunderAgeGDD/JRPG Тактический Геймплей/12 — Исследование и переход в бой.md",
       "ThunderAgeGDD/JRPG Тактический Геймплей/13 — Промпт для разработчика (Godot 4).md",
       "ThunderAgeGDD/JRPG Тактический Геймплей/14 — Быстрый старт вайбкодинга.md"
+    ],
+    "ThunderAgeGDD(1.0)": [
+      "ThunderAgeGDD(1.0)/00 — Заготовки и исправления.md",
+      "ThunderAgeGDD(1.0)/01 — Борд задач.md"
     ]
   },
   "sortOrder": "customOrder",

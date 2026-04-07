@@ -1,0 +1,4 @@
+---
+tags:
+  - MAIN_PAGE
+---

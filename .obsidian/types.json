@@ -3,6 +3,7 @@
     "aliases": "aliases",
     "cssclasses": "multitext",
     "tags": "tags",
-    "Статус задачи": "multitext"
+    "Статус задачи": "multitext",
+    "Статус в сюжете": "text"
   }
 }
