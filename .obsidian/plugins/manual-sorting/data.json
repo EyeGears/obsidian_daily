@@ -1,7 +1,8 @@
 {
   "customOrder": {
     "/": [
-      "1.md",
+      "exodus_quests_big_flowchart.md",
+      "экспедиция 33 хуйня.md",
       "ThunderAgeGDD(1.0)",
       "Анализ навыков.md",
       "СхемаГорода.html",
@@ -759,6 +760,7 @@
       "ThunderAgeGDD/Нарратив/Группировки города/Untitled 1.md"
     ],
     "ThunderAgeGDD/Нарратив/История": [
+      "ThunderAgeGDD/Нарратив/История/Основание Либерии.md",
       "ThunderAgeGDD/Нарратив/История/Главная.md",
       "ThunderAgeGDD/Нарратив/История/Хронология мира и города.md",
       "ThunderAgeGDD/Нарратив/История/Либертвайл.md",
@@ -828,6 +830,8 @@
       "ThunderAgeGDD/JRPG Тактический Геймплей/14 — Быстрый старт вайбкодинга.md"
     ],
     "ThunderAgeGDD(1.0)": [
+      "ThunderAgeGDD(1.0)/Боевая Система — Лимбус Стиль.md",
+      "ThunderAgeGDD(1.0)/Геймплейная Основа.md",
       "ThunderAgeGDD(1.0)/Заметки по анализу stalkash.md",
       "ThunderAgeGDD(1.0)/События Устранение Дома Лэйнов.md",
       "ThunderAgeGDD(1.0)/Хронология событий игры.md",
