@@ -11,10 +11,15 @@
             "id": "6c58dc72316356b8",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "GDDskald/Геймдизайн/Контроль и движение.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
               "icon": "lucide-file",
-              "title": "Новая вкладка"
+              "title": "Контроль и движение"
             }
           }
         ]
@@ -224,18 +229,18 @@
   },
   "active": "6c58dc72316356b8",
   "lastOpenFiles": [
+    "GDDskald/Геймдизайн/Главная.md",
+    "GDDskald/Главная.md",
+    "GDDskald/GDD UXUI.pdf",
+    "GDDskald/~$D _Skald_.docx",
+    "GDDskald/MVP.pdf",
+    "GDDskald/Глава I — ГДД Боевая сцена c Томте.pdf",
     "ThunderAgeGDD(1.0)/Борд задач.md",
     "GDDskald/Геймдизайн/Диегетический UI и обратная связь.md",
     "GDDskald/Геймдизайн/Единственный босс — структура.md",
     "GDDskald/Геймдизайн/Единственный босс — фазы.md",
-    "GDDskald/Геймдизайн/Главная.md",
-    "GDDskald/Главная.md",
     "GDDskald/Нарратив/Главная.md",
-    "GDDskald/MVP.pdf",
-    "GDDskald/GDD UXUI.pdf",
-    "GDDskald/~$D _Skald_.docx",
     "GDDskald/Глава I Деревня.pdf",
-    "GDDskald/Глава I — ГДД Боевая сцена c Томте.pdf",
     "данганронпа/Дела/Дело 05 - Идеальное алиби будущего.md",
     "GDDskald/00_Геймплей_индекс.md",
     "GDDskald/Нарратив",
@@ -258,7 +263,6 @@
     "GDDskald/09_Баланс_без_цифр.md",
     "ThunderAgeGDD(1.0)/Нарратив Основа.md",
     "ThunderAgeGDD(1.0)/Главная ThunderAge 1.0.md",
-    "ThunderAgeGDD(1.0)/Пепел Первого Солнца.md",
     "Список персонажей.canvas",
     "данганронпа/Дела",
     "ThunderAge(1.0)/Список персонажей.canvas",
