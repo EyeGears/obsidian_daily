@@ -13,16 +13,32 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "desertCORE/gameplay_analysis.md",
+                "file": "desertCORE/gameplay_analysis 1.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "gameplay_analysis"
+              "title": "gameplay_analysis 1"
+            }
+          },
+          {
+            "id": "ad96a0ca21ec32d1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "дарк соулс/Боссы с гиммиками.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Боссы с гиммиками"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -41,7 +57,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "Босс",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -227,8 +243,32 @@
       "media-companion:Open gallery": false
     }
   },
-  "active": "6c58dc72316356b8",
+  "active": "ad96a0ca21ec32d1",
   "lastOpenFiles": [
+    "Исследование метроидвания способности.md",
+    "дарк соулс/Главная.md",
+    "дарк соулс/Тенденции.md",
+    "дарк соулс/Боссы с гиммиками.md",
+    "Список персонажей.canvas",
+    "GDDskald/Нарратив/Главная.md",
+    "GDDskald/Глава I — ГДД Боевая сцена c Томте.pdf",
+    "GDDskald/Геймдизайн/Диегетический UI и обратная связь.md",
+    "GDDskald/Геймдизайн/Детализация геймплея и механик.md",
+    "GDDskald/Геймдизайн/Единственный босс — фазы.md",
+    "GDDskald/Геймдизайн/Инструменты Скальда.md",
+    "GDDskald/Геймдизайн/Исследование и головоломки.md",
+    "GDDskald/Геймдизайн/Контроль и движение.md",
+    "GDDskald/Геймдизайн/Ситуации и мини-сцены.md",
+    "GDDskald/Геймдизайн/Референсы уникальных боссов FromSoftware.md",
+    "desertCORE/gameplay_analysis 1.md",
+    "desertCORE/hub-workshop-ui-start-screen-concept.png.sidecar.md",
+    "desertCORE/hub-workshop-ui-start-screen-concept.png",
+    "desertCORE/31-hub-workshop.md",
+    "desertCORE/hub-workshop-concept.png.sidecar.md",
+    "desertCORE/hub-workshop-concept.png",
+    "desertCORE/message.txt",
+    "desertCORE/gameplay_analysis.md",
+    "desertCORE/gameplay_mechanics_mind_map.canvas",
     "Материалы (свалка)/image-27.png.sidecar.md",
     "Материалы (свалка)/image-27.png",
     "desertCORE/00-glossary-tbd.docx",
@@ -236,38 +276,16 @@
     "desertCORE/22-fuel-and-energy.docx",
     "desertCORE/23-enemy-weak-points.docx",
     "desertCORE/24-combat-arena-wave-prototype.docx",
-    "desertCORE/gameplay_mechanics_mind_map.canvas",
     "desertCORE/~$-glossary-tbd.docx",
-    "GDDskald/Геймдизайн/Контроль и движение.md",
-    "desertCORE/gameplay_analysis.md",
     "desertCORE/30-unity-project-setup-and-controls.docx",
     "desertCORE/29-physical-decorative-objects.docx",
-    "desertCORE/28-weather-wind-day-night.docx",
-    "desertCORE/27-boss-hyena.docx",
     "GDDskald/Геймдизайн/Главная.md",
     "GDDskald/Главная.md",
     "ThunderAgeGDD(1.0)/Борд задач.md",
-    "GDDskald/Геймдизайн/Диегетический UI и обратная связь.md",
     "GDDskald/Геймдизайн/Единственный босс — структура.md",
-    "GDDskald/Геймдизайн/Единственный босс — фазы.md",
-    "GDDskald/Нарратив/Главная.md",
     "данганронпа/Дела/Дело 05 - Идеальное алиби будущего.md",
     "GDDskald/00_Геймплей_индекс.md",
     "GDDskald/Код/Главная.md",
-    "GDDskald/Геймдизайн/Ситуации и мини-сцены.md",
-    "GDDskald/Геймдизайн/Исследование и головоломки.md",
-    "GDDskald/Геймдизайн/Инструменты Скальда.md",
-    "GDDskald/Геймдизайн/Детализация геймплея и механик.md",
-    "GDDskald/Геймдизайн/Геймплейные принципы.md",
-    "GDDskald/Геймдизайн/Геймплейная документация.md",
-    "GDDskald/Геймдизайн/Баланс без цифр.md",
-    "GDDskald/Арт/Главная.md",
-    "GDDskald/02_Контроль_и_движение.md",
-    "GDDskald/04_Исследование_и_головоломки.md",
-    "GDDskald/10_Детализация_геймплея_и_механик.md",
-    "GDDskald/09_Баланс_без_цифр.md",
-    "ThunderAgeGDD(1.0)/Нарратив Основа.md",
-    "Список персонажей.canvas",
     "ThunderAge(1.0)/Список персонажей.canvas",
     "Материалы (свалка)/image-26.png",
     "Материалы (свалка)/image-25.png",
@@ -276,8 +294,6 @@
     "Материалы (свалка)/image-22.png",
     "Материалы (свалка)/image-21.png",
     "Материалы (свалка)/image-20.png",
-    "Материалы (свалка)/image-19.png",
-    "Материалы (свалка)/image-18.png",
     "DefaultFolder/Без названия 1.canvas",
     "DefaultFolder/Без названия.canvas",
     "Доска референсов/Референс рас.canvas",

@@ -1,841 +1,94 @@
 {
-	"nodes": [
-		{
-			"id": "g-core",
-			"type": "group",
-			"x": -1520,
-			"y": -470,
-			"width": 700,
-			"height": 1090,
-			"color": "1",
-			"label": "Главный цикл"
-		},
-		{
-			"id": "g-ship",
-			"type": "group",
-			"x": -650,
-			"y": -470,
-			"width": 690,
-			"height": 1090,
-			"color": "2",
-			"label": "Корабль и управление"
-		},
-		{
-			"id": "g-combat",
-			"type": "group",
-			"x": 200,
-			"y": -470,
-			"width": 730,
-			"height": 1090,
-			"color": "3",
-			"label": "Бой"
-		},
-		{
-			"id": "g-economy",
-			"type": "group",
-			"x": 1080,
-			"y": -470,
-			"width": 730,
-			"height": 1090,
-			"color": "4",
-			"label": "Ресурсы, лут, прогрессия"
-		},
-		{
-			"id": "g-world",
-			"type": "group",
-			"x": 1970,
-			"y": -470,
-			"width": 720,
-			"height": 1090,
-			"color": "5",
-			"label": "Мир и контент"
-		},
-		{
-			"id": "g-risk",
-			"type": "group",
-			"x": 2820,
-			"y": -470,
-			"width": 720,
-			"height": 1090,
-			"color": "6",
-			"label": "Риски и отложить из MVP"
-		},
-		{
-			"id": "source-analysis",
-			"type": "file",
-			"file": "desertCORE/gameplay_analysis.md",
-			"label": "Источник: gameplay_analysis.md",
-			"x": -1520,
-			"y": -700,
-			"width": 500,
-			"height": 110,
-			"color": "6"
-		},
-		{
-			"id": "legend",
-			"type": "text",
-			"text": "Как читать доску\n\nСтрелки показывают зависимости механик.\nЗелёный/синий блоки — ядро MVP.\nЖёлтые/фиолетовые — расширение и риски.\nГлавная проверка: корабль → вылазка → риск → бой → добыча → возврат → улучшение.",
-			"x": -980,
-			"y": -700,
-			"width": 620,
-			"height": 160,
-			"color": "6"
-		},
-		{
-			"id": "prep",
-			"type": "text",
-			"text": "Подготовка\n\nВыбор цели вылазки, оружия, состояния корабля и минимального запаса риска.",
-			"x": -1480,
-			"y": -350,
-			"width": 300,
-			"height": 150,
-			"color": "1"
-		},
-		{
-			"id": "sortie",
-			"type": "text",
-			"text": "Выезд / маршрут\n\nКороткая 5–10 минутная вылазка. Игрок понимает путь, цель и цену продолжения.",
-			"x": -1480,
-			"y": -120,
-			"width": 300,
-			"height": 160,
-			"color": "1"
-		},
-		{
-			"id": "poi",
-			"type": "text",
-			"text": "Точка интереса\n\nМесто, где маршрут превращается в риск: бой, лут, препятствие или опасная зона.",
-			"x": -1480,
-			"y": 130,
-			"width": 300,
-			"height": 150,
-			"color": "1"
-		},
-		{
-			"id": "choice",
-			"type": "text",
-			"text": "Решение\n\nПродолжить глубже в пустыню или вернуться с текущей добычей.",
-			"x": -1480,
-			"y": 360,
-			"width": 300,
-			"height": 140,
-			"color": "1"
-		},
-		{
-			"id": "return",
-			"type": "text",
-			"text": "Возврат на базу\n\nБезопасное состояние: ремонт, улучшение, крафт, следующий выезд.",
-			"x": -1120,
-			"y": 360,
-			"width": 300,
-			"height": 140,
-			"color": "1"
-		},
-		{
-			"id": "ship",
-			"type": "text",
-			"text": "Корабль-машина\n\nГлавный аватар игрока. Должен ощущаться тяжёлым, но отзывчивым.",
-			"x": -610,
-			"y": -350,
-			"width": 300,
-			"height": 150,
-			"color": "2"
-		},
-		{
-			"id": "controls",
-			"type": "text",
-			"text": "Управление / feel\n\nУскорение, торможение, поворот, инерция, контролируемый занос.",
-			"x": -610,
-			"y": -120,
-			"width": 300,
-			"height": 150,
-			"color": "2"
-		},
-		{
-			"id": "camera",
-			"type": "text",
-			"text": "Камера\n\nЧитает дорогу, врагов, снаряды и слабые точки. Не должна ломать прицеливание.",
-			"x": -250,
-			"y": -120,
-			"width": 300,
-			"height": 150,
-			"color": "2"
-		},
-		{
-			"id": "modes",
-			"type": "text",
-			"text": "Travel / Combat режимы\n\nTravel даёт скорость и свободу. Combat даёт точность, читаемость и контроль дистанции.",
-			"x": -610,
-			"y": 130,
-			"width": 300,
-			"height": 170,
-			"color": "2"
-		},
-		{
-			"id": "hook-dodge",
-			"type": "text",
-			"text": "Мобильность и защита\n\nУклонение, спринт/рывок, крюк-якорь — только если они не маскируют плохое базовое движение.",
-			"x": -250,
-			"y": 130,
-			"width": 300,
-			"height": 180,
-			"color": "2"
-		},
-		{
-			"id": "combat",
-			"type": "text",
-			"text": "Боевая сцена\n\nПервый тест: один враг, одно оружие, одна арена, понятный вход и выход из боя.",
-			"x": 240,
-			"y": -350,
-			"width": 310,
-			"height": 160,
-			"color": "3"
-		},
-		{
-			"id": "weapons",
-			"type": "text",
-			"text": "Оружие\n\n3–4 архетипа для MVP. Модульный крафт — главный USP, но без сложных редкостей на старте.",
-			"x": 240,
-			"y": -110,
-			"width": 310,
-			"height": 170,
-			"color": "3"
-		},
-		{
-			"id": "enemies",
-			"type": "text",
-			"text": "Враги\n\nОдин базовый враг + один усиленный. Позже: мародёры, животные, архетипы.",
-			"x": 600,
-			"y": -110,
-			"width": 310,
-			"height": 160,
-			"color": "3"
-		},
-		{
-			"id": "weakpoints",
-			"type": "text",
-			"text": "Слабые точки\n\nДобавлять после читаемой камеры и точного feedback. Сначала одна крупная точка на большом враге.",
-			"x": 240,
-			"y": 140,
-			"width": 310,
-			"height": 170,
-			"color": "3"
-		},
-		{
-			"id": "arena",
-			"type": "text",
-			"text": "Арена\n\nХороша для теста боя и баланса оружия, но не доказывает всю вылазку и открытый мир.",
-			"x": 600,
-			"y": 140,
-			"width": 310,
-			"height": 160,
-			"color": "3"
-		},
-		{
-			"id": "boss",
-			"type": "text",
-			"text": "Босс Гиена\n\nКульминация vertical slice/full game. Не делать первой проверкой боя.",
-			"x": 420,
-			"y": 380,
-			"width": 310,
-			"height": 130,
-			"color": "3"
-		},
-		{
-			"id": "fuel",
-			"type": "text",
-			"text": "Топливо / ресурс риска\n\nГлавный кандидат на ограничитель маршрута. Должен создавать напряжение, а не запрещать исследование.",
-			"x": 1120,
-			"y": -350,
-			"width": 310,
-			"height": 170,
-			"color": "4"
-		},
-		{
-			"id": "health",
-			"type": "text",
-			"text": "Здоровье / броня / ремонт\n\nЦена боевых ошибок. В MVP — просто и читаемо, без нескольких слоёв наказания.",
-			"x": 1480,
-			"y": -350,
-			"width": 310,
-			"height": 160,
-			"color": "4"
-		},
-		{
-			"id": "loot",
-			"type": "text",
-			"text": "Лут / материалы\n\nНаграда после риска. Должна напрямую усиливать следующий выезд.",
-			"x": 1120,
-			"y": -110,
-			"width": 310,
-			"height": 140,
-			"color": "4"
-		},
-		{
-			"id": "craft",
-			"type": "text",
-			"text": "Крафт оружия\n\nЛучше жить в гараже/между вылазками. Деталь меняет один главный параметр.",
-			"x": 1480,
-			"y": -110,
-			"width": 310,
-			"height": 150,
-			"color": "4"
-		},
-		{
-			"id": "progression",
-			"type": "text",
-			"text": "Прогрессия\n\nДля MVP: корабль + оружие. ИИ, герой и амулеты — позже, чтобы не размыть усиление.",
-			"x": 1120,
-			"y": 130,
-			"width": 310,
-			"height": 170,
-			"color": "4"
-		},
-		{
-			"id": "inventory",
-			"type": "text",
-			"text": "Инвентарь-сетка\n\nРиск замедлить vehicle action. Для MVP достаточно списка наград/простого груза.",
-			"x": 1480,
-			"y": 130,
-			"width": 310,
-			"height": 160,
-			"color": "4"
-		},
-		{
-			"id": "upgrade",
-			"type": "text",
-			"text": "Экран улучшения\n\nПосле возврата: одно улучшение корабля и одно улучшение оружия, чтобы цикл повторялся.",
-			"x": 1300,
-			"y": 380,
-			"width": 310,
-			"height": 140,
-			"color": "4"
-		},
-		{
-			"id": "world",
-			"type": "text",
-			"text": "Пустынный мир\n\nМаршруты, регионы и точки интереса должны поддерживать короткую рискованную вылазку.",
-			"x": 2010,
-			"y": -350,
-			"width": 310,
-			"height": 160,
-			"color": "5"
-		},
-		{
-			"id": "poi-system",
-			"type": "text",
-			"text": "POI / маршрут\n\nMVP: один маршрут. Vertical slice: маленький регион с 3–5 POI.",
-			"x": 2370,
-			"y": -350,
-			"width": 310,
-			"height": 140,
-			"color": "5"
-		},
-		{
-			"id": "weather",
-			"type": "text",
-			"text": "Погода / день-ночь\n\nСильная атмосфера, но для MVP опасна как случайный штраф. Сначала один мягкий модификатор.",
-			"x": 2010,
-			"y": -110,
-			"width": 310,
-			"height": 170,
-			"color": "5"
-		},
-		{
-			"id": "factions",
-			"type": "text",
-			"text": "Фракции / аванпосты\n\nМародёры, случайные встречи и спавн — после доказанного маршрута и боя.",
-			"x": 2370,
-			"y": -110,
-			"width": 310,
-			"height": 150,
-			"color": "5"
-		},
-		{
-			"id": "objects",
-			"type": "text",
-			"text": "Интерактивное окружение\n\nЛовушки и бочки должны поддерживать оружие, а не заменять его.",
-			"x": 2010,
-			"y": 140,
-			"width": 310,
-			"height": 140,
-			"color": "5"
-		},
-		{
-			"id": "map",
-			"type": "text",
-			"text": "Карта мира\n\nПокупка/открытие карт — full game. Не нужна для первой проверки core-loop.",
-			"x": 2370,
-			"y": 140,
-			"width": 310,
-			"height": 140,
-			"color": "5"
-		},
-		{
-			"id": "risk-overload",
-			"type": "text",
-			"text": "Главный риск\n\nСлишком много правильных механик одновременно. MVP должен доказать маленькую игру.",
-			"x": 2860,
-			"y": -350,
-			"width": 310,
-			"height": 160,
-			"color": "6"
-		},
-		{
-			"id": "risk-resources",
-			"type": "text",
-			"text": "Перегруз ресурсами\n\nЗдоровье + броня + ремонт + топливо + энергия + патроны могут скрыть причину провала.",
-			"x": 3220,
-			"y": -350,
-			"width": 310,
-			"height": 160,
-			"color": "6"
-		},
-		{
-			"id": "risk-feel",
-			"type": "text",
-			"text": "Конфликт feel\n\nТяжёлая машина + bullet hell + weak points требуют осторожной скорости, камеры и телеграфов.",
-			"x": 2860,
-			"y": -110,
-			"width": 310,
-			"height": 170,
-			"color": "6"
-		},
-		{
-			"id": "defer",
-			"type": "text",
-			"text": "Отложить из MVP\n\nПогода, большой босс, фракции, полная карта, глубокий инвентарь, амулеты, редкости.",
-			"x": 3220,
-			"y": -110,
-			"width": 310,
-			"height": 170,
-			"color": "6"
-		},
-		{
-			"id": "next-specs",
-			"type": "text",
-			"text": "Следующие спеки\n\nMVP-core-loop.md\nship-controls-and-camera-mvp.md\ncombat-mvp.md\nfuel-risk-mvp.md\nreward-and-upgrade-mvp.md\nweapon-crafting-mvp.md\nui-feedback-mvp.md",
-			"x": 2860,
-			"y": 160,
-			"width": 670,
-			"height": 260,
-			"color": "6"
-		}
+	"nodes":[
+		{"id":"g-combat","type":"group","x":200,"y":-470,"width":730,"height":1090,"color":"3","label":"Бой"},
+		{"id":"g-economy","type":"group","x":1080,"y":-470,"width":730,"height":1090,"color":"4","label":"Ресурсы, лут, прогрессия"},
+		{"id":"g-world","type":"group","x":1970,"y":-470,"width":720,"height":1090,"color":"5","label":"Мир и контент"},
+		{"id":"g-risk","type":"group","x":2820,"y":-470,"width":720,"height":1090,"color":"6","label":"Риски и отложить из MVP"},
+		{"id":"g-core","type":"group","x":-1520,"y":-470,"width":700,"height":1090,"color":"1","label":"Главный цикл"},
+		{"id":"g-ship","type":"group","x":-650,"y":-470,"width":690,"height":1090,"color":"2","label":"Корабль и управление"},
+		{"id":"source-analysis","type":"file","file":"desertCORE/gameplay_analysis.md","label":"Источник: gameplay_analysis.md","x":-1520,"y":-700,"width":500,"height":110,"color":"6"},
+		{"id":"legend","type":"text","text":"Как читать доску\n\nСтрелки показывают зависимости механик.\nЗелёный/синий блоки — ядро MVP.\nЖёлтые/фиолетовые — расширение и риски.\nГлавная проверка: корабль → вылазка → риск → бой → добыча → возврат → улучшение.","x":-980,"y":-700,"width":620,"height":160,"color":"6"},
+		{"id":"prep","type":"text","text":"Подготовка\n\nВыбор цели вылазки, оружия, состояния корабля и минимального запаса риска.","x":-1480,"y":-350,"width":300,"height":150,"color":"1"},
+		{"id":"ship","type":"text","text":"Корабль-машина\n\nГлавный аватар игрока. Должен ощущаться тяжёлым, но отзывчивым.","x":-610,"y":-350,"width":300,"height":150,"color":"2"},
+		{"id":"combat","type":"text","text":"Боевая сцена\n\nПервый тест: один враг, одно оружие, одна арена, понятный вход и выход из боя.","x":240,"y":-350,"width":310,"height":160,"color":"3"},
+		{"id":"upgrade","type":"text","text":"Экран улучшения\n\nПосле возврата: одно улучшение корабля и одно улучшение оружия, чтобы цикл повторялся.","x":1300,"y":380,"width":310,"height":140,"color":"4"},
+		{"id":"poi","type":"text","text":"Точка интереса\n\nМесто, где маршрут превращается в риск: бой, лут, препятствие или опасная зона.","x":-1480,"y":130,"width":300,"height":150,"color":"1"},
+		{"id":"choice","type":"text","text":"Решение\n\nПродолжить глубже в пустыню или вернуться с текущей добычей.","x":-1480,"y":360,"width":300,"height":140,"color":"1"},
+		{"id":"return","type":"text","text":"Возврат на базу\n\nБезопасное состояние: ремонт, улучшение, крафт, следующий выезд.","x":-1120,"y":360,"width":300,"height":140,"color":"1"},
+		{"id":"controls","type":"text","text":"Управление / feel\n\nУскорение, торможение, поворот, инерция, контролируемый занос.","x":-610,"y":-120,"width":300,"height":150,"color":"2"},
+		{"id":"camera","type":"text","text":"Камера\n\nЧитает дорогу, врагов, снаряды и слабые точки. Не должна ломать прицеливание.","x":-250,"y":-120,"width":300,"height":150,"color":"2"},
+		{"id":"modes","type":"text","text":"Travel / Combat режимы\n\nTravel даёт скорость и свободу. Combat даёт точность, читаемость и контроль дистанции.","x":-610,"y":130,"width":300,"height":170,"color":"2"},
+		{"id":"hook-dodge","type":"text","text":"Мобильность и защита\n\nУклонение, спринт/рывок, крюк-якорь — только если они не маскируют плохое базовое движение.","x":-250,"y":130,"width":300,"height":180,"color":"2"},
+		{"id":"weapons","type":"text","text":"Оружие\n\n3–4 архетипа для MVP. Модульный крафт — главный USP, но без сложных редкостей на старте.","x":240,"y":-110,"width":310,"height":170,"color":"3"},
+		{"id":"enemies","type":"text","text":"Враги\n\nОдин базовый враг + один усиленный. Позже: мародёры, животные, архетипы.","x":600,"y":-110,"width":310,"height":160,"color":"3"},
+		{"id":"weakpoints","type":"text","text":"Слабые точки\n\nДобавлять после читаемой камеры и точного feedback. Сначала одна крупная точка на большом враге.","x":240,"y":140,"width":310,"height":170,"color":"3"},
+		{"id":"arena","type":"text","text":"Арена\n\nХороша для теста боя и баланса оружия, но не доказывает всю вылазку и открытый мир.","x":600,"y":140,"width":310,"height":160,"color":"3"},
+		{"id":"boss","type":"text","text":"Босс Гиена\n\nКульминация vertical slice/full game. Не делать первой проверкой боя.","x":420,"y":380,"width":310,"height":130,"color":"3"},
+		{"id":"fuel","type":"text","text":"Топливо / ресурс риска\n\nГлавный кандидат на ограничитель маршрута. Должен создавать напряжение, а не запрещать исследование.","x":1120,"y":-350,"width":310,"height":170,"color":"4"},
+		{"id":"health","type":"text","text":"Здоровье / броня / ремонт\n\nЦена боевых ошибок. В MVP — просто и читаемо, без нескольких слоёв наказания.","x":1480,"y":-350,"width":310,"height":160,"color":"4"},
+		{"id":"loot","type":"text","text":"Лут / материалы\n\nНаграда после риска. Должна напрямую усиливать следующий выезд.","x":1120,"y":-110,"width":310,"height":140,"color":"4"},
+		{"id":"craft","type":"text","text":"Крафт оружия\n\nЛучше жить в гараже/между вылазками. Деталь меняет один главный параметр.","x":1480,"y":-110,"width":310,"height":150,"color":"4"},
+		{"id":"progression","type":"text","text":"Прогрессия\n\nДля MVP: корабль + оружие. ИИ, герой и амулеты — позже, чтобы не размыть усиление.","x":1120,"y":130,"width":310,"height":170,"color":"4"},
+		{"id":"inventory","type":"text","text":"Инвентарь-сетка\n\nРиск замедлить vehicle action. Для MVP достаточно списка наград/простого груза.","x":1480,"y":130,"width":310,"height":160,"color":"4"},
+		{"id":"world","type":"text","text":"Пустынный мир\n\nМаршруты, регионы и точки интереса должны поддерживать короткую рискованную вылазку.","x":2010,"y":-350,"width":310,"height":160,"color":"5"},
+		{"id":"poi-system","type":"text","text":"POI / маршрут\n\nMVP: один маршрут. Vertical slice: маленький регион с 3–5 POI.","x":2370,"y":-350,"width":310,"height":140,"color":"5"},
+		{"id":"weather","type":"text","text":"Погода / день-ночь\n\nСильная атмосфера, но для MVP опасна как случайный штраф. Сначала один мягкий модификатор.","x":2010,"y":-110,"width":310,"height":170,"color":"5"},
+		{"id":"factions","type":"text","text":"Фракции / аванпосты\n\nМародёры, случайные встречи и спавн — после доказанного маршрута и боя.","x":2370,"y":-110,"width":310,"height":150,"color":"5"},
+		{"id":"objects","type":"text","text":"Интерактивное окружение\n\nЛовушки и бочки должны поддерживать оружие, а не заменять его.","x":2010,"y":140,"width":310,"height":140,"color":"5"},
+		{"id":"map","type":"text","text":"Карта мира\n\nПокупка/открытие карт — full game. Не нужна для первой проверки core-loop.","x":2370,"y":140,"width":310,"height":140,"color":"5"},
+		{"id":"risk-overload","type":"text","text":"Главный риск\n\nСлишком много правильных механик одновременно. MVP должен доказать маленькую игру.","x":2860,"y":-350,"width":310,"height":160,"color":"6"},
+		{"id":"risk-resources","type":"text","text":"Перегруз ресурсами\n\nЗдоровье + броня + ремонт + топливо + энергия + патроны могут скрыть причину провала.","x":3220,"y":-350,"width":310,"height":160,"color":"6"},
+		{"id":"risk-feel","type":"text","text":"Конфликт feel\n\nТяжёлая машина + bullet hell + weak points требуют осторожной скорости, камеры и телеграфов.","x":2860,"y":-110,"width":310,"height":170,"color":"6"},
+		{"id":"defer","type":"text","text":"Отложить из MVP\n\nПогода, большой босс, фракции, полная карта, глубокий инвентарь, амулеты, редкости.","x":3220,"y":-110,"width":310,"height":170,"color":"6"},
+		{"id":"next-specs","type":"text","text":"Следующие спеки\n\nMVP-core-loop.md\nship-controls-and-camera-mvp.md\ncombat-mvp.md\nfuel-risk-mvp.md\nreward-and-upgrade-mvp.md\nweapon-crafting-mvp.md\nui-feedback-mvp.md","x":2860,"y":160,"width":670,"height":260,"color":"6"},
+		{"id":"sortie","type":"text","text":"Выезд / маршрут\n\nКороткая 5–10 минутная вылазка. Игрок понимает путь, цель и цену продолжения.","x":-1480,"y":-125,"width":300,"height":160,"color":"1"}
 	],
-	"edges": [
-		{
-			"id": "e1",
-			"fromNode": "prep",
-			"fromSide": "right",
-			"toNode": "sortie",
-			"toSide": "left",
-			"label": "старт вылазки",
-			"color": "1"
-		},
-		{
-			"id": "e2",
-			"fromNode": "sortie",
-			"fromSide": "right",
-			"toNode": "poi",
-			"toSide": "left",
-			"label": "маршрут ведёт к риску",
-			"color": "1"
-		},
-		{
-			"id": "e3",
-			"fromNode": "poi",
-			"fromSide": "right",
-			"toNode": "combat",
-			"toSide": "left",
-			"label": "опасность",
-			"color": "3"
-		},
-		{
-			"id": "e4",
-			"fromNode": "combat",
-			"fromSide": "right",
-			"toNode": "loot",
-			"toSide": "left",
-			"label": "награда за бой",
-			"color": "4"
-		},
-		{
-			"id": "e5",
-			"fromNode": "loot",
-			"fromSide": "right",
-			"toNode": "choice",
-			"toSide": "left",
-			"label": "забрать и решить",
-			"color": "1"
-		},
-		{
-			"id": "e6",
-			"fromNode": "choice",
-			"fromSide": "right",
-			"toNode": "return",
-			"toSide": "left",
-			"label": "вернуться",
-			"color": "1"
-		},
-		{
-			"id": "e7",
-			"fromNode": "return",
-			"fromSide": "right",
-			"toNode": "upgrade",
-			"toSide": "left",
-			"label": "починка/улучшение",
-			"color": "4"
-		},
-		{
-			"id": "e8",
-			"fromNode": "upgrade",
-			"fromSide": "right",
-			"toNode": "prep",
-			"toSide": "left",
-			"label": "следующая вылазка",
-			"color": "1"
-		},
-		{
-			"id": "e9",
-			"fromNode": "ship",
-			"fromSide": "right",
-			"toNode": "controls",
-			"toSide": "left",
-			"label": "ощущается через",
-			"color": "2"
-		},
-		{
-			"id": "e10",
-			"fromNode": "controls",
-			"fromSide": "right",
-			"toNode": "modes",
-			"toSide": "left",
-			"label": "меняется в",
-			"color": "2"
-		},
-		{
-			"id": "e11",
-			"fromNode": "camera",
-			"fromSide": "right",
-			"toNode": "modes",
-			"toSide": "left",
-			"label": "адаптируется",
-			"color": "2"
-		},
-		{
-			"id": "e12",
-			"fromNode": "modes",
-			"fromSide": "right",
-			"toNode": "combat",
-			"toSide": "left",
-			"label": "вход в бой",
-			"color": "3"
-		},
-		{
-			"id": "e13",
-			"fromNode": "hook-dodge",
-			"fromSide": "right",
-			"toNode": "combat",
-			"toSide": "left",
-			"label": "защита/позиция",
-			"color": "3"
-		},
-		{
-			"id": "e14",
-			"fromNode": "controls",
-			"fromSide": "right",
-			"toNode": "risk-feel",
-			"toSide": "left",
-			"label": "если слишком инертно",
-			"color": "6"
-		},
-		{
-			"id": "e15",
-			"fromNode": "camera",
-			"fromSide": "right",
-			"toNode": "weakpoints",
-			"toSide": "left",
-			"label": "делает читаемыми",
-			"color": "3"
-		},
-		{
-			"id": "e16",
-			"fromNode": "weapons",
-			"fromSide": "right",
-			"toNode": "combat",
-			"toSide": "left",
-			"label": "основной инструмент",
-			"color": "3"
-		},
-		{
-			"id": "e17",
-			"fromNode": "enemies",
-			"fromSide": "right",
-			"toNode": "combat",
-			"toSide": "left",
-			"label": "создают паттерны",
-			"color": "3"
-		},
-		{
-			"id": "e18",
-			"fromNode": "weakpoints",
-			"fromSide": "right",
-			"toNode": "enemies",
-			"toSide": "left",
-			"label": "углубляют",
-			"color": "3"
-		},
-		{
-			"id": "e19",
-			"fromNode": "arena",
-			"fromSide": "right",
-			"toNode": "weapons",
-			"toSide": "left",
-			"label": "быстрый тест",
-			"color": "3"
-		},
-		{
-			"id": "e20",
-			"fromNode": "arena",
-			"fromSide": "right",
-			"toNode": "enemies",
-			"toSide": "left",
-			"label": "баланс волн",
-			"color": "3"
-		},
-		{
-			"id": "e21",
-			"fromNode": "boss",
-			"fromSide": "right",
-			"toNode": "weakpoints",
-			"toSide": "left",
-			"label": "требует",
-			"color": "3"
-		},
-		{
-			"id": "e22",
-			"fromNode": "craft",
-			"fromSide": "right",
-			"toNode": "weapons",
-			"toSide": "left",
-			"label": "собирает",
-			"color": "4"
-		},
-		{
-			"id": "e23",
-			"fromNode": "loot",
-			"fromSide": "right",
-			"toNode": "craft",
-			"toSide": "left",
-			"label": "даёт детали",
-			"color": "4"
-		},
-		{
-			"id": "e24",
-			"fromNode": "loot",
-			"fromSide": "right",
-			"toNode": "progression",
-			"toSide": "left",
-			"label": "даёт рост",
-			"color": "4"
-		},
-		{
-			"id": "e25",
-			"fromNode": "progression",
-			"fromSide": "right",
-			"toNode": "upgrade",
-			"toSide": "left",
-			"label": "оформляется",
-			"color": "4"
-		},
-		{
-			"id": "e26",
-			"fromNode": "health",
-			"fromSide": "right",
-			"toNode": "combat",
-			"toSide": "left",
-			"label": "цена ошибки",
-			"color": "4"
-		},
-		{
-			"id": "e27",
-			"fromNode": "fuel",
-			"fromSide": "right",
-			"toNode": "sortie",
-			"toSide": "left",
-			"label": "ограничивает дальность",
-			"color": "4"
-		},
-		{
-			"id": "e28",
-			"fromNode": "fuel",
-			"fromSide": "right",
-			"toNode": "choice",
-			"toSide": "left",
-			"label": "создаёт решение",
-			"color": "4"
-		},
-		{
-			"id": "e29",
-			"fromNode": "world",
-			"fromSide": "right",
-			"toNode": "poi-system",
-			"toSide": "left",
-			"label": "содержит",
-			"color": "5"
-		},
-		{
-			"id": "e30",
-			"fromNode": "poi-system",
-			"fromSide": "right",
-			"toNode": "poi",
-			"toSide": "left",
-			"label": "структурирует",
-			"color": "5"
-		},
-		{
-			"id": "e31",
-			"fromNode": "weather",
-			"fromSide": "right",
-			"toNode": "fuel",
-			"toSide": "left",
-			"label": "усиливает риск",
-			"color": "5"
-		},
-		{
-			"id": "e32",
-			"fromNode": "weather",
-			"fromSide": "right",
-			"toNode": "risk-resources",
-			"toSide": "left",
-			"label": "может перегрузить",
-			"color": "6"
-		},
-		{
-			"id": "e33",
-			"fromNode": "factions",
-			"fromSide": "right",
-			"toNode": "enemies",
-			"toSide": "left",
-			"label": "расширяют",
-			"color": "5"
-		},
-		{
-			"id": "e34",
-			"fromNode": "objects",
-			"fromSide": "right",
-			"toNode": "combat",
-			"toSide": "left",
-			"label": "вариативность",
-			"color": "5"
-		},
-		{
-			"id": "e35",
-			"fromNode": "map",
-			"fromSide": "right",
-			"toNode": "world",
-			"toSide": "left",
-			"label": "масштабирует",
-			"color": "5"
-		},
-		{
-			"id": "e36",
-			"fromNode": "inventory",
-			"fromSide": "right",
-			"toNode": "risk-overload",
-			"toSide": "left",
-			"label": "может тормозить темп",
-			"color": "6"
-		},
-		{
-			"id": "e37",
-			"fromNode": "fuel",
-			"fromSide": "right",
-			"toNode": "risk-resources",
-			"toSide": "left",
-			"label": "если вместе со всем",
-			"color": "6"
-		},
-		{
-			"id": "e38",
-			"fromNode": "health",
-			"fromSide": "right",
-			"toNode": "risk-resources",
-			"toSide": "left",
-			"label": "если много штрафов",
-			"color": "6"
-		},
-		{
-			"id": "e39",
-			"fromNode": "weapons",
-			"fromSide": "right",
-			"toNode": "risk-overload",
-			"toSide": "left",
-			"label": "если крафт слишком глубокий",
-			"color": "6"
-		},
-		{
-			"id": "e40",
-			"fromNode": "boss",
-			"fromSide": "right",
-			"toNode": "defer",
-			"toSide": "left",
-			"label": "не MVP",
-			"color": "6"
-		},
-		{
-			"id": "e41",
-			"fromNode": "weather",
-			"fromSide": "right",
-			"toNode": "defer",
-			"toSide": "left",
-			"label": "не MVP",
-			"color": "6"
-		},
-		{
-			"id": "e42",
-			"fromNode": "factions",
-			"fromSide": "right",
-			"toNode": "defer",
-			"toSide": "left",
-			"label": "не MVP",
-			"color": "6"
-		},
-		{
-			"id": "e43",
-			"fromNode": "map",
-			"fromSide": "right",
-			"toNode": "defer",
-			"toSide": "left",
-			"label": "не MVP",
-			"color": "6"
-		},
-		{
-			"id": "e44",
-			"fromNode": "risk-overload",
-			"fromSide": "right",
-			"toNode": "next-specs",
-			"toSide": "left",
-			"label": "лечится короткими спеками",
-			"color": "6"
-		},
-		{
-			"id": "e45",
-			"fromNode": "source-analysis",
-			"fromSide": "right",
-			"toNode": "legend",
-			"toSide": "left",
-			"label": "сводка",
-			"color": "6"
-		},
-		{
-			"id": "e46",
-			"fromNode": "legend",
-			"fromSide": "right",
-			"toNode": "prep",
-			"toSide": "left",
-			"label": "читать отсюда",
-			"color": "1"
-		}
+	"edges":[
+		{"id":"e1","fromNode":"prep","fromSide":"right","toNode":"sortie","toSide":"left","color":"1","label":"старт вылазки"},
+		{"id":"e2","fromNode":"sortie","fromSide":"right","toNode":"poi","toSide":"left","color":"1","label":"маршрут ведёт к риску"},
+		{"id":"e3","fromNode":"poi","fromSide":"right","toNode":"combat","toSide":"left","color":"3","label":"опасность"},
+		{"id":"e4","fromNode":"combat","fromSide":"right","toNode":"loot","toSide":"left","color":"4","label":"награда за бой"},
+		{"id":"e5","fromNode":"loot","fromSide":"right","toNode":"choice","toSide":"left","color":"1","label":"забрать и решить"},
+		{"id":"e6","fromNode":"choice","fromSide":"right","toNode":"return","toSide":"left","color":"1","label":"вернуться"},
+		{"id":"e7","fromNode":"return","fromSide":"right","toNode":"upgrade","toSide":"left","color":"4","label":"починка/улучшение"},
+		{"id":"e8","fromNode":"upgrade","fromSide":"right","toNode":"prep","toSide":"left","color":"1","label":"следующая вылазка"},
+		{"id":"e9","fromNode":"ship","fromSide":"right","toNode":"controls","toSide":"left","color":"2","label":"ощущается через"},
+		{"id":"e10","fromNode":"controls","fromSide":"right","toNode":"modes","toSide":"left","color":"2","label":"меняется в"},
+		{"id":"e11","fromNode":"camera","fromSide":"right","toNode":"modes","toSide":"left","color":"2","label":"адаптируется"},
+		{"id":"e12","fromNode":"modes","fromSide":"right","toNode":"combat","toSide":"left","color":"3","label":"вход в бой"},
+		{"id":"e13","fromNode":"hook-dodge","fromSide":"right","toNode":"combat","toSide":"left","color":"3","label":"защита/позиция"},
+		{"id":"e14","fromNode":"controls","fromSide":"right","toNode":"risk-feel","toSide":"left","color":"6","label":"если слишком инертно"},
+		{"id":"e15","fromNode":"camera","fromSide":"right","toNode":"weakpoints","toSide":"left","color":"3","label":"делает читаемыми"},
+		{"id":"e16","fromNode":"weapons","fromSide":"right","toNode":"combat","toSide":"left","color":"3","label":"основной инструмент"},
+		{"id":"e17","fromNode":"enemies","fromSide":"right","toNode":"combat","toSide":"left","color":"3","label":"создают паттерны"},
+		{"id":"e18","fromNode":"weakpoints","fromSide":"right","toNode":"enemies","toSide":"left","color":"3","label":"углубляют"},
+		{"id":"e19","fromNode":"arena","fromSide":"right","toNode":"weapons","toSide":"left","color":"3","label":"быстрый тест"},
+		{"id":"e20","fromNode":"arena","fromSide":"right","toNode":"enemies","toSide":"left","color":"3","label":"баланс волн"},
+		{"id":"e21","fromNode":"boss","fromSide":"right","toNode":"weakpoints","toSide":"left","color":"3","label":"требует"},
+		{"id":"e22","fromNode":"craft","fromSide":"right","toNode":"weapons","toSide":"left","color":"4","label":"собирает"},
+		{"id":"e23","fromNode":"loot","fromSide":"right","toNode":"craft","toSide":"left","color":"4","label":"даёт детали"},
+		{"id":"e24","fromNode":"loot","fromSide":"right","toNode":"progression","toSide":"left","color":"4","label":"даёт рост"},
+		{"id":"e25","fromNode":"progression","fromSide":"right","toNode":"upgrade","toSide":"left","color":"4","label":"оформляется"},
+		{"id":"e26","fromNode":"health","fromSide":"right","toNode":"combat","toSide":"left","color":"4","label":"цена ошибки"},
+		{"id":"e27","fromNode":"fuel","fromSide":"right","toNode":"sortie","toSide":"left","color":"4","label":"ограничивает дальность"},
+		{"id":"e28","fromNode":"fuel","fromSide":"right","toNode":"choice","toSide":"left","color":"4","label":"создаёт решение"},
+		{"id":"e29","fromNode":"world","fromSide":"right","toNode":"poi-system","toSide":"left","color":"5","label":"содержит"},
+		{"id":"e30","fromNode":"poi-system","fromSide":"right","toNode":"poi","toSide":"left","color":"5","label":"структурирует"},
+		{"id":"e31","fromNode":"weather","fromSide":"right","toNode":"fuel","toSide":"left","color":"5","label":"усиливает риск"},
+		{"id":"e32","fromNode":"weather","fromSide":"right","toNode":"risk-resources","toSide":"left","color":"6","label":"может перегрузить"},
+		{"id":"e33","fromNode":"factions","fromSide":"right","toNode":"enemies","toSide":"left","color":"5","label":"расширяют"},
+		{"id":"e34","fromNode":"objects","fromSide":"right","toNode":"combat","toSide":"left","color":"5","label":"вариативность"},
+		{"id":"e35","fromNode":"map","fromSide":"right","toNode":"world","toSide":"left","color":"5","label":"масштабирует"},
+		{"id":"e36","fromNode":"inventory","fromSide":"right","toNode":"risk-overload","toSide":"left","color":"6","label":"может тормозить темп"},
+		{"id":"e37","fromNode":"fuel","fromSide":"right","toNode":"risk-resources","toSide":"left","color":"6","label":"если вместе со всем"},
+		{"id":"e38","fromNode":"health","fromSide":"right","toNode":"risk-resources","toSide":"left","color":"6","label":"если много штрафов"},
+		{"id":"e39","fromNode":"weapons","fromSide":"right","toNode":"risk-overload","toSide":"left","color":"6","label":"если крафт слишком глубокий"},
+		{"id":"e40","fromNode":"boss","fromSide":"right","toNode":"defer","toSide":"left","color":"6","label":"не MVP"},
+		{"id":"e41","fromNode":"weather","fromSide":"right","toNode":"defer","toSide":"left","color":"6","label":"не MVP"},
+		{"id":"e42","fromNode":"factions","fromSide":"right","toNode":"defer","toSide":"left","color":"6","label":"не MVP"},
+		{"id":"e43","fromNode":"map","fromSide":"right","toNode":"defer","toSide":"left","color":"6","label":"не MVP"},
+		{"id":"e44","fromNode":"risk-overload","fromSide":"right","toNode":"next-specs","toSide":"left","color":"6","label":"лечится короткими спеками"},
+		{"id":"e45","fromNode":"source-analysis","fromSide":"right","toNode":"legend","toSide":"left","color":"6","label":"сводка"},
+		{"id":"e46","fromNode":"legend","fromSide":"right","toNode":"prep","toSide":"left","color":"1","label":"читать отсюда"}
 	]
 }
