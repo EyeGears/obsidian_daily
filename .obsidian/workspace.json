@@ -28,13 +28,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "дарк соулс/Боссы с гиммиками.md",
+                "file": "Исследование метроидвания способности.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Боссы с гиммиками"
+              "title": "Исследование метроидвания способности"
             }
           }
         ],
@@ -80,13 +80,59 @@
               "icon": "lucide-folder-closed",
               "title": "Файловый менеджер"
             }
+          },
+          {
+            "id": "3a0878589d7d837a",
+            "type": "leaf",
+            "state": {
+              "type": "grid-view",
+              "state": {
+                "type": "grid-view",
+                "state": {
+                  "sourceMode": "folder",
+                  "sourcePath": "/",
+                  "baseSortType": "mtime-desc",
+                  "sortType": "mtime-desc",
+                  "searchQuery": "",
+                  "searchCurrentLocationOnly": false,
+                  "searchFilesNameOnly": false,
+                  "searchMediaFiles": false,
+                  "fileNameFilterQuery": "",
+                  "includeMedia": false,
+                  "minMode": true,
+                  "showIgnoredItems": true,
+                  "baseCardLayout": "vertical",
+                  "cardLayout": "vertical",
+                  "hideHeaderElements": false,
+                  "showFileNameFilter": false,
+                  "showDateDividers": false,
+                  "showNoteTags": true,
+                  "recentSources": [
+                    "{\"mode\":\"folder\",\"path\":\"слешер без перекатов\",\"searchQuery\":\"\",\"searchCurrentLocationOnly\":false,\"searchFilesNameOnly\":false,\"searchMediaFiles\":false}",
+                    "{\"mode\":\"folder\",\"path\":\"/\",\"searchQuery\":\"\",\"searchCurrentLocationOnly\":false,\"searchFilesNameOnly\":false,\"searchMediaFiles\":false}",
+                    "{\"mode\":\"folder\",\"path\":\"дарк соулс\",\"searchQuery\":\"\",\"searchCurrentLocationOnly\":false,\"searchFilesNameOnly\":false,\"searchMediaFiles\":false}",
+                    "{\"mode\":\"folder\",\"path\":\"/\",\"searchQuery\":\"\",\"searchCurrentLocationOnly\":false,\"searchFilesNameOnly\":false,\"searchMediaFiles\":false}",
+                    "{\"mode\":\"folder\",\"path\":\"ежедневник\",\"searchQuery\":\"\",\"searchCurrentLocationOnly\":false,\"searchFilesNameOnly\":false,\"searchMediaFiles\":false}",
+                    "{\"mode\":\"folder\",\"path\":\"/\",\"searchQuery\":\"\",\"searchCurrentLocationOnly\":false,\"searchFilesNameOnly\":false,\"searchMediaFiles\":false}",
+                    "{\"mode\":\"folder\",\"path\":\"dungeon godot\",\"searchQuery\":\"\",\"searchCurrentLocationOnly\":false,\"searchFilesNameOnly\":false,\"searchMediaFiles\":false}",
+                    "{\"mode\":\"folder\",\"path\":\"/\",\"searchQuery\":\"\",\"searchCurrentLocationOnly\":false,\"searchFilesNameOnly\":false,\"searchMediaFiles\":false}",
+                    "{\"mode\":\"folder\",\"path\":\"данганронпа\",\"searchQuery\":\"\",\"searchCurrentLocationOnly\":false,\"searchFilesNameOnly\":false,\"searchMediaFiles\":false}",
+                    "{\"mode\":\"folder\",\"path\":\"данганронпа/ФайлыГДДДанганронпа/Геймдизайн\",\"searchQuery\":\"\",\"searchCurrentLocationOnly\":false,\"searchFilesNameOnly\":false,\"searchMediaFiles\":false}"
+                  ],
+                  "futureSources": [],
+                  "bookmarkGroupId": "all"
+                }
+              },
+              "icon": "folder",
+              "title": "Корень"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 298.5
+    "width": 519.5
   },
   "right": {
     "id": "13b37c6472bb59ba",
@@ -136,13 +182,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ThunderAgeGDD(1.0)/Нарратив Основа.md",
+                "file": "Исследование метроидвания способности.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Структура Нарратив Основа"
+              "title": "Структура Исследование метроидвания способности"
             }
           },
           {
@@ -222,8 +268,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -240,15 +285,23 @@
       "copilot:Open Copilot Chat": false,
       "excel:Create Excel File": false,
       "dashboard-navigator:Open dashboard navigator": false,
-      "media-companion:Open gallery": false
+      "media-companion:Open gallery": false,
+      "gridexplorer:Открыть сеточный вид": false
     }
   },
   "active": "ad96a0ca21ec32d1",
   "lastOpenFiles": [
+    "ежедневник/Главная.md",
+    "ежедневник/Какие задачи на январь.md",
+    "Заметки на различные вещи/экспедиция 33 хуйня.md",
+    "AUDIT_LORE_GAPS.md",
+    "ThunderAgeGDD/Версия(0.56)/Главная страница.md",
+    "ThunderAgeGDD/Версия(0.56)/Главная.md",
+    "Шаблоны/Главная.md",
+    "дарк соулс/Боссы с гиммиками.md",
     "Исследование метроидвания способности.md",
     "дарк соулс/Главная.md",
     "дарк соулс/Тенденции.md",
-    "дарк соулс/Боссы с гиммиками.md",
     "Список персонажей.canvas",
     "GDDskald/Нарратив/Главная.md",
     "GDDskald/Глава I — ГДД Боевая сцена c Томте.pdf",
@@ -279,13 +332,6 @@
     "desertCORE/~$-glossary-tbd.docx",
     "desertCORE/30-unity-project-setup-and-controls.docx",
     "desertCORE/29-physical-decorative-objects.docx",
-    "GDDskald/Геймдизайн/Главная.md",
-    "GDDskald/Главная.md",
-    "ThunderAgeGDD(1.0)/Борд задач.md",
-    "GDDskald/Геймдизайн/Единственный босс — структура.md",
-    "данганронпа/Дела/Дело 05 - Идеальное алиби будущего.md",
-    "GDDskald/00_Геймплей_индекс.md",
-    "GDDskald/Код/Главная.md",
     "ThunderAge(1.0)/Список персонажей.canvas",
     "Материалы (свалка)/image-26.png",
     "Материалы (свалка)/image-25.png",

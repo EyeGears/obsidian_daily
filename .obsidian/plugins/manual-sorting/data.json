@@ -1,11 +1,12 @@
 {
   "customOrder": {
     "/": [
+      "desertCORE",
+      "Исследование метроидвания способности.md",
       "GDDskald",
       "ThunderAge(1.0)",
       "Список персонажей.canvas",
       "exodus_quests_big_flowchart.md",
-      "экспедиция 33 хуйня.md",
       "ThunderAgeGDD(1.0)",
       "Анализ навыков.md",
       "СхемаГорода.html",
@@ -184,6 +185,7 @@
       "ежедневник/Какие задачи на январь.md"
     ],
     "Заметки на различные вещи": [
+      "Заметки на различные вещи/экспедиция 33 хуйня.md",
       "Заметки на различные вещи/Главная.md",
       "Заметки на различные вещи/Про РТХ.md",
       "Заметки на различные вещи/платиново алмазные фразы из ру геймдева.md",
@@ -194,6 +196,8 @@
       "Лучник шутер/Введение.md"
     ],
     "Материалы (свалка)": [
+      "Материалы (свалка)/image-27.png",
+      "Материалы (свалка)/image-27.png.sidecar.md",
       "Материалы (свалка)/Главная.md",
       "Материалы (свалка)/image-26.png.sidecar.md",
       "Материалы (свалка)/image-26.png",
@@ -421,6 +425,47 @@
     "desert/Враги": [
       "desert/Враги/Главная.md",
       "desert/Враги/заметки.md"
+    ],
+    "desertCORE": [
+      "desertCORE/00-glossary-tbd.docx",
+      "desertCORE/01-project-vision-platforms.docx",
+      "desertCORE/02-development-roadmap.docx",
+      "desertCORE/03-mechanics-status-list.docx",
+      "desertCORE/05-core-gameplay-loop.docx",
+      "desertCORE/06-progression-hero-ship-ai-amulets.docx",
+      "desertCORE/07-grappling-anchor-hook.docx",
+      "desertCORE/08-ship-ai-activation-and-upgrades.docx",
+      "desertCORE/09-grid-inventory-and-loot.docx",
+      "desertCORE/10-world-map-regions-and-poi.docx",
+      "desertCORE/11-resources-currency-and-materials.docx",
+      "desertCORE/12-vehicle-control-feel.docx",
+      "desertCORE/13-camera-system.docx",
+      "desertCORE/14-ship-travel-and-combat-modes.docx",
+      "desertCORE/15-empty-document.docx",
+      "desertCORE/16-health-armor-and-repair.docx",
+      "desertCORE/17-weapon-crafting-system.docx",
+      "desertCORE/18-combat-environment-objects.docx",
+      "desertCORE/19-sprint-dodge-and-defense.docx",
+      "desertCORE/20-weapon-parameters-ammo-and-reload.docx",
+      "desertCORE/21-enemy-combat-bullet-hell-and-spawn.docx",
+      "desertCORE/22-fuel-and-energy.docx",
+      "desertCORE/23-enemy-weak-points.docx",
+      "desertCORE/24-combat-arena-wave-prototype.docx",
+      "desertCORE/25-mutated-animals-enemies.docx",
+      "desertCORE/26-marauders-faction-enemies.docx",
+      "desertCORE/27-boss-hyena.docx",
+      "desertCORE/28-weather-wind-day-night.docx",
+      "desertCORE/29-physical-decorative-objects.docx",
+      "desertCORE/30-unity-project-setup-and-controls.docx",
+      "desertCORE/31-hub-workshop.md",
+      "desertCORE/gameplay_analysis.md",
+      "desertCORE/gameplay_analysis 1.md",
+      "desertCORE/gameplay_mechanics_mind_map.canvas",
+      "desertCORE/hub-workshop-concept.png",
+      "desertCORE/hub-workshop-concept.png.sidecar.md",
+      "desertCORE/hub-workshop-ui-start-screen-concept.png",
+      "desertCORE/hub-workshop-ui-start-screen-concept.png.sidecar.md",
+      "desertCORE/message.txt"
     ],
     "dungeon godot": [
       "dungeon godot/Главная.md",
