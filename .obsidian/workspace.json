@@ -8,7 +8,22 @@
         "type": "tabs",
         "children": [
           {
-            "id": "6c58dc72316356b8",
+            "id": "ad96a0ca21ec32d1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "desertCORE/Что нужно сделать в доске.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Что нужно сделать в доске"
+            }
+          },
+          {
+            "id": "3dc5e63787ad2095",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -21,24 +36,8 @@
               "icon": "lucide-file",
               "title": "gameplay_analysis 1"
             }
-          },
-          {
-            "id": "ad96a0ca21ec32d1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Исследование метроидвания способности.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Исследование метроидвания способности"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -90,7 +89,7 @@
                 "type": "grid-view",
                 "state": {
                   "sourceMode": "folder",
-                  "sourcePath": "/",
+                  "sourcePath": "desertCORE",
                   "baseSortType": "mtime-desc",
                   "sortType": "mtime-desc",
                   "searchQuery": "",
@@ -108,23 +107,23 @@
                   "showDateDividers": false,
                   "showNoteTags": true,
                   "recentSources": [
+                    "{\"mode\":\"folder\",\"path\":\"/\",\"searchQuery\":\"\",\"searchCurrentLocationOnly\":false,\"searchFilesNameOnly\":false,\"searchMediaFiles\":false}",
+                    "{\"mode\":\"folder\",\"path\":\"DefaultFolder\",\"searchQuery\":\"\",\"searchCurrentLocationOnly\":false,\"searchFilesNameOnly\":false,\"searchMediaFiles\":false}",
+                    "{\"mode\":\"folder\",\"path\":\"/\",\"searchQuery\":\"\",\"searchCurrentLocationOnly\":false,\"searchFilesNameOnly\":false,\"searchMediaFiles\":false}",
                     "{\"mode\":\"folder\",\"path\":\"слешер без перекатов\",\"searchQuery\":\"\",\"searchCurrentLocationOnly\":false,\"searchFilesNameOnly\":false,\"searchMediaFiles\":false}",
                     "{\"mode\":\"folder\",\"path\":\"/\",\"searchQuery\":\"\",\"searchCurrentLocationOnly\":false,\"searchFilesNameOnly\":false,\"searchMediaFiles\":false}",
                     "{\"mode\":\"folder\",\"path\":\"дарк соулс\",\"searchQuery\":\"\",\"searchCurrentLocationOnly\":false,\"searchFilesNameOnly\":false,\"searchMediaFiles\":false}",
                     "{\"mode\":\"folder\",\"path\":\"/\",\"searchQuery\":\"\",\"searchCurrentLocationOnly\":false,\"searchFilesNameOnly\":false,\"searchMediaFiles\":false}",
                     "{\"mode\":\"folder\",\"path\":\"ежедневник\",\"searchQuery\":\"\",\"searchCurrentLocationOnly\":false,\"searchFilesNameOnly\":false,\"searchMediaFiles\":false}",
                     "{\"mode\":\"folder\",\"path\":\"/\",\"searchQuery\":\"\",\"searchCurrentLocationOnly\":false,\"searchFilesNameOnly\":false,\"searchMediaFiles\":false}",
-                    "{\"mode\":\"folder\",\"path\":\"dungeon godot\",\"searchQuery\":\"\",\"searchCurrentLocationOnly\":false,\"searchFilesNameOnly\":false,\"searchMediaFiles\":false}",
-                    "{\"mode\":\"folder\",\"path\":\"/\",\"searchQuery\":\"\",\"searchCurrentLocationOnly\":false,\"searchFilesNameOnly\":false,\"searchMediaFiles\":false}",
-                    "{\"mode\":\"folder\",\"path\":\"данганронпа\",\"searchQuery\":\"\",\"searchCurrentLocationOnly\":false,\"searchFilesNameOnly\":false,\"searchMediaFiles\":false}",
-                    "{\"mode\":\"folder\",\"path\":\"данганронпа/ФайлыГДДДанганронпа/Геймдизайн\",\"searchQuery\":\"\",\"searchCurrentLocationOnly\":false,\"searchFilesNameOnly\":false,\"searchMediaFiles\":false}"
+                    "{\"mode\":\"folder\",\"path\":\"dungeon godot\",\"searchQuery\":\"\",\"searchCurrentLocationOnly\":false,\"searchFilesNameOnly\":false,\"searchMediaFiles\":false}"
                   ],
                   "futureSources": [],
                   "bookmarkGroupId": "all"
                 }
               },
               "icon": "folder",
-              "title": "Корень"
+              "title": "desertCORE"
             }
           }
         ],
@@ -132,7 +131,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 519.5
+    "width": 241.5
   },
   "right": {
     "id": "13b37c6472bb59ba",
@@ -182,13 +181,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Исследование метроидвания способности.md",
+                "file": "desertCORE/Что нужно сделать в доске.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Структура Исследование метроидвания способности"
+              "title": "Структура Что нужно сделать в доске"
             }
           },
           {
@@ -291,6 +290,13 @@
   },
   "active": "ad96a0ca21ec32d1",
   "lastOpenFiles": [
+    "desertCORE/gameplay_analysis 1.md",
+    "desertCORE/Что нужно сделать в доске.md",
+    "desertCORE/hub-workshop-concept.png.sidecar.md",
+    "desertCORE/31-hub-workshop.md",
+    "desertCORE/gameplay_mechanics_mind_map.canvas",
+    "desertCORE/gameplay_analysis.md",
+    "Исследование метроидвания способности.md",
     "ежедневник/Главная.md",
     "ежедневник/Какие задачи на январь.md",
     "Заметки на различные вещи/экспедиция 33 хуйня.md",
@@ -299,7 +305,6 @@
     "ThunderAgeGDD/Версия(0.56)/Главная.md",
     "Шаблоны/Главная.md",
     "дарк соулс/Боссы с гиммиками.md",
-    "Исследование метроидвания способности.md",
     "дарк соулс/Главная.md",
     "дарк соулс/Тенденции.md",
     "Список персонажей.canvas",
@@ -313,16 +318,9 @@
     "GDDskald/Геймдизайн/Контроль и движение.md",
     "GDDskald/Геймдизайн/Ситуации и мини-сцены.md",
     "GDDskald/Геймдизайн/Референсы уникальных боссов FromSoftware.md",
-    "desertCORE/gameplay_analysis 1.md",
-    "desertCORE/hub-workshop-ui-start-screen-concept.png.sidecar.md",
     "desertCORE/hub-workshop-ui-start-screen-concept.png",
-    "desertCORE/31-hub-workshop.md",
-    "desertCORE/hub-workshop-concept.png.sidecar.md",
     "desertCORE/hub-workshop-concept.png",
     "desertCORE/message.txt",
-    "desertCORE/gameplay_analysis.md",
-    "desertCORE/gameplay_mechanics_mind_map.canvas",
-    "Материалы (свалка)/image-27.png.sidecar.md",
     "Материалы (свалка)/image-27.png",
     "desertCORE/00-glossary-tbd.docx",
     "desertCORE/13-camera-system.docx",
