@@ -176,33 +176,6 @@
         "newlineCount": 0
       }
     },
-    "Шаблоны/Характеристики оружия.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1773357918543,
-      "modifiedDate": 1773357918544,
-      "sizeInBytes": 1637,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
     "Шаблоны/ч. Боевая система. Общее.md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -221,6 +194,33 @@
       "createdDate": 1773357918552,
       "modifiedDate": 1773357918553,
       "sizeInBytes": 9630,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "Шаблоны/Характеристики оружия.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1773357918543,
+      "modifiedDate": 1773357918544,
+      "sizeInBytes": 1637,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -257,33 +257,6 @@
         "newlineCount": 0
       }
     },
-    "Шаблоны/Сюжет.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1773357918541,
-      "modifiedDate": 1773357918541,
-      "sizeInBytes": 768,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
     "Шаблоны/Ульт-способность.md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -302,6 +275,33 @@
       "createdDate": 1773357918541,
       "modifiedDate": 1773357918542,
       "sizeInBytes": 991,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "Шаблоны/Сюжет.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1773357918541,
+      "modifiedDate": 1773357918541,
+      "sizeInBytes": 768,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -1445,33 +1445,6 @@
         "newlineCount": 0
       }
     },
-    "Шаблон общий/Персонажи данганронпа.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1773357918468,
-      "modifiedDate": 1773357918468,
-      "sizeInBytes": 138,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
     "Шаблон общий/Главная.md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -1490,6 +1463,33 @@
       "createdDate": 1773357918467,
       "modifiedDate": 1773357918467,
       "sizeInBytes": 489,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "Шаблон общий/Персонажи данганронпа.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1773357918468,
+      "modifiedDate": 1773357918468,
+      "sizeInBytes": 138,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -1553,33 +1553,6 @@
         "newlineCount": 0
       }
     },
-    "театр/Doc/Список черт характера.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1773357918626,
-      "modifiedDate": 1773357918626,
-      "sizeInBytes": 2536,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
     "театр/Doc/Система отношений.md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -1607,7 +1580,7 @@
         "newlineCount": 0
       }
     },
-    "театр/Doc/Главная.md": {
+    "театр/Doc/Список черт характера.md": {
       "isCountable": true,
       "targetNodeType": "file",
       "noteCount": 0,
@@ -1622,9 +1595,9 @@
       "linkCount": 0,
       "embedCount": 0,
       "aliases": [],
-      "createdDate": 1773357918623,
-      "modifiedDate": 1773357918624,
-      "sizeInBytes": 409,
+      "createdDate": 1773357918626,
+      "modifiedDate": 1773357918626,
+      "sizeInBytes": 2536,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -1652,6 +1625,33 @@
       "createdDate": 1773357918623,
       "modifiedDate": 1773357918623,
       "sizeInBytes": 493,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "театр/Doc/Главная.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1773357918623,
+      "modifiedDate": 1773357918624,
+      "sizeInBytes": 409,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -1985,33 +1985,6 @@
         "newlineCount": 0
       }
     },
-    "слешер без перекатов/ГДД — слешер без отдельных защитных кнопок.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1778962466725,
-      "modifiedDate": 1778962466725,
-      "sizeInBytes": 50869,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
     "слешер без перекатов/Главная.md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -2030,6 +2003,33 @@
       "createdDate": 1778962466726,
       "modifiedDate": 1778962466726,
       "sizeInBytes": 281,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "слешер без перекатов/ГДД — слешер без отдельных защитных кнопок.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1778962466725,
+      "modifiedDate": 1778962466725,
+      "sizeInBytes": 50869,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -2282,33 +2282,6 @@
         "newlineCount": 0
       }
     },
-    "Рейд шутер/Фалькон Оверрол.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1773357918416,
-      "modifiedDate": 1773357918416,
-      "sizeInBytes": 201,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
     "Рейд шутер/Фламеньерг.md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -2327,6 +2300,33 @@
       "createdDate": 1773357918417,
       "modifiedDate": 1773357918418,
       "sizeInBytes": 224,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "Рейд шутер/Фалькон Оверрол.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1773357918416,
+      "modifiedDate": 1773357918416,
+      "sizeInBytes": 201,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -2417,33 +2417,6 @@
         "newlineCount": 0
       }
     },
-    "Рейд шутер/Стрельба.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1773357918408,
-      "modifiedDate": 1773357918409,
-      "sizeInBytes": 13824,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
     "Рейд шутер/Сюжет РШ.md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -2471,7 +2444,7 @@
         "newlineCount": 0
       }
     },
-    "Рейд шутер/Способности персонажей.md": {
+    "Рейд шутер/Стрельба.md": {
       "isCountable": true,
       "targetNodeType": "file",
       "noteCount": 0,
@@ -2486,9 +2459,9 @@
       "linkCount": 0,
       "embedCount": 0,
       "aliases": [],
-      "createdDate": 1773357918407,
-      "modifiedDate": 1773357918407,
-      "sizeInBytes": 8213,
+      "createdDate": 1773357918408,
+      "modifiedDate": 1773357918409,
+      "sizeInBytes": 13824,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -2516,6 +2489,33 @@
       "createdDate": 1773357918407,
       "modifiedDate": 1773357918408,
       "sizeInBytes": 169,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "Рейд шутер/Способности персонажей.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1773357918407,
+      "modifiedDate": 1773357918407,
+      "sizeInBytes": 8213,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -3254,33 +3254,6 @@
         "newlineCount": 0
       }
     },
-    "Рейд шутер/Коммандор.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1773357918367,
-      "modifiedDate": 1773357918367,
-      "sizeInBytes": 173,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
     "Рейд шутер/Карта.md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -3299,6 +3272,33 @@
       "createdDate": 1773357918357,
       "modifiedDate": 1773357918357,
       "sizeInBytes": 15548,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "Рейд шутер/Коммандор.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1773357918367,
+      "modifiedDate": 1773357918367,
+      "sizeInBytes": 173,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -3632,33 +3632,6 @@
         "newlineCount": 0
       }
     },
-    "Рейд шутер/Без названия.base": {
-      "isCountable": false,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1773357918322,
-      "modifiedDate": 1773357918324,
-      "sizeInBytes": 228,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
     "Рейд шутер/Билли Кольт.md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -3677,6 +3650,33 @@
       "createdDate": 1773357918325,
       "modifiedDate": 1773357918325,
       "sizeInBytes": 195,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "Рейд шутер/Без названия.base": {
+      "isCountable": false,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1773357918322,
+      "modifiedDate": 1773357918324,
+      "sizeInBytes": 228,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -3767,33 +3767,6 @@
         "newlineCount": 0
       }
     },
-    "Рейд шутер/Без названия 15.base": {
-      "isCountable": false,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1773357918305,
-      "modifiedDate": 1773357918305,
-      "sizeInBytes": 214,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
     "Рейд шутер/Без названия 2.base": {
       "isCountable": false,
       "targetNodeType": "file",
@@ -3812,6 +3785,33 @@
       "createdDate": 1773357918305,
       "modifiedDate": 1773357918306,
       "sizeInBytes": 176,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "Рейд шутер/Без названия 15.base": {
+      "isCountable": false,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1773357918305,
+      "modifiedDate": 1773357918305,
+      "sizeInBytes": 214,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -3893,6 +3893,60 @@
       "createdDate": 1773357918299,
       "modifiedDate": 1773357918299,
       "sizeInBytes": 234,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "Лучник шутер/Главная.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1773357918221,
+      "modifiedDate": 1773357918222,
+      "sizeInBytes": 87,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "Лучник шутер/Введение.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1773357918221,
+      "modifiedDate": 1773357918221,
+      "sizeInBytes": 5700,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -4199,33 +4253,6 @@
         "newlineCount": 0
       }
     },
-    "Материалы (свалка)/image-5.png": {
-      "isCountable": false,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1773357918277,
-      "modifiedDate": 1773357918277,
-      "sizeInBytes": 68441,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
     "Материалы (свалка)/image-5.png.sidecar.md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -4244,6 +4271,33 @@
       "createdDate": 1773357918278,
       "modifiedDate": 1773357918280,
       "sizeInBytes": 429,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "Материалы (свалка)/image-5.png": {
+      "isCountable": false,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1773357918277,
+      "modifiedDate": 1773357918277,
+      "sizeInBytes": 68441,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -4793,33 +4847,6 @@
         "newlineCount": 0
       }
     },
-    "Материалы (свалка)/image-2.png": {
-      "isCountable": false,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1773357918253,
-      "modifiedDate": 1773357918253,
-      "sizeInBytes": 41960,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
     "Материалы (свалка)/image-2.png.sidecar.md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -4838,6 +4865,33 @@
       "createdDate": 1773357918254,
       "modifiedDate": 1773357918254,
       "sizeInBytes": 545,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "Материалы (свалка)/image-2.png": {
+      "isCountable": false,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1773357918253,
+      "modifiedDate": 1773357918253,
+      "sizeInBytes": 41960,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -5441,90 +5495,31 @@
         "newlineCount": 0
       }
     },
-    "Лучник шутер/Главная.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1773357918221,
-      "modifiedDate": 1773357918222,
-      "sizeInBytes": 87,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
-    "Лучник шутер/Введение.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1773357918221,
-      "modifiedDate": 1773357918221,
-      "sizeInBytes": 5700,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
     "Карта хранилища.md": {
       "isCountable": true,
       "targetNodeType": "file",
-      "noteCount": 1,
-      "wordCount": 138,
+      "noteCount": 0,
+      "wordCount": 0,
       "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 0.46,
-      "characterCount": 1244,
-      "nonWhitespaceCharacterCount": 979,
-      "newlineCount": 50,
-      "readingTimeInMinutes": 0.5207547169811321,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
       "linkCount": 0,
       "embedCount": 0,
-      "aliases": null,
+      "aliases": [],
       "createdDate": 1773357918220,
       "modifiedDate": 1773357918220,
       "sizeInBytes": 1846,
       "sessionStart": {
-        "noteCount": 1,
-        "pageCount": 0.46,
-        "wordCount": 138,
-        "characterCount": 1244,
-        "nonWhitespaceCharacterCount": 979,
-        "newlineCount": 50
-      },
-      "frontmatter": {
-        "tags": [
-          "area/root"
-        ]
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
       }
     },
     "Исследование метроидвания способности.md": {
@@ -6013,7 +6008,7 @@
         "newlineCount": 0
       }
     },
-    "данганронпа/ФайлыГДДДанганронпа/Нарратив/Список дел.md": {
+    "данганронпа/ФайлыГДДДанганронпа/Код.md": {
       "isCountable": true,
       "targetNodeType": "file",
       "noteCount": 0,
@@ -6028,9 +6023,36 @@
       "linkCount": 0,
       "embedCount": 0,
       "aliases": [],
-      "createdDate": 1773357918602,
-      "modifiedDate": 1773357918602,
-      "sizeInBytes": 215,
+      "createdDate": 1773357918592,
+      "modifiedDate": 1773357918593,
+      "sizeInBytes": 7827,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "данганронпа/ФайлыГДДДанганронпа/Главная.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1773357918591,
+      "modifiedDate": 1773357918592,
+      "sizeInBytes": 224,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -6058,6 +6080,33 @@
       "createdDate": 1773357918602,
       "modifiedDate": 1773357918602,
       "sizeInBytes": 816,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "данганронпа/ФайлыГДДДанганронпа/Нарратив/Список дел.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1773357918602,
+      "modifiedDate": 1773357918602,
+      "sizeInBytes": 215,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -6121,33 +6170,6 @@
         "newlineCount": 0
       }
     },
-    "данганронпа/ФайлыГДДДанганронпа/Нарратив/Джилл Линард.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1773357918597,
-      "modifiedDate": 1773357918597,
-      "sizeInBytes": 811,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
     "данганронпа/ФайлыГДДДанганронпа/Нарратив/Киририн Ова.md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -6166,6 +6188,33 @@
       "createdDate": 1773357918598,
       "modifiedDate": 1773357918600,
       "sizeInBytes": 808,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "данганронпа/ФайлыГДДДанганронпа/Нарратив/Джилл Линард.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1773357918597,
+      "modifiedDate": 1773357918597,
+      "sizeInBytes": 811,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -6202,33 +6251,6 @@
         "newlineCount": 0
       }
     },
-    "данганронпа/ФайлыГДДДанганронпа/Нарратив/Винсент Вега.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1773357918594,
-      "modifiedDate": 1773357918594,
-      "sizeInBytes": 778,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
     "данганронпа/ФайлыГДДДанганронпа/Нарратив/Без названия.base": {
       "isCountable": false,
       "targetNodeType": "file",
@@ -6256,7 +6278,7 @@
         "newlineCount": 0
       }
     },
-    "данганронпа/ФайлыГДДДанганронпа/Код.md": {
+    "данганронпа/ФайлыГДДДанганронпа/Нарратив/Винсент Вега.md": {
       "isCountable": true,
       "targetNodeType": "file",
       "noteCount": 0,
@@ -6271,36 +6293,9 @@
       "linkCount": 0,
       "embedCount": 0,
       "aliases": [],
-      "createdDate": 1773357918592,
-      "modifiedDate": 1773357918593,
-      "sizeInBytes": 7827,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
-    "данганронпа/ФайлыГДДДанганронпа/Главная.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1773357918591,
-      "modifiedDate": 1773357918592,
-      "sizeInBytes": 224,
+      "createdDate": 1773357918594,
+      "modifiedDate": 1773357918594,
+      "sizeInBytes": 778,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -6391,33 +6386,6 @@
         "newlineCount": 0
       }
     },
-    "данганронпа/ФайлыГДДДанганронпа/Геймдизайн/Без названия.base": {
-      "isCountable": false,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1773357918588,
-      "modifiedDate": 1773357918588,
-      "sizeInBytes": 306,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
     "данганронпа/ФайлыГДДДанганронпа/Геймдизайн/Геймплей игры.md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -6436,6 +6404,33 @@
       "createdDate": 1773357918589,
       "modifiedDate": 1774332820344,
       "sizeInBytes": 11922,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "данганронпа/ФайлыГДДДанганронпа/Геймдизайн/Без названия.base": {
+      "isCountable": false,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1773357918588,
+      "modifiedDate": 1773357918588,
+      "sizeInBytes": 306,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -6526,33 +6521,6 @@
         "newlineCount": 0
       }
     },
-    "данганронпа/Персонажи/19 Тэо Браун.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1773357918584,
-      "modifiedDate": 1773357918585,
-      "sizeInBytes": 1261,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
     "данганронпа/Персонажи/18 Марта Руль Ежова.md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -6571,6 +6539,33 @@
       "createdDate": 1773357918583,
       "modifiedDate": 1773357918583,
       "sizeInBytes": 1242,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "данганронпа/Персонажи/19 Тэо Браун.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1773357918584,
+      "modifiedDate": 1773357918585,
+      "sizeInBytes": 1261,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -6661,33 +6656,6 @@
         "newlineCount": 0
       }
     },
-    "данганронпа/Персонажи/12 Кира Ноль.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1773357918576,
-      "modifiedDate": 1773357918576,
-      "sizeInBytes": 1221,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
     "данганронпа/Персонажи/14 Агата Вельд.md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -6706,6 +6674,33 @@
       "createdDate": 1773357918577,
       "modifiedDate": 1773357918577,
       "sizeInBytes": 1278,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "данганронпа/Персонажи/12 Кира Ноль.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1773357918576,
+      "modifiedDate": 1773357918576,
+      "sizeInBytes": 1221,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -6760,6 +6755,33 @@
       "createdDate": 1773357918574,
       "modifiedDate": 1773357918574,
       "sizeInBytes": 1261,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "данганронпа/Персонажи/06 Селин Мор.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1773357918571,
+      "modifiedDate": 1773357918571,
+      "sizeInBytes": 1235,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -6850,60 +6872,6 @@
         "newlineCount": 0
       }
     },
-    "данганронпа/Персонажи/07 Глеб Хартман.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1773357918571,
-      "modifiedDate": 1773357918572,
-      "sizeInBytes": 1220,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
-    "данганронпа/Персонажи/06 Селин Мор.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1773357918571,
-      "modifiedDate": 1773357918571,
-      "sizeInBytes": 1235,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
     "данганронпа/Персонажи/05 Нико Рейд.md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -6922,6 +6890,33 @@
       "createdDate": 1773357918570,
       "modifiedDate": 1773357918571,
       "sizeInBytes": 1223,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "данганронпа/Персонажи/07 Глеб Хартман.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1773357918571,
+      "modifiedDate": 1773357918572,
+      "sizeInBytes": 1220,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -7201,33 +7196,6 @@
         "newlineCount": 0
       }
     },
-    "данганронпа/Данганронпа. Главная.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1773357918559,
-      "modifiedDate": 1773357918559,
-      "sizeInBytes": 416,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
     "данганронпа/ДанганронпаБазыДанных/Введение.base": {
       "isCountable": false,
       "targetNodeType": "file",
@@ -7255,6 +7223,33 @@
         "newlineCount": 0
       }
     },
+    "данганронпа/Данганронпа. Главная.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1773357918559,
+      "modifiedDate": 1773357918559,
+      "sizeInBytes": 416,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
     "данганронпа/Главная.md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -7273,6 +7268,33 @@
       "createdDate": 1778962466716,
       "modifiedDate": 1778962466716,
       "sizeInBytes": 346,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "Главная.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1773357918201,
+      "modifiedDate": 1776378858805,
+      "sizeInBytes": 1680,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -7417,33 +7439,6 @@
         "newlineCount": 0
       }
     },
-    "Годот/Без названия.base": {
-      "isCountable": false,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1773357918207,
-      "modifiedDate": 1773357918207,
-      "sizeInBytes": 51,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
     "Годот/Главная.md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -7462,6 +7457,33 @@
       "createdDate": 1773357918207,
       "modifiedDate": 1776378955313,
       "sizeInBytes": 444,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "Годот/Без названия.base": {
+      "isCountable": false,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1773357918207,
+      "modifiedDate": 1773357918207,
+      "sizeInBytes": 51,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -7496,33 +7518,6 @@
         "characterCount": 0,
         "nonWhitespaceCharacterCount": 0,
         "newlineCount": 0
-      }
-    },
-    "Главная.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 1,
-      "wordCount": 61,
-      "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 0.20333333333333334,
-      "characterCount": 1162,
-      "nonWhitespaceCharacterCount": 1070,
-      "newlineCount": 32,
-      "readingTimeInMinutes": 0.23018867924528302,
-      "linkCount": 26,
-      "embedCount": 0,
-      "aliases": null,
-      "createdDate": 1773357918201,
-      "modifiedDate": 1776378858805,
-      "sizeInBytes": 1680,
-      "sessionStart": {
-        "noteCount": 1,
-        "pageCount": 0.20333333333333334,
-        "wordCount": 61,
-        "characterCount": 1162,
-        "nonWhitespaceCharacterCount": 1070,
-        "newlineCount": 32
       }
     },
     "Базы данных/Список дел.base": {
@@ -7876,33 +7871,6 @@
         "newlineCount": 0
       }
     },
-    "Базы данных/Нарратив_Основные.base": {
-      "isCountable": false,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1773357918189,
-      "modifiedDate": 1773357918189,
-      "sizeInBytes": 170,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
     "Базы данных/Нарратив_Локации.base": {
       "isCountable": false,
       "targetNodeType": "file",
@@ -7921,6 +7889,33 @@
       "createdDate": 1773357918189,
       "modifiedDate": 1773357918189,
       "sizeInBytes": 187,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "Базы данных/Нарратив_Основные.base": {
+      "isCountable": false,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1773357918189,
+      "modifiedDate": 1773357918189,
+      "sizeInBytes": 170,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -8011,33 +8006,6 @@
         "newlineCount": 0
       }
     },
-    "Базы данных/Нарратив игры.base": {
-      "isCountable": false,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1773357918186,
-      "modifiedDate": 1773357918186,
-      "sizeInBytes": 294,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
     "Базы данных/Механики игры.base": {
       "isCountable": false,
       "targetNodeType": "file",
@@ -8056,6 +8024,33 @@
       "createdDate": 1773357918185,
       "modifiedDate": 1773357918185,
       "sizeInBytes": 51,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "Базы данных/Нарратив игры.base": {
+      "isCountable": false,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1773357918186,
+      "modifiedDate": 1773357918186,
+      "sizeInBytes": 294,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -8092,33 +8087,6 @@
         "newlineCount": 0
       }
     },
-    "Базы данных/Геймплей игры.base": {
-      "isCountable": false,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1773357918184,
-      "modifiedDate": 1773357918184,
-      "sizeInBytes": 321,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
     "Базы данных/Введение.base": {
       "isCountable": false,
       "targetNodeType": "file",
@@ -8137,6 +8105,33 @@
       "createdDate": 1773357918182,
       "modifiedDate": 1773357918182,
       "sizeInBytes": 51,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "Базы данных/Геймплей игры.base": {
+      "isCountable": false,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1773357918184,
+      "modifiedDate": 1773357918184,
+      "sizeInBytes": 321,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -8524,33 +8519,6 @@
         "newlineCount": 0
       }
     },
-    "Базы данных/Без названия 1.base": {
-      "isCountable": false,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1773357918176,
-      "modifiedDate": 1773357918176,
-      "sizeInBytes": 51,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
     "Базы данных/Без названия 10.base": {
       "isCountable": false,
       "targetNodeType": "file",
@@ -8569,6 +8537,33 @@
       "createdDate": 1773357918302,
       "modifiedDate": 1773357918302,
       "sizeInBytes": 223,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "Базы данных/Без названия 1.base": {
+      "isCountable": false,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1773357918176,
+      "modifiedDate": 1773357918176,
+      "sizeInBytes": 51,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -8662,28 +8657,28 @@
     "Анализ навыков.md": {
       "isCountable": true,
       "targetNodeType": "file",
-      "noteCount": 1,
-      "wordCount": 320,
+      "noteCount": 0,
+      "wordCount": 0,
       "wordCountTowardGoal": 0,
-      "wordGoal": null,
-      "pageCount": 1.0666666666666667,
-      "characterCount": 2489,
-      "nonWhitespaceCharacterCount": 2097,
-      "newlineCount": 58,
-      "readingTimeInMinutes": 1.2075471698113207,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
       "linkCount": 0,
       "embedCount": 0,
-      "aliases": null,
+      "aliases": [],
       "createdDate": 1773357918172,
       "modifiedDate": 1777997354130,
       "sizeInBytes": 4450,
       "sessionStart": {
-        "noteCount": 1,
-        "pageCount": 1.0666666666666667,
-        "wordCount": 320,
-        "characterCount": 2489,
-        "nonWhitespaceCharacterCount": 2097,
-        "newlineCount": 58
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
       }
     },
     "Tldraw 2026-02-27 7.02вечера.md": {
@@ -8848,33 +8843,6 @@
         "newlineCount": 0
       }
     },
-    "ThunderAgeGDD(1.0)/Главная ThunderAge 1.0.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1778962466703,
-      "modifiedDate": 1778962466703,
-      "sizeInBytes": 1391,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
     "ThunderAgeGDD(1.0)/Заготовки и исправления.md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -8893,6 +8861,33 @@
       "createdDate": 1775510198380,
       "modifiedDate": 1775577377504,
       "sizeInBytes": 14449,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "ThunderAgeGDD(1.0)/Главная ThunderAge 1.0.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1778962466703,
+      "modifiedDate": 1778962466703,
+      "sizeInBytes": 1391,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -8983,7 +8978,7 @@
         "newlineCount": 0
       }
     },
-    "ThunderAgeGDD/Шаблон/Шаблон титульная страница.md": {
+    "ThunderAgeGDD/Черновик/Промпты.md": {
       "isCountable": true,
       "targetNodeType": "file",
       "noteCount": 0,
@@ -8998,9 +8993,36 @@
       "linkCount": 0,
       "embedCount": 0,
       "aliases": [],
-      "createdDate": 1773357917928,
-      "modifiedDate": 1773357917928,
-      "sizeInBytes": 99,
+      "createdDate": 1773357917923,
+      "modifiedDate": 1773357917923,
+      "sizeInBytes": 614347,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "ThunderAgeGDD/Черновик/Главная.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1773357917917,
+      "modifiedDate": 1773357917918,
+      "sizeInBytes": 83,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -9028,6 +9050,33 @@
       "createdDate": 1773357917927,
       "modifiedDate": 1773357917927,
       "sizeInBytes": 819,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "ThunderAgeGDD/Шаблон/Шаблон титульная страница.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1773357917928,
+      "modifiedDate": 1773357917928,
+      "sizeInBytes": 99,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -9109,60 +9158,6 @@
       "createdDate": 1773357917924,
       "modifiedDate": 1773357917924,
       "sizeInBytes": 157,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
-    "ThunderAgeGDD/Черновик/Промпты.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1773357917923,
-      "modifiedDate": 1773357917923,
-      "sizeInBytes": 614347,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
-    "ThunderAgeGDD/Черновик/Главная.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1773357917917,
-      "modifiedDate": 1773357917918,
-      "sizeInBytes": 83,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -9307,6 +9302,87 @@
         "newlineCount": 0
       }
     },
+    "ThunderAgeGDD/Технологии сеттинга/Водоснабжение и система очистки.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1774330512911,
+      "modifiedDate": 1774330512911,
+      "sizeInBytes": 32645,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "ThunderAgeGDD/Технологии сеттинга/Боевые системы и вооружение.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1774330512910,
+      "modifiedDate": 1774330512910,
+      "sizeInBytes": 19153,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "ThunderAgeGDD/Технологии сеттинга/Вооружение/Главная.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1774330512912,
+      "modifiedDate": 1774330512912,
+      "sizeInBytes": 98,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
     "ThunderAgeGDD/Технологии сеттинга/Вооружение/Компании/Шентор и Компания.md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -9334,33 +9410,6 @@
         "newlineCount": 0
       }
     },
-    "ThunderAgeGDD/Технологии сеттинга/Вооружение/Компании/Рунная Артель.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1774330512918,
-      "modifiedDate": 1774330512918,
-      "sizeInBytes": 17352,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
     "ThunderAgeGDD/Технологии сеттинга/Вооружение/Компании/Мастерские Абака.md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -9379,6 +9428,33 @@
       "createdDate": 1774330512915,
       "modifiedDate": 1774330512915,
       "sizeInBytes": 10938,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "ThunderAgeGDD/Технологии сеттинга/Вооружение/Компании/Рунная Артель.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1774330512918,
+      "modifiedDate": 1774330512918,
+      "sizeInBytes": 17352,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -9469,87 +9545,6 @@
         "newlineCount": 0
       }
     },
-    "ThunderAgeGDD/Технологии сеттинга/Вооружение/Главная.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1774330512912,
-      "modifiedDate": 1774330512912,
-      "sizeInBytes": 98,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
-    "ThunderAgeGDD/Технологии сеттинга/Водоснабжение и система очистки.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1774330512911,
-      "modifiedDate": 1774330512911,
-      "sizeInBytes": 32645,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
-    "ThunderAgeGDD/Технологии сеттинга/Боевые системы и вооружение.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1774330512910,
-      "modifiedDate": 1774330512910,
-      "sizeInBytes": 19153,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
     "ThunderAgeGDD/Технологии сеттинга/Аэропорты для линкоров.md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -9631,33 +9626,6 @@
         "newlineCount": 0
       }
     },
-    "ThunderAgeGDD/Сеттинг/Экосистема.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1773357917909,
-      "modifiedDate": 1773357917909,
-      "sizeInBytes": 2010,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
     "ThunderAgeGDD/Сеттинг/Словарь сленга.md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -9676,6 +9644,33 @@
       "createdDate": 1775387810480,
       "modifiedDate": 1775387810481,
       "sizeInBytes": 7521,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "ThunderAgeGDD/Сеттинг/Экосистема.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1773357917909,
+      "modifiedDate": 1773357917909,
+      "sizeInBytes": 2010,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -9901,33 +9896,6 @@
         "newlineCount": 0
       }
     },
-    "ThunderAgeGDD/Нарратив/черновик заметуки.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1773357917901,
-      "modifiedDate": 1773357917901,
-      "sizeInBytes": 89950,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
     "ThunderAgeGDD/Нарратив/черновик заметки.md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -9982,6 +9950,33 @@
         "newlineCount": 0
       }
     },
+    "ThunderAgeGDD/Нарратив/черновик заметуки.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1773357917901,
+      "modifiedDate": 1773357917901,
+      "sizeInBytes": 89950,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
     "ThunderAgeGDD/Нарратив/Технологический прогресс.md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -10000,33 +9995,6 @@
       "createdDate": 1773357917893,
       "modifiedDate": 1773357917894,
       "sizeInBytes": 6789,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
-    "ThunderAgeGDD/Нарратив/Смысл игры.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1773357917893,
-      "modifiedDate": 1773357917893,
-      "sizeInBytes": 7028,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -10063,6 +10031,60 @@
         "newlineCount": 0
       }
     },
+    "ThunderAgeGDD/Нарратив/Псионика.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1773357917889,
+      "modifiedDate": 1773357917889,
+      "sizeInBytes": 4686,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "ThunderAgeGDD/Нарратив/Смысл игры.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1773357917893,
+      "modifiedDate": 1773357917893,
+      "sizeInBytes": 7028,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
     "ThunderAgeGDD/Нарратив/Пустота.md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -10090,7 +10112,7 @@
         "newlineCount": 0
       }
     },
-    "ThunderAgeGDD/Нарратив/Псионика.md": {
+    "ThunderAgeGDD/Нарратив/Лидеры фракций.md": {
       "isCountable": true,
       "targetNodeType": "file",
       "noteCount": 0,
@@ -10105,9 +10127,9 @@
       "linkCount": 0,
       "embedCount": 0,
       "aliases": [],
-      "createdDate": 1773357917889,
-      "modifiedDate": 1773357917889,
-      "sizeInBytes": 4686,
+      "createdDate": 1774330512900,
+      "modifiedDate": 1774330512901,
+      "sizeInBytes": 24674,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -10171,7 +10193,7 @@
         "newlineCount": 0
       }
     },
-    "ThunderAgeGDD/Нарратив/Лидеры фракций.md": {
+    "ThunderAgeGDD/Нарратив/История/Хронология мира и города.md": {
       "isCountable": true,
       "targetNodeType": "file",
       "noteCount": 0,
@@ -10186,36 +10208,9 @@
       "linkCount": 0,
       "embedCount": 0,
       "aliases": [],
-      "createdDate": 1774330512900,
-      "modifiedDate": 1774330512901,
-      "sizeInBytes": 24674,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
-    "ThunderAgeGDD/Нарратив/Диалоги — городской сленг.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1775387810479,
-      "modifiedDate": 1775388682483,
-      "sizeInBytes": 2782,
+      "createdDate": 1773357917886,
+      "modifiedDate": 1773357917886,
+      "sizeInBytes": 1245,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -10243,33 +10238,6 @@
       "createdDate": 1777275066904,
       "modifiedDate": 1777275066904,
       "sizeInBytes": 36422,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
-    "ThunderAgeGDD/Нарратив/История/Хронология мира и города.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1773357917886,
-      "modifiedDate": 1773357917886,
-      "sizeInBytes": 1245,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -10360,6 +10328,33 @@
         "newlineCount": 0
       }
     },
+    "ThunderAgeGDD/Нарратив/Диалоги — городской сленг.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1775387810479,
+      "modifiedDate": 1775388682483,
+      "sizeInBytes": 2782,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
     "ThunderAgeGDD/Нарратив/Демоны - детальное описание.md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -10414,33 +10409,6 @@
         "newlineCount": 0
       }
     },
-    "ThunderAgeGDD/Нарратив/Группировки города/Главная.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1773357917878,
-      "modifiedDate": 1773357917878,
-      "sizeInBytes": 103,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
     "ThunderAgeGDD/Нарратив/Группировки города/Untitled.md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -10459,6 +10427,33 @@
       "createdDate": 1773357917877,
       "modifiedDate": 1773357917878,
       "sizeInBytes": 20374,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "ThunderAgeGDD/Нарратив/Группировки города/Главная.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1773357917878,
+      "modifiedDate": 1773357917878,
+      "sizeInBytes": 103,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -10792,33 +10787,6 @@
         "newlineCount": 0
       }
     },
-    "ThunderAgeGDD/Материалы/image.png": {
-      "isCountable": false,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1773357917871,
-      "modifiedDate": 1773357917871,
-      "sizeInBytes": 460251,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
     "ThunderAgeGDD/Материалы/image.png.sidecar.md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -10846,8 +10814,8 @@
         "newlineCount": 0
       }
     },
-    "ThunderAgeGDD/Материалы/image-9.png.sidecar.md": {
-      "isCountable": true,
+    "ThunderAgeGDD/Материалы/image.png": {
+      "isCountable": false,
       "targetNodeType": "file",
       "noteCount": 0,
       "wordCount": 0,
@@ -10861,9 +10829,9 @@
       "linkCount": 0,
       "embedCount": 0,
       "aliases": [],
-      "createdDate": 1773357917867,
-      "modifiedDate": 1773357917868,
-      "sizeInBytes": 471,
+      "createdDate": 1773357917871,
+      "modifiedDate": 1773357917871,
+      "sizeInBytes": 460251,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -10891,6 +10859,33 @@
       "createdDate": 1773357917865,
       "modifiedDate": 1773357917866,
       "sizeInBytes": 29148,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "ThunderAgeGDD/Материалы/image-9.png.sidecar.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1773357917867,
+      "modifiedDate": 1773357917868,
+      "sizeInBytes": 471,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -11548,33 +11543,6 @@
         "newlineCount": 0
       }
     },
-    "ThunderAgeGDD/Материалы/image-13.png.sidecar.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1773357917823,
-      "modifiedDate": 1773357917823,
-      "sizeInBytes": 480,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
     "ThunderAgeGDD/Материалы/image-13.png": {
       "isCountable": false,
       "targetNodeType": "file",
@@ -11620,6 +11588,33 @@
       "createdDate": 1773357917820,
       "modifiedDate": 1773357917820,
       "sizeInBytes": 529,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "ThunderAgeGDD/Материалы/image-13.png.sidecar.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1773357917823,
+      "modifiedDate": 1773357917823,
+      "sizeInBytes": 480,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -11737,33 +11732,6 @@
         "newlineCount": 0
       }
     },
-    "ThunderAgeGDD/Материалы/image-1.png.sidecar.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1773357917806,
-      "modifiedDate": 1773357917806,
-      "sizeInBytes": 569,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
     "ThunderAgeGDD/Материалы/image-10.png": {
       "isCountable": false,
       "targetNodeType": "file",
@@ -11782,6 +11750,33 @@
       "createdDate": 1773357917808,
       "modifiedDate": 1773357917808,
       "sizeInBytes": 160520,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "ThunderAgeGDD/Материалы/image-1.png.sidecar.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1773357917806,
+      "modifiedDate": 1773357917806,
+      "sizeInBytes": 569,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -11872,7 +11867,7 @@
         "newlineCount": 0
       }
     },
-    "ThunderAgeGDD/Игровой процесс/Ролевая модель/Харизма.md": {
+    "ThunderAgeGDD/Игровой процесс/промты диздока.md": {
       "isCountable": true,
       "targetNodeType": "file",
       "noteCount": 0,
@@ -11887,9 +11882,36 @@
       "linkCount": 0,
       "embedCount": 0,
       "aliases": [],
-      "createdDate": 1773357917770,
-      "modifiedDate": 1773357917770,
-      "sizeInBytes": 4300,
+      "createdDate": 1773357917775,
+      "modifiedDate": 1773357917775,
+      "sizeInBytes": 614360,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "ThunderAgeGDD/Игровой процесс/Ролевая модель/Склад мыслей.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1773357917766,
+      "modifiedDate": 1773357917766,
+      "sizeInBytes": 52665,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -11926,6 +11948,33 @@
         "newlineCount": 0
       }
     },
+    "ThunderAgeGDD/Игровой процесс/Ролевая модель/Харизма.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1773357917770,
+      "modifiedDate": 1773357917770,
+      "sizeInBytes": 4300,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
     "ThunderAgeGDD/Игровой процесс/Ролевая модель/Список перков.md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -11944,33 +11993,6 @@
       "createdDate": 1773357917768,
       "modifiedDate": 1777709563134,
       "sizeInBytes": 106050,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
-    "ThunderAgeGDD/Игровой процесс/Ролевая модель/Склад мыслей.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1773357917766,
-      "modifiedDate": 1773357917766,
-      "sizeInBytes": 52665,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -12133,33 +12155,6 @@
       "createdDate": 1773357917756,
       "modifiedDate": 1773357917756,
       "sizeInBytes": 499,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
-    "ThunderAgeGDD/Игровой процесс/промты диздока.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1773357917775,
-      "modifiedDate": 1773357917775,
-      "sizeInBytes": 614360,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -12574,33 +12569,6 @@
         "newlineCount": 0
       }
     },
-    "ThunderAgeGDD/Версия(0.56)/Свобода.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1773357917735,
-      "modifiedDate": 1773357917735,
-      "sizeInBytes": 937,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
     "ThunderAgeGDD/Версия(0.56)/Речитатив.md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -12619,6 +12587,33 @@
       "createdDate": 1773357917734,
       "modifiedDate": 1775572713065,
       "sizeInBytes": 799,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "ThunderAgeGDD/Версия(0.56)/Свобода.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1773357917735,
+      "modifiedDate": 1773357917735,
+      "sizeInBytes": 937,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -12736,6 +12731,33 @@
         "newlineCount": 0
       }
     },
+    "ThunderAgeGDD/Версия(0.56)/Оценка и предложения.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1773357917642,
+      "modifiedDate": 1773357917642,
+      "sizeInBytes": 10201,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
     "ThunderAgeGDD/Версия(0.56)/Персонажи/Тернистые/Франц Фердинанд.md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -12844,33 +12866,6 @@
         "newlineCount": 0
       }
     },
-    "ThunderAgeGDD/Версия(0.56)/Персонажи/Тернистые/Ромул Остапов.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1775575713112,
-      "modifiedDate": 1775575713131,
-      "sizeInBytes": 5112,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
     "ThunderAgeGDD/Версия(0.56)/Персонажи/Тернистые/Рита Кукушка.md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -12889,6 +12884,33 @@
       "createdDate": 1775575713065,
       "modifiedDate": 1775575815771,
       "sizeInBytes": 5096,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "ThunderAgeGDD/Версия(0.56)/Персонажи/Тернистые/Ромул Остапов.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1775575713112,
+      "modifiedDate": 1775575713131,
+      "sizeInBytes": 5112,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -13114,6 +13136,33 @@
         "newlineCount": 0
       }
     },
+    "ThunderAgeGDD/Версия(0.56)/Персонажи/Пауки/Паук.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1775575712580,
+      "modifiedDate": 1775575712594,
+      "sizeInBytes": 5622,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
     "ThunderAgeGDD/Версия(0.56)/Персонажи/Пауки/Сэм Риггет.md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -13141,6 +13190,33 @@
         "newlineCount": 0
       }
     },
+    "ThunderAgeGDD/Версия(0.56)/Персонажи/Пауки/Зоя Вано.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1775575712343,
+      "modifiedDate": 1775575712357,
+      "sizeInBytes": 5233,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
     "ThunderAgeGDD/Версия(0.56)/Персонажи/Пауки/Лилия Нерман.md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -13159,33 +13235,6 @@
       "createdDate": 1775575712516,
       "modifiedDate": 1775575712533,
       "sizeInBytes": 5130,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
-    "ThunderAgeGDD/Версия(0.56)/Персонажи/Пауки/Паук.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1775575712580,
-      "modifiedDate": 1775575712594,
-      "sizeInBytes": 5622,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -13240,33 +13289,6 @@
       "createdDate": 1775575712396,
       "modifiedDate": 1775575712412,
       "sizeInBytes": 5112,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
-    "ThunderAgeGDD/Версия(0.56)/Персонажи/Пауки/Зоя Вано.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1775575712343,
-      "modifiedDate": 1775575712357,
-      "sizeInBytes": 5233,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -13357,6 +13379,33 @@
         "newlineCount": 0
       }
     },
+    "ThunderAgeGDD/Версия(0.56)/Персонажи/Пауки/Анна Сорока.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1775575712113,
+      "modifiedDate": 1775575712128,
+      "sizeInBytes": 5231,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
     "ThunderAgeGDD/Версия(0.56)/Персонажи/Пауки/Виктор Романов.md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -13402,33 +13451,6 @@
       "createdDate": 1775575712045,
       "modifiedDate": 1775575712070,
       "sizeInBytes": 4747,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
-    "ThunderAgeGDD/Версия(0.56)/Персонажи/Пауки/Анна Сорока.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1775575712113,
-      "modifiedDate": 1775575712128,
-      "sizeInBytes": 5231,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -13546,33 +13568,6 @@
         "newlineCount": 0
       }
     },
-    "ThunderAgeGDD/Версия(0.56)/Персонажи/Новые/Главная.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1773357917702,
-      "modifiedDate": 1775575849309,
-      "sizeInBytes": 346,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
     "ThunderAgeGDD/Версия(0.56)/Персонажи/Новые/Беньямин Аш.md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -13591,6 +13586,33 @@
       "createdDate": 1775575711715,
       "modifiedDate": 1775575711731,
       "sizeInBytes": 4576,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "ThunderAgeGDD/Версия(0.56)/Персонажи/Новые/Главная.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1773357917702,
+      "modifiedDate": 1775575849309,
+      "sizeInBytes": 346,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -13681,33 +13703,6 @@
         "newlineCount": 0
       }
     },
-    "ThunderAgeGDD/Версия(0.56)/Персонажи/Колонны/Тамара Бонапарт.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1775575711464,
-      "modifiedDate": 1775575711483,
-      "sizeInBytes": 4259,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
     "ThunderAgeGDD/Версия(0.56)/Персонажи/Колонны/Рой Блэйн.md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -13726,6 +13721,33 @@
       "createdDate": 1775575711398,
       "modifiedDate": 1775575711416,
       "sizeInBytes": 3582,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "ThunderAgeGDD/Версия(0.56)/Персонажи/Колонны/Тамара Бонапарт.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1775575711464,
+      "modifiedDate": 1775575711483,
+      "sizeInBytes": 4259,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -13843,6 +13865,33 @@
         "newlineCount": 0
       }
     },
+    "ThunderAgeGDD/Версия(0.56)/Персонажи/Колонны/Иза Трал.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1775575711028,
+      "modifiedDate": 1775575711046,
+      "sizeInBytes": 4245,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
     "ThunderAgeGDD/Версия(0.56)/Персонажи/Колонны/Макс Реккер.md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -13897,7 +13946,7 @@
         "newlineCount": 0
       }
     },
-    "ThunderAgeGDD/Версия(0.56)/Персонажи/Колонны/Иза Трал.md": {
+    "ThunderAgeGDD/Версия(0.56)/Персонажи/Колонны/Джесси Арель.md": {
       "isCountable": true,
       "targetNodeType": "file",
       "noteCount": 0,
@@ -13912,9 +13961,9 @@
       "linkCount": 0,
       "embedCount": 0,
       "aliases": [],
-      "createdDate": 1775575711028,
-      "modifiedDate": 1775575711046,
-      "sizeInBytes": 4245,
+      "createdDate": 1775575710755,
+      "modifiedDate": 1775575710809,
+      "sizeInBytes": 5192,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -13951,7 +14000,7 @@
         "newlineCount": 0
       }
     },
-    "ThunderAgeGDD/Версия(0.56)/Персонажи/Колонны/Джесси Арель.md": {
+    "ThunderAgeGDD/Версия(0.56)/Персонажи/Колонны/Агнесса Плиц.md": {
       "isCountable": true,
       "targetNodeType": "file",
       "noteCount": 0,
@@ -13966,9 +14015,9 @@
       "linkCount": 0,
       "embedCount": 0,
       "aliases": [],
-      "createdDate": 1775575710755,
-      "modifiedDate": 1775575710809,
-      "sizeInBytes": 5192,
+      "createdDate": 1775575710670,
+      "modifiedDate": 1775575710684,
+      "sizeInBytes": 5221,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -14005,33 +14054,6 @@
         "newlineCount": 0
       }
     },
-    "ThunderAgeGDD/Версия(0.56)/Персонажи/Колонны/Агнесса Плиц.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1775575710670,
-      "modifiedDate": 1775575710684,
-      "sizeInBytes": 5221,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
     "ThunderAgeGDD/Версия(0.56)/Персонажи/Инквизиция/Хильда Бронс.md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -14050,6 +14072,33 @@
       "createdDate": 1775575710616,
       "modifiedDate": 1775575710632,
       "sizeInBytes": 5338,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "ThunderAgeGDD/Версия(0.56)/Персонажи/Инквизиция/Ореол Трах.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1775575710454,
+      "modifiedDate": 1775575710471,
+      "sizeInBytes": 5513,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -14140,33 +14189,6 @@
         "newlineCount": 0
       }
     },
-    "ThunderAgeGDD/Версия(0.56)/Персонажи/Инквизиция/Ореол Трах.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1775575710454,
-      "modifiedDate": 1775575710471,
-      "sizeInBytes": 5513,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
     "ThunderAgeGDD/Версия(0.56)/Персонажи/Инквизиция/Нанна Вирт.md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -14194,33 +14216,6 @@
         "newlineCount": 0
       }
     },
-    "ThunderAgeGDD/Версия(0.56)/Персонажи/Инквизиция/Йамка Шигернальд.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1775575710191,
-      "modifiedDate": 1775575710209,
-      "sizeInBytes": 4884,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
     "ThunderAgeGDD/Версия(0.56)/Персонажи/Инквизиция/Лесси Кикрет.md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -14239,6 +14234,33 @@
       "createdDate": 1775575710306,
       "modifiedDate": 1775575710319,
       "sizeInBytes": 4365,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "ThunderAgeGDD/Версия(0.56)/Персонажи/Инквизиция/Йамка Шигернальд.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1775575710191,
+      "modifiedDate": 1775575710209,
+      "sizeInBytes": 4884,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -14329,7 +14351,7 @@
         "newlineCount": 0
       }
     },
-    "ThunderAgeGDD/Версия(0.56)/Персонажи/Инквизиция/Густав Пфайль.md": {
+    "ThunderAgeGDD/Версия(0.56)/Персонажи/Инквизиция/Белла Ридж.md": {
       "isCountable": true,
       "targetNodeType": "file",
       "noteCount": 0,
@@ -14344,9 +14366,9 @@
       "linkCount": 0,
       "embedCount": 0,
       "aliases": [],
-      "createdDate": 1775575710012,
-      "modifiedDate": 1775575710027,
-      "sizeInBytes": 5206,
+      "createdDate": 1775575709956,
+      "modifiedDate": 1775575709972,
+      "sizeInBytes": 5546,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -14383,6 +14405,33 @@
         "newlineCount": 0
       }
     },
+    "ThunderAgeGDD/Версия(0.56)/Персонажи/Инквизиция/Густав Пфайль.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1775575710012,
+      "modifiedDate": 1775575710027,
+      "sizeInBytes": 5206,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
     "ThunderAgeGDD/Версия(0.56)/Персонажи/Инквизиция/Главная.md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -14401,33 +14450,6 @@
       "createdDate": 1773357917673,
       "modifiedDate": 1773357917674,
       "sizeInBytes": 847,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
-    "ThunderAgeGDD/Версия(0.56)/Персонажи/Инквизиция/Белла Ридж.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1775575709956,
-      "modifiedDate": 1775575709972,
-      "sizeInBytes": 5546,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -14653,33 +14675,6 @@
         "newlineCount": 0
       }
     },
-    "ThunderAgeGDD/Версия(0.56)/Персонажи/Дом Лэйнов/Лэйер Лэйн.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1775575709380,
-      "modifiedDate": 1775575709396,
-      "sizeInBytes": 5022,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
     "ThunderAgeGDD/Версия(0.56)/Персонажи/Дом Лэйнов/Мари Арель.md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -14698,6 +14693,33 @@
       "createdDate": 1775575709433,
       "modifiedDate": 1775575709448,
       "sizeInBytes": 4210,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "ThunderAgeGDD/Версия(0.56)/Персонажи/Дом Лэйнов/Лэйер Лэйн.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1775575709380,
+      "modifiedDate": 1775575709396,
+      "sizeInBytes": 5022,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -14761,33 +14783,6 @@
         "newlineCount": 0
       }
     },
-    "ThunderAgeGDD/Версия(0.56)/Персонажи/Дом Лэйнов/Альберт Велтен.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1775575709141,
-      "modifiedDate": 1775575709159,
-      "sizeInBytes": 4425,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
     "ThunderAgeGDD/Версия(0.56)/Персонажи/Дом Лэйнов/Диана Арель.md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -14833,6 +14828,33 @@
       "createdDate": 1773357917659,
       "modifiedDate": 1775576852215,
       "sizeInBytes": 790,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "ThunderAgeGDD/Версия(0.56)/Персонажи/Дом Лэйнов/Альберт Велтен.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1775575709141,
+      "modifiedDate": 1775575709159,
+      "sizeInBytes": 4425,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -15112,60 +15134,6 @@
         "newlineCount": 0
       }
     },
-    "ThunderAgeGDD/Версия(0.56)/Персонажи/Гвардия/Йохан Вега.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1775575708468,
-      "modifiedDate": 1775575708486,
-      "sizeInBytes": 4711,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
-    "ThunderAgeGDD/Версия(0.56)/Персонажи/Гвардия/Дункан Варрен.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1775575708403,
-      "modifiedDate": 1775575708420,
-      "sizeInBytes": 5213,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
     "ThunderAgeGDD/Версия(0.56)/Персонажи/Гвардия/Главная.md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -15184,6 +15152,33 @@
       "createdDate": 1773357917645,
       "modifiedDate": 1773357917645,
       "sizeInBytes": 789,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "ThunderAgeGDD/Версия(0.56)/Персонажи/Гвардия/Йохан Вега.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1775575708468,
+      "modifiedDate": 1775575708486,
+      "sizeInBytes": 4711,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -15220,7 +15215,7 @@
         "newlineCount": 0
       }
     },
-    "ThunderAgeGDD/Версия(0.56)/Оценка и предложения.md": {
+    "ThunderAgeGDD/Версия(0.56)/Персонажи/Гвардия/Дункан Варрен.md": {
       "isCountable": true,
       "targetNodeType": "file",
       "noteCount": 0,
@@ -15235,36 +15230,9 @@
       "linkCount": 0,
       "embedCount": 0,
       "aliases": [],
-      "createdDate": 1773357917642,
-      "modifiedDate": 1773357917642,
-      "sizeInBytes": 10201,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
-    "ThunderAgeGDD/Версия(0.56)/Общий сюжет игры.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1773357917636,
-      "modifiedDate": 1773357917636,
-      "sizeInBytes": 185,
+      "createdDate": 1775575708403,
+      "modifiedDate": 1775575708420,
+      "sizeInBytes": 5213,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -15328,33 +15296,6 @@
         "newlineCount": 0
       }
     },
-    "ThunderAgeGDD/Версия(0.56)/Организация/Униформа/Инквизиция.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1773357917640,
-      "modifiedDate": 1773357917640,
-      "sizeInBytes": 8276,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
     "ThunderAgeGDD/Версия(0.56)/Организация/Униформа/Главная.md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -15373,6 +15314,33 @@
       "createdDate": 1773357917639,
       "modifiedDate": 1773357917640,
       "sizeInBytes": 183,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "ThunderAgeGDD/Версия(0.56)/Организация/Униформа/Инквизиция.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1773357917640,
+      "modifiedDate": 1773357917640,
+      "sizeInBytes": 8276,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -15427,6 +15395,33 @@
       "createdDate": 1773357917637,
       "modifiedDate": 1773357917637,
       "sizeInBytes": 10900,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "ThunderAgeGDD/Версия(0.56)/Общий сюжет игры.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1773357917636,
+      "modifiedDate": 1773357917636,
+      "sizeInBytes": 185,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -15544,33 +15539,6 @@
         "newlineCount": 0
       }
     },
-    "ThunderAgeGDD/Версия(0.56)/Мортис.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1773357917632,
-      "modifiedDate": 1773357917633,
-      "sizeInBytes": 866,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
     "ThunderAgeGDD/Версия(0.56)/Механика.md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -15589,6 +15557,33 @@
       "createdDate": 1773357917631,
       "modifiedDate": 1773357917632,
       "sizeInBytes": 884,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "ThunderAgeGDD/Версия(0.56)/Мортис.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1773357917632,
+      "modifiedDate": 1773357917633,
+      "sizeInBytes": 866,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -15733,33 +15728,6 @@
         "newlineCount": 0
       }
     },
-    "ThunderAgeGDD/Версия(0.56)/Локации/Регистр.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1773357917626,
-      "modifiedDate": 1773357917626,
-      "sizeInBytes": 5120,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
     "ThunderAgeGDD/Версия(0.56)/Локации/Паутина.md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -15778,6 +15746,33 @@
       "createdDate": 1773357917626,
       "modifiedDate": 1773357917626,
       "sizeInBytes": 5603,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "ThunderAgeGDD/Версия(0.56)/Локации/Регистр.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1773357917626,
+      "modifiedDate": 1773357917626,
+      "sizeInBytes": 5120,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -15814,7 +15809,7 @@
         "newlineCount": 0
       }
     },
-    "ThunderAgeGDD/Версия(0.56)/Локации/Карта Либерии.md": {
+    "ThunderAgeGDD/Версия(0.56)/Локации/Аркада.md": {
       "isCountable": true,
       "targetNodeType": "file",
       "noteCount": 0,
@@ -15829,9 +15824,9 @@
       "linkCount": 0,
       "embedCount": 0,
       "aliases": [],
-      "createdDate": 1773357917624,
-      "modifiedDate": 1773357917625,
-      "sizeInBytes": 13207,
+      "createdDate": 1773357917622,
+      "modifiedDate": 1773357917622,
+      "sizeInBytes": 6063,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -15895,7 +15890,7 @@
         "newlineCount": 0
       }
     },
-    "ThunderAgeGDD/Версия(0.56)/Локации/Аркада.md": {
+    "ThunderAgeGDD/Версия(0.56)/Локации/Карта Либерии.md": {
       "isCountable": true,
       "targetNodeType": "file",
       "noteCount": 0,
@@ -15910,9 +15905,9 @@
       "linkCount": 0,
       "embedCount": 0,
       "aliases": [],
-      "createdDate": 1773357917622,
-      "modifiedDate": 1773357917622,
-      "sizeInBytes": 6063,
+      "createdDate": 1773357917624,
+      "modifiedDate": 1773357917625,
+      "sizeInBytes": 13207,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -16111,33 +16106,6 @@
         "newlineCount": 0
       }
     },
-    "ThunderAgeGDD/Версия(0.56)/Егерь.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1773357917616,
-      "modifiedDate": 1773357917617,
-      "sizeInBytes": 1011,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
     "ThunderAgeGDD/Версия(0.56)/Зверь.md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -16156,6 +16124,33 @@
       "createdDate": 1773357917617,
       "modifiedDate": 1773357917618,
       "sizeInBytes": 1006,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "ThunderAgeGDD/Версия(0.56)/Егерь.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1773357917616,
+      "modifiedDate": 1773357917617,
+      "sizeInBytes": 1011,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -16246,33 +16241,6 @@
         "newlineCount": 0
       }
     },
-    "ThunderAgeGDD/Версия(0.56)/Гвардия.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1773357917609,
-      "modifiedDate": 1773357917610,
-      "sizeInBytes": 1056,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
     "ThunderAgeGDD/Версия(0.56)/Геймдизайн.md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -16291,6 +16259,33 @@
       "createdDate": 1773357917610,
       "modifiedDate": 1775572769239,
       "sizeInBytes": 576,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "ThunderAgeGDD/Версия(0.56)/Гвардия.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1773357917609,
+      "modifiedDate": 1773357917610,
+      "sizeInBytes": 1056,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -16327,6 +16322,33 @@
         "newlineCount": 0
       }
     },
+    "ThunderAgeGDD/Версия(0.56)/Без названия 4.base": {
+      "isCountable": false,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1773357917603,
+      "modifiedDate": 1773357917603,
+      "sizeInBytes": 266,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
     "ThunderAgeGDD/Версия(0.56)/Вооружение/Главная.md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -16345,6 +16367,33 @@
       "createdDate": 1773357917605,
       "modifiedDate": 1773357917605,
       "sizeInBytes": 98,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "ThunderAgeGDD/Версия(0.56)/Вооружение/Компании/Мастерские Абака.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1773357917608,
+      "modifiedDate": 1773357917608,
+      "sizeInBytes": 10938,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -16408,33 +16457,6 @@
         "newlineCount": 0
       }
     },
-    "ThunderAgeGDD/Версия(0.56)/Вооружение/Компании/Мастерские Абака.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1773357917608,
-      "modifiedDate": 1773357917608,
-      "sizeInBytes": 10938,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
     "ThunderAgeGDD/Версия(0.56)/Вооружение/Компании/Крест-Линд Армаментс.md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -16453,33 +16475,6 @@
       "createdDate": 1773357917607,
       "modifiedDate": 1773357917607,
       "sizeInBytes": 15367,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
-    "ThunderAgeGDD/Версия(0.56)/Вооружение/Компании/Главная.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1773357917605,
-      "modifiedDate": 1773357917606,
-      "sizeInBytes": 393,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -16516,8 +16511,8 @@
         "newlineCount": 0
       }
     },
-    "ThunderAgeGDD/Версия(0.56)/Без названия 4.base": {
-      "isCountable": false,
+    "ThunderAgeGDD/Версия(0.56)/Вооружение/Компании/Главная.md": {
+      "isCountable": true,
       "targetNodeType": "file",
       "noteCount": 0,
       "wordCount": 0,
@@ -16531,36 +16526,9 @@
       "linkCount": 0,
       "embedCount": 0,
       "aliases": [],
-      "createdDate": 1773357917603,
-      "modifiedDate": 1773357917603,
-      "sizeInBytes": 266,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
-    "ThunderAgeGDD/Версия(0.56)/Без названия 2.base": {
-      "isCountable": false,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1773357917602,
-      "modifiedDate": 1773357917602,
-      "sizeInBytes": 168,
+      "createdDate": 1773357917605,
+      "modifiedDate": 1773357917606,
+      "sizeInBytes": 393,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -16588,6 +16556,33 @@
       "createdDate": 1773357917602,
       "modifiedDate": 1773357917602,
       "sizeInBytes": 254,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "ThunderAgeGDD/Версия(0.56)/Без названия 2.base": {
+      "isCountable": false,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1773357917602,
+      "modifiedDate": 1773357917602,
+      "sizeInBytes": 168,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -16732,7 +16727,7 @@
         "newlineCount": 0
       }
     },
-    "ThunderAgeGDD/Excel 2025-11-11 20.59.42.sheet.md": {
+    "ThunderAgeGDD/JRPG Тактический Геймплей/11 — Перки и прогрессия.md": {
       "isCountable": true,
       "targetNodeType": "file",
       "noteCount": 0,
@@ -16747,9 +16742,9 @@
       "linkCount": 0,
       "embedCount": 0,
       "aliases": [],
-      "createdDate": 1773357917594,
-      "modifiedDate": 1773357917594,
-      "sizeInBytes": 497,
+      "createdDate": 1773774132696,
+      "modifiedDate": 1773774132696,
+      "sizeInBytes": 10168,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -16840,33 +16835,6 @@
         "newlineCount": 0
       }
     },
-    "ThunderAgeGDD/JRPG Тактический Геймплей/11 — Перки и прогрессия.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1773774132696,
-      "modifiedDate": 1773774132696,
-      "sizeInBytes": 10168,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
     "ThunderAgeGDD/JRPG Тактический Геймплей/10 — Боевые профили напарников.md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -16885,33 +16853,6 @@
       "createdDate": 1773774132695,
       "modifiedDate": 1773774132695,
       "sizeInBytes": 14938,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
-    "ThunderAgeGDD/JRPG Тактический Геймплей/09 — Экипировка и снаряжение.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1773774132694,
-      "modifiedDate": 1773774132694,
-      "sizeInBytes": 10846,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -16948,7 +16889,7 @@
         "newlineCount": 0
       }
     },
-    "ThunderAgeGDD/JRPG Тактический Геймплей/07 — ИИ напарников и тактики.md": {
+    "ThunderAgeGDD/JRPG Тактический Геймплей/09 — Экипировка и снаряжение.md": {
       "isCountable": true,
       "targetNodeType": "file",
       "noteCount": 0,
@@ -16963,9 +16904,9 @@
       "linkCount": 0,
       "embedCount": 0,
       "aliases": [],
-      "createdDate": 1773774132692,
-      "modifiedDate": 1773774132692,
-      "sizeInBytes": 17383,
+      "createdDate": 1773774132694,
+      "modifiedDate": 1773774132694,
+      "sizeInBytes": 10846,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -17002,6 +16943,33 @@
         "newlineCount": 0
       }
     },
+    "ThunderAgeGDD/JRPG Тактический Геймплей/07 — ИИ напарников и тактики.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1773774132692,
+      "modifiedDate": 1773774132692,
+      "sizeInBytes": 17383,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
     "ThunderAgeGDD/JRPG Тактический Геймплей/05 — Эллиот Лэйн — способности протагониста.md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -17020,6 +16988,33 @@
       "createdDate": 1773774132690,
       "modifiedDate": 1773774132690,
       "sizeInBytes": 19317,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "ThunderAgeGDD/JRPG Тактический Геймплей/02 — Переменные и формулы.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1773774132687,
+      "modifiedDate": 1773774132687,
+      "sizeInBytes": 14859,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -17083,33 +17078,6 @@
         "newlineCount": 0
       }
     },
-    "ThunderAgeGDD/JRPG Тактический Геймплей/02 — Переменные и формулы.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1773774132687,
-      "modifiedDate": 1773774132687,
-      "sizeInBytes": 14859,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
     "ThunderAgeGDD/JRPG Тактический Геймплей/01 — Боевая система.md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -17155,6 +17123,33 @@
       "createdDate": 1773774132685,
       "modifiedDate": 1773774132685,
       "sizeInBytes": 3142,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "ThunderAgeGDD/Excel 2025-11-11 20.59.42.sheet.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1773357917594,
+      "modifiedDate": 1773357917594,
+      "sizeInBytes": 497,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -17245,33 +17240,6 @@
         "newlineCount": 1
       }
     },
-    "ThunderAge(1.0)/07 Весния расширение и революции.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1778962466700,
-      "modifiedDate": 1778962466700,
-      "sizeInBytes": 29076,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
     "ThunderAge(1.0)/06 Карта отношений.md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -17290,6 +17258,33 @@
       "createdDate": 1778962466698,
       "modifiedDate": 1778962466699,
       "sizeInBytes": 54142,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "ThunderAge(1.0)/07 Весния расширение и революции.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1778962466700,
+      "modifiedDate": 1778962466700,
+      "sizeInBytes": 29076,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -17353,33 +17348,6 @@
         "newlineCount": 0
       }
     },
-    "ThunderAge(1.0)/03 Мир хронология фракции.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1778962466695,
-      "modifiedDate": 1778962466695,
-      "sizeInBytes": 10732,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
     "ThunderAge(1.0)/02 Нарративный скелет.md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -17407,7 +17375,7 @@
         "newlineCount": 0
       }
     },
-    "ThunderAge(1.0)/00 Индекс ThunderAge 1.0.md": {
+    "ThunderAge(1.0)/03 Мир хронология фракции.md": {
       "isCountable": true,
       "targetNodeType": "file",
       "noteCount": 0,
@@ -17422,9 +17390,9 @@
       "linkCount": 0,
       "embedCount": 0,
       "aliases": [],
-      "createdDate": 1778962466692,
-      "modifiedDate": 1778962466692,
-      "sizeInBytes": 4738,
+      "createdDate": 1778962466695,
+      "modifiedDate": 1778962466695,
+      "sizeInBytes": 10732,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -17452,6 +17420,33 @@
       "createdDate": 1778962466693,
       "modifiedDate": 1778962466693,
       "sizeInBytes": 5868,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "ThunderAge(1.0)/00 Индекс ThunderAge 1.0.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1778962466692,
+      "modifiedDate": 1778962466692,
+      "sizeInBytes": 4738,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -17650,6 +17645,33 @@
         "newlineCount": 0
       }
     },
+    "GDDskald/Глава I Деревня.pdf": {
+      "isCountable": false,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1778962466682,
+      "modifiedDate": 1778962466682,
+      "sizeInBytes": 44548,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
     "GDDskald/Главная.md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -17668,33 +17690,6 @@
       "createdDate": 1778962466686,
       "modifiedDate": 1779016523530,
       "sizeInBytes": 3991,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
-    "GDDskald/Глава I — ГДД Боевая сцена c Томте.pdf": {
-      "isCountable": false,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1778962466686,
-      "modifiedDate": 1778962466686,
-      "sizeInBytes": 102072,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -17731,7 +17726,7 @@
         "newlineCount": 0
       }
     },
-    "GDDskald/Глава I Деревня.pdf": {
+    "GDDskald/MVP.pdf": {
       "isCountable": false,
       "targetNodeType": "file",
       "noteCount": 0,
@@ -17746,9 +17741,63 @@
       "linkCount": 0,
       "embedCount": 0,
       "aliases": [],
-      "createdDate": 1778962466682,
-      "modifiedDate": 1778962466682,
-      "sizeInBytes": 44548,
+      "createdDate": 1778962466670,
+      "modifiedDate": 1778962466670,
+      "sizeInBytes": 307183,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "GDDskald/Глава I — ГДД Боевая сцена c Томте.pdf": {
+      "isCountable": false,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1778962466686,
+      "modifiedDate": 1778962466686,
+      "sizeInBytes": 102072,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "GDDskald/Арт/Главная.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1778962466670,
+      "modifiedDate": 1778962466670,
+      "sizeInBytes": 2108,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -17866,33 +17915,6 @@
         "newlineCount": 0
       }
     },
-    "GDDskald/Геймдизайн/Единственный босс — фазы.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1778962466677,
-      "modifiedDate": 1780234815501,
-      "sizeInBytes": 7225,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
     "GDDskald/Геймдизайн/Инструменты Скальда.md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -17938,6 +17960,33 @@
       "createdDate": 1778962466676,
       "modifiedDate": 1778962466677,
       "sizeInBytes": 6019,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "GDDskald/Геймдизайн/Единственный босс — фазы.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1778962466677,
+      "modifiedDate": 1780234815501,
+      "sizeInBytes": 7225,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -18001,33 +18050,6 @@
         "newlineCount": 0
       }
     },
-    "GDDskald/Геймдизайн/Главная.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1778962466674,
-      "modifiedDate": 1779016525625,
-      "sizeInBytes": 3913,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
     "GDDskald/Геймдизайн/Геймплейные принципы.md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -18046,33 +18068,6 @@
       "createdDate": 1778962466674,
       "modifiedDate": 1778962466674,
       "sizeInBytes": 6245,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
-    "GDDskald/Геймдизайн/Геймплейная документация.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1778962466672,
-      "modifiedDate": 1778962466672,
-      "sizeInBytes": 4696,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -18109,34 +18104,7 @@
         "newlineCount": 0
       }
     },
-    "GDDskald/MVP.pdf": {
-      "isCountable": false,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1778962466670,
-      "modifiedDate": 1778962466670,
-      "sizeInBytes": 307183,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
-    "GDDskald/Арт/Главная.md": {
+    "GDDskald/Геймдизайн/Главная.md": {
       "isCountable": true,
       "targetNodeType": "file",
       "noteCount": 0,
@@ -18151,9 +18119,9 @@
       "linkCount": 0,
       "embedCount": 0,
       "aliases": [],
-      "createdDate": 1778962466670,
-      "modifiedDate": 1778962466670,
-      "sizeInBytes": 2108,
+      "createdDate": 1778962466674,
+      "modifiedDate": 1779016525625,
+      "sizeInBytes": 3913,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -18163,8 +18131,8 @@
         "newlineCount": 0
       }
     },
-    "GDDskald/GDD _Skald_.docx": {
-      "isCountable": false,
+    "GDDskald/Геймдизайн/Геймплейная документация.md": {
+      "isCountable": true,
       "targetNodeType": "file",
       "noteCount": 0,
       "wordCount": 0,
@@ -18178,9 +18146,9 @@
       "linkCount": 0,
       "embedCount": 0,
       "aliases": [],
-      "createdDate": 1778962466667,
-      "modifiedDate": 1778962466667,
-      "sizeInBytes": 17233,
+      "createdDate": 1778962466672,
+      "modifiedDate": 1778962466672,
+      "sizeInBytes": 4696,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -18217,6 +18185,33 @@
         "newlineCount": 0
       }
     },
+    "GDDskald/GDD _Skald_.docx": {
+      "isCountable": false,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1778962466667,
+      "modifiedDate": 1778962466667,
+      "sizeInBytes": 17233,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
     "echosystem/Энергетическое..md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -18244,33 +18239,6 @@
         "newlineCount": 0
       }
     },
-    "echosystem/Штурмовое..md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1773357917964,
-      "modifiedDate": 1773357917967,
-      "sizeInBytes": 2138,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
     "echosystem/Сюжет.md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -18289,6 +18257,33 @@
       "createdDate": 1773357917961,
       "modifiedDate": 1773357917964,
       "sizeInBytes": 2906,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "echosystem/Штурмовое..md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1773357917964,
+      "modifiedDate": 1773357917967,
+      "sizeInBytes": 2138,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -18352,7 +18347,7 @@
         "newlineCount": 0
       }
     },
-    "echosystem/Код.md": {
+    "echosystem/Главная.md": {
       "isCountable": true,
       "targetNodeType": "file",
       "noteCount": 0,
@@ -18367,9 +18362,9 @@
       "linkCount": 0,
       "embedCount": 0,
       "aliases": [],
-      "createdDate": 1773357917959,
-      "modifiedDate": 1773357917959,
-      "sizeInBytes": 3391,
+      "createdDate": 1773357917958,
+      "modifiedDate": 1773357917958,
+      "sizeInBytes": 468,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -18406,7 +18401,7 @@
         "newlineCount": 0
       }
     },
-    "echosystem/Главная.md": {
+    "echosystem/Код.md": {
       "isCountable": true,
       "targetNodeType": "file",
       "noteCount": 0,
@@ -18421,9 +18416,9 @@
       "linkCount": 0,
       "embedCount": 0,
       "aliases": [],
-      "createdDate": 1773357917958,
-      "modifiedDate": 1773357917958,
-      "sizeInBytes": 468,
+      "createdDate": 1773357917959,
+      "modifiedDate": 1773357917959,
+      "sizeInBytes": 3391,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -18460,33 +18455,6 @@
         "newlineCount": 0
       }
     },
-    "echosystem/Арт.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1773357917955,
-      "modifiedDate": 1773357917955,
-      "sizeInBytes": 2977,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
     "echosystem/Бесконечные..md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -18514,6 +18482,33 @@
         "newlineCount": 0
       }
     },
+    "echosystem/Арт.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1773357917955,
+      "modifiedDate": 1773357917955,
+      "sizeInBytes": 2977,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
     "echosystem/dizdoc.md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -18532,33 +18527,6 @@
       "createdDate": 1773357917954,
       "modifiedDate": 1773357917955,
       "sizeInBytes": 2190,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
-    "dungeon godot/Главная.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1773357917949,
-      "modifiedDate": 1773357917949,
-      "sizeInBytes": 157,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -18622,7 +18590,7 @@
         "newlineCount": 0
       }
     },
-    "dungeon godot/Геймплей/Главная.md": {
+    "dungeon godot/Главная.md": {
       "isCountable": true,
       "targetNodeType": "file",
       "noteCount": 0,
@@ -18637,36 +18605,9 @@
       "linkCount": 0,
       "embedCount": 0,
       "aliases": [],
-      "createdDate": 1773357917944,
-      "modifiedDate": 1773357917944,
-      "sizeInBytes": 86,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
-    "dungeon godot/Геймплей/Игрок/Управление.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1773357917948,
-      "modifiedDate": 1773357917948,
-      "sizeInBytes": 8353,
+      "createdDate": 1773357917949,
+      "modifiedDate": 1773357917949,
+      "sizeInBytes": 157,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -18703,7 +18644,7 @@
         "newlineCount": 0
       }
     },
-    "desertCORE/hub-workshop-ui-start-screen-concept.png.sidecar.md": {
+    "dungeon godot/Геймплей/Игрок/Управление.md": {
       "isCountable": true,
       "targetNodeType": "file",
       "noteCount": 0,
@@ -18718,9 +18659,36 @@
       "linkCount": 0,
       "embedCount": 0,
       "aliases": [],
-      "createdDate": 1780234144873,
-      "modifiedDate": 1780234145213,
-      "sizeInBytes": 639,
+      "createdDate": 1773357917948,
+      "modifiedDate": 1773357917948,
+      "sizeInBytes": 8353,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "dungeon godot/Геймплей/Главная.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1773357917944,
+      "modifiedDate": 1773357917944,
+      "sizeInBytes": 86,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -18748,6 +18716,33 @@
       "createdDate": 1780232716783,
       "modifiedDate": 1780232765542,
       "sizeInBytes": 7363,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "desertCORE/hub-workshop-ui-start-screen-concept.png.sidecar.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1780234144873,
+      "modifiedDate": 1780234145213,
+      "sizeInBytes": 639,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -18919,60 +18914,6 @@
         "newlineCount": 0
       }
     },
-    "desertCORE/30-unity-project-setup-and-controls.docx": {
-      "isCountable": false,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1780189320877,
-      "modifiedDate": 1780189320877,
-      "sizeInBytes": 8374,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
-    "desertCORE/31-hub-workshop.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1780232901591,
-      "modifiedDate": 1780232901592,
-      "sizeInBytes": 9801,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
     "desertCORE/29-physical-decorative-objects.docx": {
       "isCountable": false,
       "targetNodeType": "file",
@@ -18991,60 +18932,6 @@
       "createdDate": 1780189320875,
       "modifiedDate": 1780189320876,
       "sizeInBytes": 1739739,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
-    "desertCORE/28-weather-wind-day-night.docx": {
-      "isCountable": false,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1780189320864,
-      "modifiedDate": 1780189320865,
-      "sizeInBytes": 1296558,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
-    "desertCORE/27-boss-hyena.docx": {
-      "isCountable": false,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1780189320853,
-      "modifiedDate": 1780189320855,
-      "sizeInBytes": 4685343,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -19081,7 +18968,34 @@
         "newlineCount": 0
       }
     },
-    "desertCORE/25-mutated-animals-enemies.docx": {
+    "desertCORE/31-hub-workshop.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1780232901591,
+      "modifiedDate": 1780232901592,
+      "sizeInBytes": 9801,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "desertCORE/30-unity-project-setup-and-controls.docx": {
       "isCountable": false,
       "targetNodeType": "file",
       "noteCount": 0,
@@ -19096,9 +19010,36 @@
       "linkCount": 0,
       "embedCount": 0,
       "aliases": [],
-      "createdDate": 1780189320742,
-      "modifiedDate": 1780189320750,
-      "sizeInBytes": 14622439,
+      "createdDate": 1780189320877,
+      "modifiedDate": 1780189320877,
+      "sizeInBytes": 8374,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "desertCORE/28-weather-wind-day-night.docx": {
+      "isCountable": false,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1780189320864,
+      "modifiedDate": 1780189320865,
+      "sizeInBytes": 1296558,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -19126,6 +19067,60 @@
       "createdDate": 1780189320665,
       "modifiedDate": 1780189320665,
       "sizeInBytes": 113967,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "desertCORE/27-boss-hyena.docx": {
+      "isCountable": false,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1780189320853,
+      "modifiedDate": 1780189320855,
+      "sizeInBytes": 4685343,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "desertCORE/25-mutated-animals-enemies.docx": {
+      "isCountable": false,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1780189320742,
+      "modifiedDate": 1780189320750,
+      "sizeInBytes": 14622439,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -19189,33 +19184,6 @@
         "newlineCount": 0
       }
     },
-    "desertCORE/21-enemy-combat-bullet-hell-and-spawn.docx": {
-      "isCountable": false,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1780189320645,
-      "modifiedDate": 1780189320646,
-      "sizeInBytes": 1449149,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
     "desertCORE/19-sprint-dodge-and-defense.docx": {
       "isCountable": false,
       "targetNodeType": "file",
@@ -19234,6 +19202,60 @@
       "createdDate": 1780189320627,
       "modifiedDate": 1780189320628,
       "sizeInBytes": 1293696,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "desertCORE/18-combat-environment-objects.docx": {
+      "isCountable": false,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1780189320614,
+      "modifiedDate": 1780189320618,
+      "sizeInBytes": 6908251,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "desertCORE/21-enemy-combat-bullet-hell-and-spawn.docx": {
+      "isCountable": false,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1780189320645,
+      "modifiedDate": 1780189320646,
+      "sizeInBytes": 1449149,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -19270,7 +19292,7 @@
         "newlineCount": 0
       }
     },
-    "desertCORE/18-combat-environment-objects.docx": {
+    "desertCORE/11-resources-currency-and-materials.docx": {
       "isCountable": false,
       "targetNodeType": "file",
       "noteCount": 0,
@@ -19285,9 +19307,36 @@
       "linkCount": 0,
       "embedCount": 0,
       "aliases": [],
-      "createdDate": 1780189320614,
-      "modifiedDate": 1780189320618,
-      "sizeInBytes": 6908251,
+      "createdDate": 1780189320446,
+      "modifiedDate": 1780189320447,
+      "sizeInBytes": 1647721,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "desertCORE/12-vehicle-control-feel.docx": {
+      "isCountable": false,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1780189320455,
+      "modifiedDate": 1780189320456,
+      "sizeInBytes": 1295694,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -19423,60 +19472,6 @@
       "createdDate": 1780189320465,
       "modifiedDate": 1780189320466,
       "sizeInBytes": 1345610,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
-    "desertCORE/12-vehicle-control-feel.docx": {
-      "isCountable": false,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1780189320455,
-      "modifiedDate": 1780189320456,
-      "sizeInBytes": 1295694,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
-    "desertCORE/11-resources-currency-and-materials.docx": {
-      "isCountable": false,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1780189320446,
-      "modifiedDate": 1780189320447,
-      "sizeInBytes": 1647721,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -19648,6 +19643,33 @@
         "newlineCount": 0
       }
     },
+    "desertCORE/01-project-vision-platforms.docx": {
+      "isCountable": false,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1780189320264,
+      "modifiedDate": 1780189320265,
+      "sizeInBytes": 1604383,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
     "desertCORE/03-mechanics-status-list.docx": {
       "isCountable": false,
       "targetNodeType": "file",
@@ -19693,33 +19715,6 @@
       "createdDate": 1780189320273,
       "modifiedDate": 1780189320274,
       "sizeInBytes": 1295310,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
-    "desertCORE/01-project-vision-platforms.docx": {
-      "isCountable": false,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1780189320264,
-      "modifiedDate": 1780189320265,
-      "sizeInBytes": 1604383,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -19783,33 +19778,6 @@
         "newlineCount": 0
       }
     },
-    "desert/Враги/заметки.md": {
-      "isCountable": true,
-      "targetNodeType": "file",
-      "noteCount": 0,
-      "wordCount": 0,
-      "wordCountTowardGoal": 0,
-      "wordGoal": 0,
-      "pageCount": 0,
-      "characterCount": 0,
-      "nonWhitespaceCharacterCount": 0,
-      "newlineCount": 0,
-      "readingTimeInMinutes": 0,
-      "linkCount": 0,
-      "embedCount": 0,
-      "aliases": [],
-      "createdDate": 1773357917941,
-      "modifiedDate": 1773357917942,
-      "sizeInBytes": 4859,
-      "sessionStart": {
-        "noteCount": 0,
-        "pageCount": 0,
-        "wordCount": 0,
-        "characterCount": 0,
-        "nonWhitespaceCharacterCount": 0,
-        "newlineCount": 0
-      }
-    },
     "desert/Враги/Главная.md": {
       "isCountable": true,
       "targetNodeType": "file",
@@ -19837,7 +19805,7 @@
         "newlineCount": 0
       }
     },
-    "desert/Боевая система.md": {
+    "desert/Враги/заметки.md": {
       "isCountable": true,
       "targetNodeType": "file",
       "noteCount": 0,
@@ -19852,9 +19820,9 @@
       "linkCount": 0,
       "embedCount": 0,
       "aliases": [],
-      "createdDate": 1773357917939,
-      "modifiedDate": 1773357917940,
-      "sizeInBytes": 7409,
+      "createdDate": 1773357917941,
+      "modifiedDate": 1773357917942,
+      "sizeInBytes": 4859,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
@@ -19909,6 +19877,33 @@
       "createdDate": 1773357917938,
       "modifiedDate": 1773357917938,
       "sizeInBytes": 8066,
+      "sessionStart": {
+        "noteCount": 0,
+        "pageCount": 0,
+        "wordCount": 0,
+        "characterCount": 0,
+        "nonWhitespaceCharacterCount": 0,
+        "newlineCount": 0
+      }
+    },
+    "desert/Боевая система.md": {
+      "isCountable": true,
+      "targetNodeType": "file",
+      "noteCount": 0,
+      "wordCount": 0,
+      "wordCountTowardGoal": 0,
+      "wordGoal": 0,
+      "pageCount": 0,
+      "characterCount": 0,
+      "nonWhitespaceCharacterCount": 0,
+      "newlineCount": 0,
+      "readingTimeInMinutes": 0,
+      "linkCount": 0,
+      "embedCount": 0,
+      "aliases": [],
+      "createdDate": 1773357917939,
+      "modifiedDate": 1773357917940,
+      "sizeInBytes": 7409,
       "sessionStart": {
         "noteCount": 0,
         "pageCount": 0,
